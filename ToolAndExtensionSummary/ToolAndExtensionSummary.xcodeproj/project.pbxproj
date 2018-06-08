@@ -15,6 +15,7 @@
 		42596B2820C932FB00A26828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B2720C932FB00A26828 /* main.m */; };
 		42596B3220C932FB00A26828 /* ToolAndExtensionSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B3120C932FB00A26828 /* ToolAndExtensionSummaryTests.m */; };
 		42596B3D20C932FB00A26828 /* ToolAndExtensionSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B3C20C932FB00A26828 /* ToolAndExtensionSummaryUITests.m */; };
+		426FB1A020CA1C5C00B2B747 /* NSObject+Method.m in Sources */ = {isa = PBXBuildFile; fileRef = 426FB19E20CA1C5C00B2B747 /* NSObject+Method.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,11 @@
 		42596B3820C932FB00A26828 /* ToolAndExtensionSummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToolAndExtensionSummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42596B3C20C932FB00A26828 /* ToolAndExtensionSummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToolAndExtensionSummaryUITests.m; sourceTree = "<group>"; };
 		42596B3E20C932FB00A26828 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426FB19E20CA1C5C00B2B747 /* NSObject+Method.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Method.m"; sourceTree = "<group>"; };
+		426FB19F20CA1C5C00B2B747 /* NSObject+Method.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Method.h"; sourceTree = "<group>"; };
+		426FB1A120CA1D7700B2B747 /* YYKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
+		426FB1A320CA296F00B2B747 /* HHHMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHMacro.h; sourceTree = "<group>"; };
+		426FB1A420CA2B1E00B2B747 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +109,14 @@
 			children = (
 				42596B1820C932F900A26828 /* AppDelegate.h */,
 				42596B1920C932F900A26828 /* AppDelegate.m */,
+				426FB19620CA0BF900B2B747 /* 1_Cagegory(分类) */,
+				426FB19720CA0F4600B2B747 /* 2_Extension(扩展) */,
+				426FB19820CA0F6700B2B747 /* 3_Tool(工具类) */,
+				426FB19920CA178000B2B747 /* 4_Macro(宏) */,
+				426FB19A20CA179700B2B747 /* 5_const(常量) */,
 				42596B1B20C932F900A26828 /* ViewController.h */,
 				42596B1C20C932F900A26828 /* ViewController.m */,
+				426FB1A420CA2B1E00B2B747 /* PrefixHeader.pch */,
 				42596B1E20C932F900A26828 /* Main.storyboard */,
 				42596B2120C932FB00A26828 /* Assets.xcassets */,
 				42596B2320C932FB00A26828 /* LaunchScreen.storyboard */,
@@ -130,6 +142,45 @@
 				42596B3E20C932FB00A26828 /* Info.plist */,
 			);
 			path = ToolAndExtensionSummaryUITests;
+			sourceTree = "<group>";
+		};
+		426FB19620CA0BF900B2B747 /* 1_Cagegory(分类) */ = {
+			isa = PBXGroup;
+			children = (
+				426FB19F20CA1C5C00B2B747 /* NSObject+Method.h */,
+				426FB19E20CA1C5C00B2B747 /* NSObject+Method.m */,
+			);
+			path = "1_Cagegory(分类)";
+			sourceTree = "<group>";
+		};
+		426FB19720CA0F4600B2B747 /* 2_Extension(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2_Extension(扩展)";
+			sourceTree = "<group>";
+		};
+		426FB19820CA0F6700B2B747 /* 3_Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3_Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		426FB19920CA178000B2B747 /* 4_Macro(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				426FB1A120CA1D7700B2B747 /* YYKitMacro.h */,
+				426FB1A320CA296F00B2B747 /* HHHMacro.h */,
+			);
+			path = "4_Macro(宏)";
+			sourceTree = "<group>";
+		};
+		426FB19A20CA179700B2B747 /* 5_const(常量) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5_const(常量)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +315,7 @@
 			files = (
 				42596B1D20C932F900A26828 /* ViewController.m in Sources */,
 				42596B2820C932FB00A26828 /* main.m in Sources */,
+				426FB1A020CA1C5C00B2B747 /* NSObject+Method.m in Sources */,
 				42596B1A20C932F900A26828 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = ToolAndExtensionSummary/PrefixHeader.pch;
 				INFOPLIST_FILE = ToolAndExtensionSummary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +503,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = ToolAndExtensionSummary/PrefixHeader.pch;
 				INFOPLIST_FILE = ToolAndExtensionSummary/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -9,14 +9,14 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
-#import "NSObject+Method.h"
+#import "NSObject+Category.h"
 #import <objc/objc.h>
 #import <objc/runtime.h>
 #import <CoreData/CoreData.h>
 
-YYSYNTH_DUMMY_CLASS(NSObject_Method)
+YYSYNTH_DUMMY_CLASS(NSObject_Category)
 
-@implementation NSObject (Method)
+@implementation NSObject (Category)
 
 
 #define INIT_INV(_last_arg_, _return_) \

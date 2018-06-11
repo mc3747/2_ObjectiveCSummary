@@ -6,7 +6,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-@interface NSObject (Method)
+@interface NSObject (Category)
 
 
 #pragma mark - Sending messages with variable parameters(对象本身传可变参数)

@@ -5,6 +5,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef __nonnull id <NSObject, NSCopying> BKCancellationToken;
 
 @interface NSObject (Category)
 
@@ -104,6 +105,54 @@ NSMutableDictionary* GJSToMutableDictionary(id obj);
 
 //获取数组的安全元素
 - (id)GJSObjectIndexSafe:(NSUInteger)index;
+
+
+#pragma mark -  添加属性
+//`nonatomic` and `retain`.
+- (void)bk_associateValue:(nullable id)value withKey:(const void *)key;
++ (void)bk_associateValue:(nullable id)value withKey:(const void *)key;
+
+//`atomic` and `retain`.
+- (void)bk_atomicallyAssociateValue:(nullable id)value withKey:(const void *)key;
++ (void)bk_atomicallyAssociateValue:(nullable id)value withKey:(const void *)key;
+
+//`nonatomic` and `copy`
+- (void)bk_associateCopyOfValue:(nullable id)value withKey:(const void *)key;
++ (void)bk_associateCopyOfValue:(nullable id)value withKey:(const void *)key;
+
+//`atomic` and `copy`
+- (void)bk_atomicallyAssociateCopyOfValue:(nullable id)value withKey:(const void *)key;
++ (void)bk_atomicallyAssociateCopyOfValue:(nullable id)value withKey:(const void *)key;
+
+//weak
+- (void)bk_weaklyAssociateValue:(nullable __autoreleasing id)value withKey:(const void *)key;
++ (void)bk_weaklyAssociateValue:(nullable __autoreleasing id)value withKey:(const void *)key;
+
+#pragma mark - 获取属性
+- (nullable id)bk_associatedValueForKey:(const void *)key;
++ (nullable id)bk_associatedValueForKey:(const void *)key;
+
+#pragma mark - 移除属性
+- (void)bk_removeAllAssociatedObjects;
++ (void)bk_removeAllAssociatedObjects;
+
+#pragma mark -  指定线程，延迟后执行（可以取消，用token接，然后用token取消）
+//主线程
+- (BKCancellationToken)bk_performAfterDelay:(NSTimeInterval)delay usingBlock:(void (^)(id obj))block;
++ (BKCancellationToken)bk_performAfterDelay:(NSTimeInterval)delay usingBlock:(void (^)(void))block;
+
+//后台线程
+- (BKCancellationToken)bk_performInBackgroundAfterDelay:(NSTimeInterval)delay usingBlock:(void (^)(id obj))block;
++ (BKCancellationToken)bk_performInBackgroundAfterDelay:(NSTimeInterval)delay usingBlock:(void (^)(void))block;
+
+//指定线程
+- (BKCancellationToken)bk_performOnQueue:(dispatch_queue_t)queue afterDelay:(NSTimeInterval)delay usingBlock:(void (^)(id obj))block;
++ (BKCancellationToken)bk_performOnQueue:(dispatch_queue_t)queue afterDelay:(NSTimeInterval)delay usingBlock:(void (^)(void))block;
+
+//取消block
++ (void)bk_cancelBlock:(BKCancellationToken)token;
+
+
 
 @end
 

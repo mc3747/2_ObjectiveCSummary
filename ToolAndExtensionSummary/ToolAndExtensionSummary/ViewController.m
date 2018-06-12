@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NSString+Practical.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *testBtn1;
 
@@ -17,6 +17,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSString *testString = @"用户姓";
+    NSLog(@"%@",[testString hidePhoneTFContent]);
+    NSLog(@"%@",[testString hideUserNameStr]);
+    
 }
 
 

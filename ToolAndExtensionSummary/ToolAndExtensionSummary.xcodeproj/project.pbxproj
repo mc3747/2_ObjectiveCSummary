@@ -15,6 +15,9 @@
 		42596B2820C932FB00A26828 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B2720C932FB00A26828 /* main.m */; };
 		42596B3220C932FB00A26828 /* ToolAndExtensionSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B3120C932FB00A26828 /* ToolAndExtensionSummaryTests.m */; };
 		42596B3D20C932FB00A26828 /* ToolAndExtensionSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B3C20C932FB00A26828 /* ToolAndExtensionSummaryUITests.m */; };
+		427FE79920CF4AAF00E9D97E /* NSNumber+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FE79820CF4AAF00E9D97E /* NSNumber+Category.m */; };
+		427FE79C20CF4BCB00E9D97E /* NSString+Practical.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FE79B20CF4BCB00E9D97E /* NSString+Practical.m */; };
+		427FE79F20CF781200E9D97E /* NSObject+KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 427FE79E20CF781200E9D97E /* NSObject+KVO.m */; };
 		42E1E55320CE1E0F000A263B /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55220CE1E0F000A263B /* NSArray+Category.m */; };
 		42E1E55620CE2655000A263B /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55520CE2655000A263B /* NSData+Category.m */; };
 		42E1E55920CE27A0000A263B /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55820CE27A0000A263B /* NSDictionary+Category.m */; };
@@ -59,6 +62,12 @@
 		426FB1A120CA1D7700B2B747 /* YYKitMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYKitMacro.h; sourceTree = "<group>"; };
 		426FB1A320CA296F00B2B747 /* HHHMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHHMacro.h; sourceTree = "<group>"; };
 		426FB1A420CA2B1E00B2B747 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		427FE79720CF4AAF00E9D97E /* NSNumber+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Category.h"; sourceTree = "<group>"; };
+		427FE79820CF4AAF00E9D97E /* NSNumber+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Category.m"; sourceTree = "<group>"; };
+		427FE79A20CF4BCB00E9D97E /* NSString+Practical.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Practical.h"; sourceTree = "<group>"; };
+		427FE79B20CF4BCB00E9D97E /* NSString+Practical.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Practical.m"; sourceTree = "<group>"; };
+		427FE79D20CF781200E9D97E /* NSObject+KVO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+KVO.h"; sourceTree = "<group>"; };
+		427FE79E20CF781200E9D97E /* NSObject+KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KVO.m"; sourceTree = "<group>"; };
 		42E1E55120CE1E0F000A263B /* NSArray+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
 		42E1E55220CE1E0F000A263B /* NSArray+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
 		42E1E55420CE2655000A263B /* NSData+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
@@ -194,6 +203,15 @@
 			path = "5_const(常量)";
 			sourceTree = "<group>";
 		};
+		427FE79620CF4A8000E9D97E /* 6_NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				427FE79720CF4AAF00E9D97E /* NSNumber+Category.h */,
+				427FE79820CF4AAF00E9D97E /* NSNumber+Category.m */,
+			);
+			path = 6_NSNumber;
+			sourceTree = "<group>";
+		};
 		42E1E55D20CE70DC000A263B /* 1，Foundation框架 */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +220,7 @@
 				42E1E56320CE71A3000A263B /* 3_NSArray */,
 				42E1E56420CE71B4000A263B /* 4_NSDictionary */,
 				42E1E56520CE71C6000A263B /* 5_NSString */,
+				427FE79620CF4A8000E9D97E /* 6_NSNumber */,
 			);
 			path = "1，Foundation框架";
 			sourceTree = "<group>";
@@ -211,6 +230,8 @@
 			children = (
 				42E1E55E20CE712A000A263B /* NSObject+Category.h */,
 				42E1E55F20CE712A000A263B /* NSObject+Category.m */,
+				427FE79D20CF781200E9D97E /* NSObject+KVO.h */,
+				427FE79E20CF781200E9D97E /* NSObject+KVO.m */,
 			);
 			path = 1_NSObject;
 			sourceTree = "<group>";
@@ -247,6 +268,8 @@
 			children = (
 				42E1E55A20CE62C7000A263B /* NSString+Category.h */,
 				42E1E55B20CE62C7000A263B /* NSString+Category.m */,
+				427FE79A20CF4BCB00E9D97E /* NSString+Practical.h */,
+				427FE79B20CF4BCB00E9D97E /* NSString+Practical.m */,
 			);
 			path = 5_NSString;
 			sourceTree = "<group>";
@@ -382,13 +405,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E1E55620CE2655000A263B /* NSData+Category.m in Sources */,
+				427FE79F20CF781200E9D97E /* NSObject+KVO.m in Sources */,
 				42596B1D20C932F900A26828 /* ViewController.m in Sources */,
 				42596B2820C932FB00A26828 /* main.m in Sources */,
 				42596B1A20C932F900A26828 /* AppDelegate.m in Sources */,
 				42E1E56020CE712B000A263B /* NSObject+Category.m in Sources */,
 				42E1E55920CE27A0000A263B /* NSDictionary+Category.m in Sources */,
+				427FE79920CF4AAF00E9D97E /* NSNumber+Category.m in Sources */,
 				42E1E55320CE1E0F000A263B /* NSArray+Category.m in Sources */,
 				42E1E55C20CE62C7000A263B /* NSString+Category.m in Sources */,
+				427FE79C20CF4BCB00E9D97E /* NSString+Practical.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		424B43A920D26A1500CA07AB /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43A820D26A1500CA07AB /* UIButton+Category.m */; };
+		424B43AE20D2736A00CA07AB /* CustomBannerScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43AD20D2736A00CA07AB /* CustomBannerScrollView.m */; };
+		424B43B620D2799100CA07AB /* TYPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43B220D2799100CA07AB /* TYPageControl.m */; };
+		424B43B720D2799100CA07AB /* TYCyclePagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43B320D2799100CA07AB /* TYCyclePagerView.m */; };
+		424B43B820D2799100CA07AB /* TYCyclePagerTransformLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43B420D2799100CA07AB /* TYCyclePagerTransformLayout.m */; };
 		42596B1A20C932F900A26828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B1920C932F900A26828 /* AppDelegate.m */; };
 		42596B1D20C932F900A26828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B1C20C932F900A26828 /* ViewController.m */; };
 		42596B2020C932F900A26828 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42596B1E20C932F900A26828 /* Main.storyboard */; };
@@ -22,6 +27,11 @@
 		42BB669520D0B576007BE2CF /* NSDictionary+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB669420D0B576007BE2CF /* NSDictionary+BlocksKit.m */; };
 		42BB669820D0BF91007BE2CF /* NSArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB669720D0BF91007BE2CF /* NSArrayTest.m */; };
 		42BB669C20D0F171007BE2CF /* NSSet+BlocksKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB669B20D0F171007BE2CF /* NSSet+BlocksKit.m */; };
+		42BC88E320D34507006235BF /* TYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC88E220D34507006235BF /* TYCyclePagerViewCell.m */; };
+		42BC88E620D34530006235BF /* CustomBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC88E520D34530006235BF /* CustomBannerView.m */; };
+		42BC88E920D34928006235BF /* BannerDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC88E820D34928006235BF /* BannerDemoVC.m */; };
+		42BC88EC20D35E13006235BF /* UIControl+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC88EB20D35E13006235BF /* UIControl+Category.m */; };
+		42BC88EF20D36F2A006235BF /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BC88EE20D36F2A006235BF /* UIImage+Category.m */; };
 		42E1E55320CE1E0F000A263B /* NSArray+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55220CE1E0F000A263B /* NSArray+Category.m */; };
 		42E1E55620CE2655000A263B /* NSData+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55520CE2655000A263B /* NSData+Category.m */; };
 		42E1E55920CE27A0000A263B /* NSDictionary+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E55820CE27A0000A263B /* NSDictionary+Category.m */; };
@@ -47,6 +57,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		424B43A720D26A1500CA07AB /* UIButton+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
+		424B43A820D26A1500CA07AB /* UIButton+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
+		424B43AC20D2736A00CA07AB /* CustomBannerScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomBannerScrollView.h; sourceTree = "<group>"; };
+		424B43AD20D2736A00CA07AB /* CustomBannerScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomBannerScrollView.m; sourceTree = "<group>"; };
+		424B43B020D2799100CA07AB /* TYCyclePagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerView.h; sourceTree = "<group>"; };
+		424B43B120D2799100CA07AB /* TYCyclePagerTransformLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerTransformLayout.h; sourceTree = "<group>"; };
+		424B43B220D2799100CA07AB /* TYPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYPageControl.m; sourceTree = "<group>"; };
+		424B43B320D2799100CA07AB /* TYCyclePagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerView.m; sourceTree = "<group>"; };
+		424B43B420D2799100CA07AB /* TYCyclePagerTransformLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerTransformLayout.m; sourceTree = "<group>"; };
+		424B43B520D2799100CA07AB /* TYPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYPageControl.h; sourceTree = "<group>"; };
 		42596B1520C932F900A26828 /* ToolAndExtensionSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolAndExtensionSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42596B1820C932F900A26828 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42596B1920C932F900A26828 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +99,16 @@
 		42BB669720D0BF91007BE2CF /* NSArrayTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArrayTest.m; sourceTree = "<group>"; };
 		42BB669A20D0F171007BE2CF /* NSSet+BlocksKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSSet+BlocksKit.h"; sourceTree = "<group>"; };
 		42BB669B20D0F171007BE2CF /* NSSet+BlocksKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSSet+BlocksKit.m"; sourceTree = "<group>"; };
+		42BC88E120D34507006235BF /* TYCyclePagerViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYCyclePagerViewCell.h; sourceTree = "<group>"; };
+		42BC88E220D34507006235BF /* TYCyclePagerViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYCyclePagerViewCell.m; sourceTree = "<group>"; };
+		42BC88E420D34530006235BF /* CustomBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomBannerView.h; sourceTree = "<group>"; };
+		42BC88E520D34530006235BF /* CustomBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomBannerView.m; sourceTree = "<group>"; };
+		42BC88E720D34928006235BF /* BannerDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerDemoVC.h; sourceTree = "<group>"; };
+		42BC88E820D34928006235BF /* BannerDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerDemoVC.m; sourceTree = "<group>"; };
+		42BC88EA20D35E13006235BF /* UIControl+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIControl+Category.h"; sourceTree = "<group>"; };
+		42BC88EB20D35E13006235BF /* UIControl+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Category.m"; sourceTree = "<group>"; };
+		42BC88ED20D36F2A006235BF /* UIImage+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
+		42BC88EE20D36F2A006235BF /* UIImage+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
 		42E1E55120CE1E0F000A263B /* NSArray+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Category.h"; sourceTree = "<group>"; };
 		42E1E55220CE1E0F000A263B /* NSArray+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Category.m"; sourceTree = "<group>"; };
 		42E1E55420CE2655000A263B /* NSData+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+Category.h"; sourceTree = "<group>"; };
@@ -116,6 +146,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		424B43AA20D2736900CA07AB /* ##2_复杂滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				42BC88E720D34928006235BF /* BannerDemoVC.h */,
+				42BC88E820D34928006235BF /* BannerDemoVC.m */,
+				42BC88E420D34530006235BF /* CustomBannerView.h */,
+				42BC88E520D34530006235BF /* CustomBannerView.m */,
+				424B43AF20D2799100CA07AB /* TYCyclePagerView */,
+				42BC88E020D344E0006235BF /* TYCyclePagerCell */,
+			);
+			path = "##2_复杂滚动";
+			sourceTree = "<group>";
+		};
+		424B43AB20D2736A00CA07AB /* ##1_普通滚动 */ = {
+			isa = PBXGroup;
+			children = (
+				424B43AC20D2736A00CA07AB /* CustomBannerScrollView.h */,
+				424B43AD20D2736A00CA07AB /* CustomBannerScrollView.m */,
+			);
+			path = "##1_普通滚动";
+			sourceTree = "<group>";
+		};
+		424B43AF20D2799100CA07AB /* TYCyclePagerView */ = {
+			isa = PBXGroup;
+			children = (
+				424B43B020D2799100CA07AB /* TYCyclePagerView.h */,
+				424B43B320D2799100CA07AB /* TYCyclePagerView.m */,
+				424B43B120D2799100CA07AB /* TYCyclePagerTransformLayout.h */,
+				424B43B420D2799100CA07AB /* TYCyclePagerTransformLayout.m */,
+				424B43B520D2799100CA07AB /* TYPageControl.h */,
+				424B43B220D2799100CA07AB /* TYPageControl.m */,
+			);
+			path = TYCyclePagerView;
+			sourceTree = "<group>";
+		};
 		42596B0C20C932F900A26828 = {
 			isa = PBXGroup;
 			children = (
@@ -180,7 +245,8 @@
 		426FB19620CA0BF900B2B747 /* 1_Cagegory(分类) */ = {
 			isa = PBXGroup;
 			children = (
-				42E1E55D20CE70DC000A263B /* 1，Foundation框架 */,
+				42E1E55D20CE70DC000A263B /* #1_Foundation框架 */,
+				42BB671920D123E5007BE2CF /* #2_UIKit框架 */,
 			);
 			path = "1_Cagegory(分类)";
 			sourceTree = "<group>";
@@ -195,6 +261,7 @@
 		426FB19820CA0F6700B2B747 /* 3_Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				42BB671A20D1257D007BE2CF /* #1_轮播器 */,
 			);
 			path = "3_Tool(工具类)";
 			sourceTree = "<group>";
@@ -241,7 +308,38 @@
 			path = 7_NSSet;
 			sourceTree = "<group>";
 		};
-		42E1E55D20CE70DC000A263B /* 1，Foundation框架 */ = {
+		42BB671920D123E5007BE2CF /* #2_UIKit框架 */ = {
+			isa = PBXGroup;
+			children = (
+				42BC88EA20D35E13006235BF /* UIControl+Category.h */,
+				42BC88EB20D35E13006235BF /* UIControl+Category.m */,
+				424B43A720D26A1500CA07AB /* UIButton+Category.h */,
+				424B43A820D26A1500CA07AB /* UIButton+Category.m */,
+				42BC88ED20D36F2A006235BF /* UIImage+Category.h */,
+				42BC88EE20D36F2A006235BF /* UIImage+Category.m */,
+			);
+			path = "#2_UIKit框架";
+			sourceTree = "<group>";
+		};
+		42BB671A20D1257D007BE2CF /* #1_轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				424B43AB20D2736A00CA07AB /* ##1_普通滚动 */,
+				424B43AA20D2736900CA07AB /* ##2_复杂滚动 */,
+			);
+			path = "#1_轮播器";
+			sourceTree = "<group>";
+		};
+		42BC88E020D344E0006235BF /* TYCyclePagerCell */ = {
+			isa = PBXGroup;
+			children = (
+				42BC88E120D34507006235BF /* TYCyclePagerViewCell.h */,
+				42BC88E220D34507006235BF /* TYCyclePagerViewCell.m */,
+			);
+			path = TYCyclePagerCell;
+			sourceTree = "<group>";
+		};
+		42E1E55D20CE70DC000A263B /* #1_Foundation框架 */ = {
 			isa = PBXGroup;
 			children = (
 				42E1E56120CE7177000A263B /* 1_NSObject */,
@@ -252,7 +350,7 @@
 				427FE79620CF4A8000E9D97E /* 6_NSNumber */,
 				42BB669920D0F14C007BE2CF /* 7_NSSet */,
 			);
-			path = "1，Foundation框架";
+			path = "#1_Foundation框架";
 			sourceTree = "<group>";
 		};
 		42E1E56120CE7177000A263B /* 1_NSObject */ = {
@@ -441,17 +539,27 @@
 				42E1E55620CE2655000A263B /* NSData+Category.m in Sources */,
 				427FE79F20CF781200E9D97E /* NSObject+KVO.m in Sources */,
 				42596B1D20C932F900A26828 /* ViewController.m in Sources */,
+				424B43A920D26A1500CA07AB /* UIButton+Category.m in Sources */,
 				42BB669220D0AB3A007BE2CF /* NSArray+BlocksKit.m in Sources */,
+				42BC88E620D34530006235BF /* CustomBannerView.m in Sources */,
 				42596B2820C932FB00A26828 /* main.m in Sources */,
 				42596B1A20C932F900A26828 /* AppDelegate.m in Sources */,
 				42E1E56020CE712B000A263B /* NSObject+Category.m in Sources */,
+				424B43B720D2799100CA07AB /* TYCyclePagerView.m in Sources */,
 				42E1E55920CE27A0000A263B /* NSDictionary+Category.m in Sources */,
 				42BB669C20D0F171007BE2CF /* NSSet+BlocksKit.m in Sources */,
+				424B43B620D2799100CA07AB /* TYPageControl.m in Sources */,
+				42BC88E320D34507006235BF /* TYCyclePagerViewCell.m in Sources */,
 				42BB669520D0B576007BE2CF /* NSDictionary+BlocksKit.m in Sources */,
 				427FE79920CF4AAF00E9D97E /* NSNumber+Category.m in Sources */,
 				42E1E55320CE1E0F000A263B /* NSArray+Category.m in Sources */,
 				42E1E55C20CE62C7000A263B /* NSString+Category.m in Sources */,
+				42BC88EC20D35E13006235BF /* UIControl+Category.m in Sources */,
+				424B43AE20D2736A00CA07AB /* CustomBannerScrollView.m in Sources */,
+				424B43B820D2799100CA07AB /* TYCyclePagerTransformLayout.m in Sources */,
 				427FE79C20CF4BCB00E9D97E /* NSString+Practical.m in Sources */,
+				42BC88E920D34928006235BF /* BannerDemoVC.m in Sources */,
+				42BC88EF20D36F2A006235BF /* UIImage+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

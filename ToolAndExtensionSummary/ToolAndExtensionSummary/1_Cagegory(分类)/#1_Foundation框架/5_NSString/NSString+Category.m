@@ -332,6 +332,11 @@
     return [self stringByTrimmingCharactersInSet:set];
 }
 
+- (NSString *)stringByTrimSpace {
+    NSString *str = [self stringByReplacingOccurrencesOfString:@" " withString:@""];
+    return str;
+}
+
 - (NSString *)stringByAppendingNameScale:(CGFloat)scale {
     if (fabs(scale - 1) <= __FLT_EPSILON__ || self.length == 0 || [self hasSuffix:@"/"]) return self.copy;
     return [self stringByAppendingFormat:@"@%@x", @(scale)];

@@ -131,6 +131,9 @@ withString:(NSString *)replacement;
 //去掉头部和尾部的空格和回车
 - (NSString *)stringByTrim;
 
+//去掉所有空格
+- (NSString *)stringByTrimSpace;
+
 //图片资源名称修正：name变成name@2x
 - (NSString *)stringByAppendingNameScale:(CGFloat)scale;
 

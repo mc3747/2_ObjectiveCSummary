@@ -16,7 +16,7 @@ static char leftNameKey;
 
 @implementation UIButton (Category)
 /// 扩大button的点击范围
-- (void)enlargeClickAreaWithSize:(ClickSize)size {
+- (void)enlargeClickAreaWithSize:(UIEdgeInsets)size {
     objc_setAssociatedObject(self, &topNameKey, [NSNumber numberWithFloat:size.top], OBJC_ASSOCIATION_COPY_NONATOMIC);
     objc_setAssociatedObject(self, &rightNameKey, [NSNumber numberWithFloat:size.right], OBJC_ASSOCIATION_COPY_NONATOMIC);
     objc_setAssociatedObject(self, &bottomNameKey, [NSNumber numberWithFloat:size.bottom], OBJC_ASSOCIATION_COPY_NONATOMIC);

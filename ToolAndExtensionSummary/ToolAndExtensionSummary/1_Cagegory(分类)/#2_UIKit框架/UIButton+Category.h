@@ -40,6 +40,7 @@ ClickSizeMake(CGFloat top, CGFloat left, CGFloat bottom, CGFloat right)
  //扩大button的点击范围（2种方法都可以）
 - (void)enlargeClickAreaWithSize:(UIEdgeInsets)size;
 //- (void)enlargeClickAreaWithSize:(ClickSize)size;
+
  //周围的距离相等
 - (void)enlargeClickAreaWithGap:(CGFloat)gap;
 @end

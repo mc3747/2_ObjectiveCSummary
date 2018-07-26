@@ -36,6 +36,38 @@ NS_ASSUME_NONNULL_BEGIN
 //array转标准json
 - (nullable NSString *)jsonPrettyStringEncoded;
 
+/*!
+ *  获取在安全模式下给定索引的对象（如果自身是空的则无）
+ */
+- (nullable id)safeObjectAtIndex:(NSUInteger)index;
+
+/*!
+ *  创建反向数组
+ */
+- (nullable NSArray *)reversedArray;
+
+/*!
+ *  转换成JSON的NSString
+ */
+- (nullable NSString *)arrayToJson;
+
+/*!
+ *  模拟阵列当作一个圆。当它超出范围，重新开始
+ */
+- (nullable id)objectAtCircleIndex:(NSInteger)index;
+
+/*!
+ *  将指定的数组创建反向数组
+ */
++ (nullable NSArray *)reversedArray:(nullable NSArray *)array;
+
+/*!
+ *  将指定的数组转换成JSON的NSString
+ */
++ (nullable NSString *)arrayToJson:(nullable NSArray *)array;
+
+
+
 @end
 
 
@@ -80,6 +112,27 @@ NS_ASSUME_NONNULL_BEGIN
 //数组顺序打乱
 - (void)shuffle;
 
+/**
+ *  获取在安全模式下给定索引的对象（如果自身是空的则无）
+ */
+- (id)safeObjectAtIndex:(NSUInteger)index; // 设定的索引
 
+/**
+ *  移动对象从一个索引到另一个索引
+ */
+- (void)moveObjectFromIndex:(NSUInteger)from // 源索引
+                    toIndex:(NSUInteger)to; // 目标索引
+
+/**
+ *  创建反向数组
+ */
+- (NSMutableArray *)reversedArray;
+
+/**
+ *  获取给定的键值和排序的数组
+ */
++ (NSMutableArray *)sortArrayByKey:(NSString *)key // 键值
+                             array:(NSMutableArray *)array // 指定的集合
+                         ascending:(BOOL)ascending; // YES为升序，NO为降序
 NS_ASSUME_NONNULL_END
 @end

@@ -21,9 +21,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-  
     [_testBtn1 addTarget:self action:@selector(test1) forControlEvents:UIControlEventTouchUpInside];
 }
+
 #pragma mark -   按钮扩大点击范围
 - (void)test1 {
     UIButton *testBtn = [[UIButton alloc] initWithFrame:CGRectMake(50, 150, 50, 50)];

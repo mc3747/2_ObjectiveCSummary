@@ -99,6 +99,15 @@
 		42E1EC832101BBB5004E7B72 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1EC3B2101BBB5004E7B72 /* NSDictionary+Safe.m */; };
 		42E1EC842101BBB5004E7B72 /* NSAttributedString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1EC3D2101BBB5004E7B72 /* NSAttributedString+Category.m */; };
 		42E1EC852101BBB5004E7B72 /* NSArray+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1EC402101BBB5004E7B72 /* NSArray+Safe.m */; };
+		42EA9C8C22423231005B6E75 /* LCProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 42EA9C8722423230005B6E75 /* LCProgressHUD.bundle */; };
+		42EA9C8D22423231005B6E75 /* MCHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C8822423230005B6E75 /* MCHudTool.m */; };
+		42EA9C8E22423231005B6E75 /* MCProgressHudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C8B22423230005B6E75 /* MCProgressHudTool.m */; };
+		42EA9C9122423278005B6E75 /* UIView+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C9022423278005B6E75 /* UIView+Category.m */; };
+		42EA9C9422423295005B6E75 /* UILabel+Catrgory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C9322423295005B6E75 /* UILabel+Catrgory.m */; };
+		42EA9C9A2242368D005B6E75 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C982242368D005B6E75 /* MBProgressHUD.m */; };
+		42EA9C9F22423BB4005B6E75 /* CommonUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C9E22423BB4005B6E75 /* CommonUIFactory.m */; };
+		42EA9CA222423D9B005B6E75 /* CommonFoundationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9CA122423D9B005B6E75 /* CommonFoundationMethod.m */; };
+		42EA9CA522423DB4005B6E75 /* CommonUIMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9CA422423DB4005B6E75 /* CommonUIMethod.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -310,6 +319,24 @@
 		42E1EC3E2101BBB5004E7B72 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		42E1EC3F2101BBB5004E7B72 /* NSObject+PerformBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+PerformBlock.h"; sourceTree = "<group>"; };
 		42E1EC402101BBB5004E7B72 /* NSArray+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Safe.m"; sourceTree = "<group>"; };
+		42EA9C8722423230005B6E75 /* LCProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = LCProgressHUD.bundle; sourceTree = "<group>"; };
+		42EA9C8822423230005B6E75 /* MCHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCHudTool.m; sourceTree = "<group>"; };
+		42EA9C8922423230005B6E75 /* MCProgressHudTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCProgressHudTool.h; sourceTree = "<group>"; };
+		42EA9C8B22423230005B6E75 /* MCProgressHudTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCProgressHudTool.m; sourceTree = "<group>"; };
+		42EA9C8F22423278005B6E75 /* UIView+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Category.h"; sourceTree = "<group>"; };
+		42EA9C9022423278005B6E75 /* UIView+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Category.m"; sourceTree = "<group>"; };
+		42EA9C9222423295005B6E75 /* UILabel+Catrgory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Catrgory.h"; sourceTree = "<group>"; };
+		42EA9C9322423295005B6E75 /* UILabel+Catrgory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Catrgory.m"; sourceTree = "<group>"; };
+		42EA9C9622423563005B6E75 /* FontSizeDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontSizeDefine.h; sourceTree = "<group>"; };
+		42EA9C972242365A005B6E75 /* MCHudTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCHudTool.h; sourceTree = "<group>"; };
+		42EA9C982242368D005B6E75 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		42EA9C992242368D005B6E75 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		42EA9C9D22423BB3005B6E75 /* CommonUIFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUIFactory.h; sourceTree = "<group>"; };
+		42EA9C9E22423BB4005B6E75 /* CommonUIFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUIFactory.m; sourceTree = "<group>"; };
+		42EA9CA022423D9B005B6E75 /* CommonFoundationMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonFoundationMethod.h; sourceTree = "<group>"; };
+		42EA9CA122423D9B005B6E75 /* CommonFoundationMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonFoundationMethod.m; sourceTree = "<group>"; };
+		42EA9CA322423DB4005B6E75 /* CommonUIMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUIMethod.h; sourceTree = "<group>"; };
+		42EA9CA422423DB4005B6E75 /* CommonUIMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUIMethod.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -366,7 +393,8 @@
 				426FB19820CA0F6700B2B747 /* 2_Tool(工具类) */,
 				426FB19920CA178000B2B747 /* 3_Macro(宏) */,
 				426FB19A20CA179700B2B747 /* 4_const(常量) */,
-				42BB669620D0BA11007BE2CF /* 5_XCTest(单元测试) */,
+				42EA9C9522423302005B6E75 /* 5_通用方法 */,
+				42BB669620D0BA11007BE2CF /* 6_XCTest(单元测试) */,
 				42596B1B20C932F900A26828 /* ViewController.h */,
 				42596B1C20C932F900A26828 /* ViewController.m */,
 				426FB1A420CA2B1E00B2B747 /* PrefixHeader.pch */,
@@ -410,6 +438,7 @@
 		426FB19820CA0F6700B2B747 /* 2_Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				42EA9C8622423230005B6E75 /* HUDTool */,
 			);
 			path = "2_Tool(工具类)";
 			sourceTree = "<group>";
@@ -426,6 +455,7 @@
 		426FB19A20CA179700B2B747 /* 4_const(常量) */ = {
 			isa = PBXGroup;
 			children = (
+				42EA9C9622423563005B6E75 /* FontSizeDefine.h */,
 			);
 			path = "4_const(常量)";
 			sourceTree = "<group>";
@@ -439,12 +469,12 @@
 			path = 6_NSNumber;
 			sourceTree = "<group>";
 		};
-		42BB669620D0BA11007BE2CF /* 5_XCTest(单元测试) */ = {
+		42BB669620D0BA11007BE2CF /* 6_XCTest(单元测试) */ = {
 			isa = PBXGroup;
 			children = (
 				42BB669720D0BF91007BE2CF /* NSArrayTest.m */,
 			);
-			path = "5_XCTest(单元测试)";
+			path = "6_XCTest(单元测试)";
 			sourceTree = "<group>";
 		};
 		42BB669920D0F14C007BE2CF /* 7_NSSet */ = {
@@ -461,10 +491,14 @@
 			children = (
 				42BC88EA20D35E13006235BF /* UIControl+Category.h */,
 				42BC88EB20D35E13006235BF /* UIControl+Category.m */,
+				42EA9C8F22423278005B6E75 /* UIView+Category.h */,
+				42EA9C9022423278005B6E75 /* UIView+Category.m */,
 				424B43A720D26A1500CA07AB /* UIButton+Category.h */,
 				424B43A820D26A1500CA07AB /* UIButton+Category.m */,
 				42BC88ED20D36F2A006235BF /* UIImage+Category.h */,
 				42BC88EE20D36F2A006235BF /* UIImage+Category.m */,
+				42EA9C9222423295005B6E75 /* UILabel+Catrgory.h */,
+				42EA9C9322423295005B6E75 /* UILabel+Catrgory.m */,
 			);
 			path = "#2_UIKit框架";
 			sourceTree = "<group>";
@@ -814,6 +848,49 @@
 			path = 2_Categories;
 			sourceTree = "<group>";
 		};
+		42EA9C8622423230005B6E75 /* HUDTool */ = {
+			isa = PBXGroup;
+			children = (
+				42EA9C9C224236B4005B6E75 /* MBProgressHud */,
+				42EA9C9B224236A2005B6E75 /* Source */,
+				42EA9C8822423230005B6E75 /* MCHudTool.m */,
+				42EA9C972242365A005B6E75 /* MCHudTool.h */,
+				42EA9C8922423230005B6E75 /* MCProgressHudTool.h */,
+				42EA9C8B22423230005B6E75 /* MCProgressHudTool.m */,
+			);
+			path = HUDTool;
+			sourceTree = "<group>";
+		};
+		42EA9C9522423302005B6E75 /* 5_通用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				42EA9C9D22423BB3005B6E75 /* CommonUIFactory.h */,
+				42EA9C9E22423BB4005B6E75 /* CommonUIFactory.m */,
+				42EA9CA022423D9B005B6E75 /* CommonFoundationMethod.h */,
+				42EA9CA122423D9B005B6E75 /* CommonFoundationMethod.m */,
+				42EA9CA322423DB4005B6E75 /* CommonUIMethod.h */,
+				42EA9CA422423DB4005B6E75 /* CommonUIMethod.m */,
+			);
+			path = "5_通用方法";
+			sourceTree = "<group>";
+		};
+		42EA9C9B224236A2005B6E75 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				42EA9C8722423230005B6E75 /* LCProgressHUD.bundle */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		42EA9C9C224236B4005B6E75 /* MBProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				42EA9C992242368D005B6E75 /* MBProgressHUD.h */,
+				42EA9C982242368D005B6E75 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHud;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -918,6 +995,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42596B2520C932FB00A26828 /* LaunchScreen.storyboard in Resources */,
+				42EA9C8C22423231005B6E75 /* LCProgressHUD.bundle in Resources */,
 				42596B2220C932FB00A26828 /* Assets.xcassets in Resources */,
 				42596B2020C932F900A26828 /* Main.storyboard in Resources */,
 			);
@@ -946,6 +1024,7 @@
 			files = (
 				42E1EC5D2101BBB5004E7B72 /* UIView+CurrentController.m in Sources */,
 				42E1E55620CE2655000A263B /* NSData+Category.m in Sources */,
+				42EA9CA222423D9B005B6E75 /* CommonFoundationMethod.m in Sources */,
 				427FE79F20CF781200E9D97E /* NSObject+KVO.m in Sources */,
 				42596B1D20C932F900A26828 /* ViewController.m in Sources */,
 				42E1EC662101BBB5004E7B72 /* UIBezierPath+BasicShapes.m in Sources */,
@@ -960,8 +1039,10 @@
 				42E1EC762101BBB5004E7B72 /* UIView+Category.m in Sources */,
 				42E1EC622101BBB5004E7B72 /* UIView+Toast.m in Sources */,
 				42E1EC452101BBB5004E7B72 /* UIImage+Gif.m in Sources */,
+				42EA9C9F22423BB4005B6E75 /* CommonUIFactory.m in Sources */,
 				42E1EC612101BBB5004E7B72 /* UIView+Screenshot.m in Sources */,
 				42E1EC642101BBB5004E7B72 /* UIDevice+Hardware.m in Sources */,
+				42EA9C8E22423231005B6E75 /* MCProgressHudTool.m in Sources */,
 				42E1EC652101BBB5004E7B72 /* UIBezierPath+SVG.m in Sources */,
 				42596B2820C932FB00A26828 /* main.m in Sources */,
 				42E1EC4F2101BBB5004E7B72 /* UIButton+CountDown.m in Sources */,
@@ -970,6 +1051,7 @@
 				42E1EC5F2101BBB5004E7B72 /* UIView+draggable.m in Sources */,
 				42E1EC4D2101BBB5004E7B72 /* UIApplication+ApplicationSize.m in Sources */,
 				42E1EC722101BBB5004E7B72 /* UIImage+Category.m in Sources */,
+				42EA9C9422423295005B6E75 /* UILabel+Catrgory.m in Sources */,
 				42E1EC512101BBB5004E7B72 /* UIButton+Font.m in Sources */,
 				42596B1A20C932F900A26828 /* AppDelegate.m in Sources */,
 				42E1EC732101BBB5004E7B72 /* NSString+Safe.m in Sources */,
@@ -990,6 +1072,7 @@
 				42E1EC632101BBB5004E7B72 /* UITextView+PlaceHolder.m in Sources */,
 				42E1EC6B2101BBB5004E7B72 /* UITextField+History.m in Sources */,
 				42E1EC4A2101BBB5004E7B72 /* UIImage+Alpha.m in Sources */,
+				42EA9C9A2242368D005B6E75 /* MBProgressHUD.m in Sources */,
 				42E1EC712101BBB5004E7B72 /* NSArray+Category.m in Sources */,
 				42E1EC7F2101BBB5004E7B72 /* NSObject+Category.m in Sources */,
 				42E1EC682101BBB5004E7B72 /* NSString+RegexCategory.m in Sources */,
@@ -1001,6 +1084,7 @@
 				42E1EC6F2101BBB5004E7B72 /* NSMutableArray+Safe.m in Sources */,
 				42E1EC412101BBB5004E7B72 /* UIImage+Water.m in Sources */,
 				42E1EC422101BBB5004E7B72 /* UIImage+Blur.m in Sources */,
+				42EA9C8D22423231005B6E75 /* MCHudTool.m in Sources */,
 				42E1E55920CE27A0000A263B /* NSDictionary+Category.m in Sources */,
 				42E1EC532101BBB5004E7B72 /* UIColor+Gradient.m in Sources */,
 				42E1EC832101BBB5004E7B72 /* NSDictionary+Safe.m in Sources */,
@@ -1011,6 +1095,7 @@
 				42E1EC842101BBB5004E7B72 /* NSAttributedString+Category.m in Sources */,
 				42BB669C20D0F171007BE2CF /* NSSet+BlocksKit.m in Sources */,
 				42E1EC5E2101BBB5004E7B72 /* UIView+Shake.m in Sources */,
+				42EA9C9122423278005B6E75 /* UIView+Category.m in Sources */,
 				42E1EC4B2101BBB5004E7B72 /* UIImage+fixOrientation.m in Sources */,
 				42E1EC6A2101BBB5004E7B72 /* ALAssetsLibrary+LastestPhoto.m in Sources */,
 				42BB669520D0B576007BE2CF /* NSDictionary+BlocksKit.m in Sources */,
@@ -1026,6 +1111,7 @@
 				427FE79C20CF4BCB00E9D97E /* NSString+Practical.m in Sources */,
 				42E1EC792101BBB5004E7B72 /* NSObject+PerformBlock.m in Sources */,
 				42E1EC6D2101BBB5004E7B72 /* NSDate+Extension.m in Sources */,
+				42EA9CA522423DB4005B6E75 /* CommonUIMethod.m in Sources */,
 				42E1EC7C2101BBB5004E7B72 /* NSMutableString+Safe.m in Sources */,
 				42BC88EF20D36F2A006235BF /* UIImage+Category.m in Sources */,
 				42E1EC4E2101BBB5004E7B72 /* UIApplication+Permissions.m in Sources */,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42433B072248DC1C00645AE4 /* TriangleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42433B052248DC1C00645AE4 /* TriangleView.m */; };
 		424B43A920D26A1500CA07AB /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 424B43A820D26A1500CA07AB /* UIButton+Category.m */; };
 		42596B1A20C932F900A26828 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B1920C932F900A26828 /* AppDelegate.m */; };
 		42596B1D20C932F900A26828 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42596B1C20C932F900A26828 /* ViewController.m */; };
@@ -128,6 +129,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42433B052248DC1C00645AE4 /* TriangleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TriangleView.m; sourceTree = "<group>"; };
+		42433B062248DC1C00645AE4 /* TriangleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TriangleView.h; sourceTree = "<group>"; };
 		424B43A720D26A1500CA07AB /* UIButton+Category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Category.h"; sourceTree = "<group>"; };
 		424B43A820D26A1500CA07AB /* UIButton+Category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Category.m"; sourceTree = "<group>"; };
 		42596B1520C932F900A26828 /* ToolAndExtensionSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToolAndExtensionSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,6 +367,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		42433B042248DC1C00645AE4 /* TriangleView */ = {
+			isa = PBXGroup;
+			children = (
+				42433B052248DC1C00645AE4 /* TriangleView.m */,
+				42433B062248DC1C00645AE4 /* TriangleView.h */,
+			);
+			path = TriangleView;
+			sourceTree = "<group>";
+		};
 		42596B0C20C932F900A26828 = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +450,7 @@
 		426FB19820CA0F6700B2B747 /* 2_Tool(工具类) */ = {
 			isa = PBXGroup;
 			children = (
+				42433B042248DC1C00645AE4 /* TriangleView */,
 				42EA9C8622423230005B6E75 /* HUDTool */,
 			);
 			path = "2_Tool(工具类)";
@@ -1109,6 +1122,7 @@
 				42BC88EC20D35E13006235BF /* UIControl+Category.m in Sources */,
 				42E1EC702101BBB5004E7B72 /* NSString+DisplayTime.m in Sources */,
 				427FE79C20CF4BCB00E9D97E /* NSString+Practical.m in Sources */,
+				42433B072248DC1C00645AE4 /* TriangleView.m in Sources */,
 				42E1EC792101BBB5004E7B72 /* NSObject+PerformBlock.m in Sources */,
 				42E1EC6D2101BBB5004E7B72 /* NSDate+Extension.m in Sources */,
 				42EA9CA522423DB4005B6E75 /* CommonUIMethod.m in Sources */,

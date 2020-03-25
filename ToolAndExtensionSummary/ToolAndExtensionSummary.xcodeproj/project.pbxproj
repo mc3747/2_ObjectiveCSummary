@@ -109,7 +109,6 @@
 		42EA9C9F22423BB4005B6E75 /* CommonUIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9C9E22423BB4005B6E75 /* CommonUIFactory.m */; };
 		42EA9CA222423D9B005B6E75 /* CommonFoundationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9CA122423D9B005B6E75 /* CommonFoundationMethod.m */; };
 		42EA9CA522423DB4005B6E75 /* CommonUIMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 42EA9CA422423DB4005B6E75 /* CommonUIMethod.m */; };
-		42FB50C023A8AF3E00C5E315 /* UIButton+layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB50BF23A8AF3E00C5E315 /* UIButton+layout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -341,8 +340,6 @@
 		42EA9CA122423D9B005B6E75 /* CommonFoundationMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonFoundationMethod.m; sourceTree = "<group>"; };
 		42EA9CA322423DB4005B6E75 /* CommonUIMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonUIMethod.h; sourceTree = "<group>"; };
 		42EA9CA422423DB4005B6E75 /* CommonUIMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonUIMethod.m; sourceTree = "<group>"; };
-		42FB50BE23A8AF3E00C5E315 /* UIButton+layout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+layout.h"; sourceTree = "<group>"; };
-		42FB50BF23A8AF3E00C5E315 /* UIButton+layout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+layout.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -373,8 +370,8 @@
 		42433B042248DC1C00645AE4 /* TriangleView */ = {
 			isa = PBXGroup;
 			children = (
-				42433B062248DC1C00645AE4 /* TriangleView.h */,
 				42433B052248DC1C00645AE4 /* TriangleView.m */,
+				42433B062248DC1C00645AE4 /* TriangleView.h */,
 			);
 			path = TriangleView;
 			sourceTree = "<group>";
@@ -652,10 +649,10 @@
 		42E1EBBD2101BBB4004E7B72 /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				42E1EBC12101BBB4004E7B72 /* UIApplication+ApplicationSize.h */,
 				42E1EBBE2101BBB4004E7B72 /* UIApplication+ApplicationSize.m */,
 				42E1EBBF2101BBB4004E7B72 /* UIApplication+Permissions.h */,
 				42E1EBC02101BBB4004E7B72 /* UIApplication+Permissions.m */,
+				42E1EBC12101BBB4004E7B72 /* UIApplication+ApplicationSize.h */,
 			);
 			path = UIApplication;
 			sourceTree = "<group>";
@@ -663,17 +660,15 @@
 		42E1EBC22101BBB4004E7B72 /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
-				42E1EBC42101BBB4004E7B72 /* UIButtonCategoriesHeader.h */,
 				42E1EBC32101BBB4004E7B72 /* UIButton+Font.h */,
-				42E1EBC82101BBB4004E7B72 /* UIButton+Font.m */,
-				42E1EBC92101BBB4004E7B72 /* UIButton+CountDown.h */,
+				42E1EBC42101BBB4004E7B72 /* UIButtonCategoriesHeader.h */,
 				42E1EBC52101BBB4004E7B72 /* UIButton+CountDown.m */,
-				42E1EBCB2101BBB4004E7B72 /* UIButton+Block.h */,
 				42E1EBC62101BBB4004E7B72 /* UIButton+Block.m */,
 				42E1EBC72101BBB4004E7B72 /* UIButton+Indicator.h */,
+				42E1EBC82101BBB4004E7B72 /* UIButton+Font.m */,
+				42E1EBC92101BBB4004E7B72 /* UIButton+CountDown.h */,
 				42E1EBCA2101BBB4004E7B72 /* UIButton+Indicator.m */,
-				42FB50BE23A8AF3E00C5E315 /* UIButton+layout.h */,
-				42FB50BF23A8AF3E00C5E315 /* UIButton+layout.m */,
+				42E1EBCB2101BBB4004E7B72 /* UIButton+Block.h */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -817,8 +812,8 @@
 				42E1EC112101BBB5004E7B72 /* NSString+Category.h */,
 				42E1EC122101BBB5004E7B72 /* NSObject+Swizzle.m */,
 				42E1EC132101BBB5004E7B72 /* NSMutableString+Safe.h */,
-				42E1EC152101BBB5004E7B72 /* NSMutableArray+Safe.m */,
 				42E1EC142101BBB5004E7B72 /* UIMenuItem+Category.h */,
+				42E1EC152101BBB5004E7B72 /* NSMutableArray+Safe.m */,
 				42E1EC162101BBB5004E7B72 /* NSString+DisplayTime.m */,
 				42E1EC172101BBB5004E7B72 /* NSArray+Category.m */,
 				42E1EC182101BBB5004E7B72 /* UIImage+Category.m */,
@@ -1087,7 +1082,6 @@
 				42E1E56020CE712B000A263B /* NSObject+Category.m in Sources */,
 				42E1EC812101BBB5004E7B72 /* NSString+MD5.m in Sources */,
 				42E1EC472101BBB5004E7B72 /* UIImage+Rotate.m in Sources */,
-				42FB50C023A8AF3E00C5E315 /* UIButton+layout.m in Sources */,
 				42E1EC632101BBB5004E7B72 /* UITextView+PlaceHolder.m in Sources */,
 				42E1EC6B2101BBB5004E7B72 /* UITextField+History.m in Sources */,
 				42E1EC4A2101BBB5004E7B72 /* UIImage+Alpha.m in Sources */,

@@ -1,0 +1,9 @@
+platform :ios, '7.0'
+
+target "ToolAndExtensionSummary" do
+
+pod 'Masonry'
+
+
+
+end

@@ -11,8 +11,22 @@
 
 #import "YYKitMacro.h"
 #import "HHHMacro.h"
+#import "CommonColorDefine.h"
+#import "CommonFontDefine.h"
+#import "CommonSizeDefine.h"
+#import "CommonMethodDefine.h"
+#import "QMUIColorDefine.h"
+#import "QMUIHelper.h"
 
-#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
-#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
+ /*通用分类 */
+#import "NSObject+QMUI.h"
+#import "NSString+QMUI.h"
+#import "NSObject+Category.h"
+
+ /* 通用第三方库*/
+#import <Masonry.h>
+
+
+
 
 #endif /* PrefixHeader_pch */

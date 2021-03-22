@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+        <head>
+            
+            <title></title>
+            <script type="text/javascript">
+            //本方法兼容安卓与iOS
+            function callMobile(handlerInterface,handlerMethod,parameters){
+                //handlerInterface由iOS addScriptMessageHandler与andorid addJavascriptInterface 代码注入而来。
+                var dic = {'handlerInterface':handlerInterface,'function':handlerMethod,'parameters': parameters};
+                
+                if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){
+                    window.webkit.messageHandlers[handlerInterface].postMessage(dic);
+                }else{
+                    //安卓传输不了js json对象
+                    window[handlerInterface][handlerMethod](JSON.stringify(dic));
+                }
+            }
+            function callMobileNative(handlerInterface,handlerMethod,parameters){
+                callMobile("Native",handlerMethod,parameters);
+            }
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            function callFunc(){
+                var stack = new Array();
+                stack["first"] = 3;
+                stack["second"] = "second";
+                stack["third"]  = new Date();
+                callMobile("Native","callFunc",stack);
+            }
+            function testAlert(){
+                alert("捕获了webview的alert");
+            }
+            </script>
+        </head>
+        <body>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <input type="button" value="js callFunc" onclick="callFunc()" />
+            
+            <input type="button" value="打个招呼" onclick="callMobile('Native','alert',{'message':'你好么'})" />
+            
+            <input type="button" value="add个view" onclick="callMobile('Native','addSubView',{'view':'UIWebView','tag':'11111','urlstring':'http://www.baidu.com','frame':'{{0,200},{320,100}}'})" />
+            
+            <input type="button" value="传个字典" onclick="callMobile('Native','testFunc',{'param1':76,'param2':155,'param3':76})" />
+            
+            <input type="button" value="Pay协议逻辑" onclick="callMobile('Pay','testFunc',{'param1':76,'param2':155,'param3':76})" />
+
+            <input type="button" value="js中弹出原生alert" onclick="testAlert()" />
+            
+            
+        </body>
+</html>

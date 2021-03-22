@@ -1,0 +1,63 @@
+//
+//  PrefixHeader.pch
+//  排序总结
+//
+//  Created by gjfax on 2018/9/7.
+//  Copyright © 2018年 macheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Separate.h"
+#import "UIColor+Wonderful.h"
+#import "HAMLogOutputWindow.h"
+#import "HAMStatisticsManager.h"
+#import "UIView+Extension.h"
+#import "CommonDefine.h"
+#import "CommonMethod.h"
+#import "UIViewController+CommonSetting.h"
+
+//  随机色
+#define RandColor RGBColor(arc4random_uniform(256), arc4random_uniform(256), arc4random_uniform(256))
+
+//  颜色
+#define RGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//  控制器背景颜色随机色
+#define RandomBackgroundColor  (self.view.backgroundColor = RandColor);
+
+//  面板日志打印
+#define MCLogout(log) [HAMLogOutputWindow printLog:log]
+#define MCLogClear [HAMLogOutputWindow clear]
+
+//  调试宏
+    //条件
+#define TEST(condition) {\
+BOOL pass = (condition); printf("%s [%s:%d] => %s\n",pass ? "✅" : "❌", __FUNCTION__, __LINE__, #condition); if(ABORT_IF_FAILURE && !pass) abort(); \
+}\
+    //条件后执行
+#define TEST_AFTER_EXECUTE(condition, test_expressions...) {\
+test_expressions; { BOOL pass = (condition);  printf("%s [%s:%d] => %s\n",pass ? "✅" : "❌", __FUNCTION__, __LINE__, #test_expressions); if(ABORT_IF_FAILURE && !pass) abort(); }\
+}\
+    //换行
+#define NEW_LINE printf("\n");
+   //分割线
+#define SEP_LINE printf("==========================================================================================================\n");
+
+// sender参数的title
+#define Sender_title ((UIButton *)sender).titleLabel.text
+
+//所有打印
+#define DLog(fmt, ...) printf("%s [Line %d] %s  \n",__PRETTY_FUNCTION__, __LINE__,[[NSString stringWithFormat:(fmt), ##__VA_ARGS__] UTF8String])
+
+#define Top_SafeArea_HEIGHT (IS_IPHONEX_Serial ? 24.f : 0.f)
+
+//格式化字符串
+#define FMT_STR(format, ...) [NSString stringWithFormat:format, ##__VA_ARGS__]
+
+/**全屏宽高******************************/
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+
+#endif /* PrefixHeader_pch */

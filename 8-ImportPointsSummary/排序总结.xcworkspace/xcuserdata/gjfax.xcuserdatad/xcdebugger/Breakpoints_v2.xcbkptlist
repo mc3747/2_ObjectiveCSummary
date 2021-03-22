@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9C3140A8-B4DC-459D-900C-01689B7B23D0"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1B9B8470-FC17-480E-9E51-BDE6F5706841"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "446"
+            endingLineNumber = "446"
+            landmarkName = "-ba_web_loadRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "222E5ABE-190B-4AA7-AB5A-D9DABA77073E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "457"
+            endingLineNumber = "457"
+            landmarkName = "-ba_web_loadURL:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CD23BFE8-6826-4AD3-A621-840DCC05C82B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "168"
+            endingLineNumber = "168"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5033E186-D0A2-4B96-9590-1824FC517B11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C55121B2-8791-44A9-82AE-2D1A6A1CB640"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8AC80AA-B5C0-4769-8D20-D343F4D7168D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F7CC29E5-631E-405F-909D-D18B92FB24DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "141"
+            endingLineNumber = "141"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "163FCAE6-83AA-4A01-B0CA-901125BDF842"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "336"
+            endingLineNumber = "336"
+            landmarkName = "-webView:didStartProvisionalNavigation:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "51261F47-C2FB-453A-ACE7-862BDA78E891"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+Post.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "-post_loadRequest:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8C456173-84B8-4364-AA47-6DAE6836BC36"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/21_&#x539f;&#x751f;&#x548c;js&#x4ea4;&#x4e92;/4&#xff0c;&#x7b2c;&#x4e09;&#x65b9;&#x597d;&#x7528;/BAWKWebView/WKWebView+BAKit.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
+            landmarkName = "-observeValueForKeyPath:ofObject:change:context:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E9A34EE-3993-484D-BF59-3E3CEBF94520"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x6392;&#x5e8f;&#x603b;&#x7ed3;/7_&#x5e38;&#x89c1;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;/5&#xff0c;Block/6&#xff0c;block&#x7684;&#x5f15;&#x7528;&#x8ba1;&#x6570;/BlockDemo6VC.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "-start"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

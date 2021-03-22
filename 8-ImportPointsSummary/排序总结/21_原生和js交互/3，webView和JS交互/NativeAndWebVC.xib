@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NativeAndWebVC">
+            <connections>
+                <outlet property="view" destination="8RI-NO-nMg" id="7Gg-cc-G3T"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="8RI-NO-nMg">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b82-8f-fDl">
+                    <rect key="frame" x="16" y="102" width="343" height="171"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4w-UY-0Tw">
+                            <rect key="frame" x="0.0" y="47" width="111" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="1_拦截url_webview调js "/>
+                            <connections>
+                                <action selector="UIWebviewToJS:" destination="-1" eventType="touchUpInside" id="aqQ-pl-xwG"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceL-ks-nZF">
+                            <rect key="frame" x="0.0" y="88" width="111" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="1_拦截url_js调webview"/>
+                            <connections>
+                                <action selector="JSToUIWebview:" destination="-1" eventType="touchUpInside" id="kVG-UP-hyS"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cMD-db-VuA">
+                            <rect key="frame" x="126" y="50" width="120" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="2_jsCore方式_jscore调oc"/>
+                            <connections>
+                                <action selector="JSCallOC:" destination="-1" eventType="touchUpInside" id="D66-Hp-Erx"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u7a-Ff-vMS">
+                            <rect key="frame" x="125" y="88" width="123" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="2_JSCore方式-oc调jscore"/>
+                            <connections>
+                                <action selector="OCCallJS:" destination="-1" eventType="touchUpInside" id="sNp-sJ-FiX"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8D8-Uv-M80">
+                            <rect key="frame" x="254" y="50" width="79" height="29"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="3_JSBridge例子1"/>
+                            <connections>
+                                <action selector="webviewUseJsBridgeAction:" destination="-1" eventType="touchUpInside" id="aLI-Sk-fT6"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UIWebView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLH-O9-88V">
+                            <rect key="frame" x="57" y="0.0" width="214" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G0X-ov-FcV">
+                            <rect key="frame" x="125" y="130" width="121" height="30"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="2_JSCore方式_demo案例"/>
+                            <connections>
+                                <action selector="HighchartsWeb:" destination="-1" eventType="touchUpInside" id="efh-g5-p2Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h34-Le-Q5S">
+                            <rect key="frame" x="256" y="92" width="75" height="26"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="3_JSBridge例子2"/>
+                            <connections>
+                                <action selector="WebViewUseJSBridgeAction2:" destination="-1" eventType="touchUpInside" id="kWp-XT-OnK"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="TestGreen"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YnG-7K-8rY">
+                    <rect key="frame" x="16" y="323" width="343" height="151"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QXf-Jc-b5y">
+                            <rect key="frame" x="0.0" y="48" width="86" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="1_拦截url_WK调js "/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8b-Z2-ynA">
+                            <rect key="frame" x="0.0" y="85" width="86" height="36"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="1_拦截url_js调WK "/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pNQ-Vc-FSf">
+                            <rect key="frame" x="104" y="50" width="126" height="34"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="2_messageHandle_WK调js"/>
+                            <connections>
+                                <action selector="WKWebViewToJS:" destination="-1" eventType="touchUpInside" id="GuP-dp-WQ2"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIR-s3-ysf">
+                            <rect key="frame" x="104" y="86" width="128" height="31"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="2_messageHandle_js调WK"/>
+                            <connections>
+                                <action selector="JSToWKWebView:" destination="-1" eventType="touchUpInside" id="aJg-5F-Vjl"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WKWebView" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zcb-he-mKf">
+                            <rect key="frame" x="54" y="0.0" width="214" height="42"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rhY-E6-BEo">
+                            <rect key="frame" x="266" y="55" width="52" height="24"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <color key="backgroundColor" name="TestYellow"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                            <color key="tintColor" name="TestRed"/>
+                            <state key="normal" title="3_jsBridge"/>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.4039215686" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="tintColor" name="TestRed"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="MDz-Qq-XaW"/>
+            <point key="canvasLocation" x="-287.19999999999999" y="32.833583208395808"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="TestGreen">
+            <color red="0.41999998688697815" green="0.83099997043609619" blue="0.37200000882148743" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="TestRed">
+            <color red="0.92299997806549072" green="0.33300000429153442" blue="0.2720000147819519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="TestYellow">
+            <color red="0.97399997711181641" green="0.84500002861022949" blue="0.28999999165534973" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

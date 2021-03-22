@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MJExtensionVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Ky-xH-Vq0" userLabel="1，json转model">
+                    <rect key="frame" x="20" y="84" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="v6R-9P-01E"/>
+                    </constraints>
+                    <state key="normal" title="1，json转model">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValues2object1" destination="-1" eventType="touchUpInside" id="8SI-wQ-x97"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uad-D2-RiO" userLabel="2，字典转model（单字典）">
+                    <rect key="frame" x="20" y="174" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="mfu-EE-2p4"/>
+                    </constraints>
+                    <state key="normal" title="2，字典转model（单字典）">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValues2object" destination="-1" eventType="touchUpInside" id="ceo-h8-UPD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sMQ-Jz-NDr">
+                    <rect key="frame" x="20" y="264" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="Qfo-Xs-CZo"/>
+                    </constraints>
+                    <state key="normal" title="3，字典转模型（字典嵌套字典）">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValues2object2" destination="-1" eventType="touchUpInside" id="uuY-SH-efq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NAv-2B-N4k">
+                    <rect key="frame" x="20" y="354" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="uar-tf-fx7"/>
+                    </constraints>
+                    <state key="normal" title="4，字典转模型（字典嵌套数组）">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValues2object3" destination="-1" eventType="touchUpInside" id="A4p-Wd-Ibv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JC1-fc-371">
+                    <rect key="frame" x="20" y="444" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="v8p-pR-Vbf"/>
+                    </constraints>
+                    <state key="normal" title="5，字典转模型（字典嵌套字典和数组）">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValues2object4" destination="-1" eventType="touchUpInside" id="dcn-jv-ahM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eFD-7X-KE1">
+                    <rect key="frame" x="20" y="534" width="374" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6jx-yr-ylb"/>
+                    </constraints>
+                    <state key="normal" title="6，数组转模型">
+                        <color key="titleColor" name="TestRed"/>
+                    </state>
+                    <connections>
+                        <action selector="keyValuesArray2objectArray" destination="-1" eventType="touchUpInside" id="6bw-lu-TEO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="NAv-2B-N4k" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="Aoo-FV-ix0"/>
+                <constraint firstItem="JC1-fc-371" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="CWv-6J-PA6"/>
+                <constraint firstItem="NAv-2B-N4k" firstAttribute="top" secondItem="sMQ-Jz-NDr" secondAttribute="bottom" constant="40" id="Enh-VO-kjd"/>
+                <constraint firstItem="sMQ-Jz-NDr" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="F4U-Kh-Mg9"/>
+                <constraint firstItem="Uad-D2-RiO" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="J7m-t5-MoN"/>
+                <constraint firstItem="eFD-7X-KE1" firstAttribute="top" secondItem="JC1-fc-371" secondAttribute="bottom" constant="40" id="R84-3h-vKh"/>
+                <constraint firstItem="JC1-fc-371" firstAttribute="top" secondItem="NAv-2B-N4k" secondAttribute="bottom" constant="40" id="YOx-ZQ-K3O"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="JC1-fc-371" secondAttribute="trailing" constant="20" id="YYb-Kt-2fL"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="eFD-7X-KE1" secondAttribute="trailing" constant="20" id="ajB-L2-UxL"/>
+                <constraint firstItem="4Ky-xH-Vq0" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="eEw-1k-1Gi"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="4Ky-xH-Vq0" secondAttribute="trailing" constant="20" id="ewM-96-P6e"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="sMQ-Jz-NDr" secondAttribute="trailing" constant="20" id="gFd-Eu-U87"/>
+                <constraint firstItem="4Ky-xH-Vq0" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="hXE-P5-K7i"/>
+                <constraint firstItem="sMQ-Jz-NDr" firstAttribute="top" secondItem="Uad-D2-RiO" secondAttribute="bottom" constant="40" id="iep-r0-GhH"/>
+                <constraint firstItem="eFD-7X-KE1" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="kFO-XH-rMD"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="NAv-2B-N4k" secondAttribute="trailing" constant="20" id="ost-Ta-kab"/>
+                <constraint firstItem="Uad-D2-RiO" firstAttribute="top" secondItem="4Ky-xH-Vq0" secondAttribute="bottom" constant="40" id="raO-5D-46Y"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="Uad-D2-RiO" secondAttribute="trailing" constant="20" id="z30-2g-379"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="131.8840579710145" y="97.767857142857139"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="TestGreen">
+            <color red="0.41999998688697815" green="0.83099997043609619" blue="0.37200000882148743" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="TestRed">
+            <color red="0.92299997806549072" green="0.33300000429153442" blue="0.2720000147819519" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

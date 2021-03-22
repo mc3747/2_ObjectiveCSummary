@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MixedProgramVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ymK-bC-OGz">
+                    <rect key="frame" x="10" y="124" width="394" height="50"/>
+                    <color key="backgroundColor" name="TestGreen"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="gpK-sK-c3s"/>
+                    </constraints>
+                    <state key="normal" title="1_oc例子"/>
+                    <connections>
+                        <action selector="demo1:" destination="-1" eventType="touchUpInside" id="jAS-uA-TZm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cor-Oj-PJv">
+                    <rect key="frame" x="10" y="194" width="394" height="50"/>
+                    <color key="backgroundColor" name="TestOrange"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="vC4-LS-sFk"/>
+                    </constraints>
+                    <state key="normal" title="2_C语言例子"/>
+                    <connections>
+                        <action selector="demo2:" destination="-1" eventType="touchUpInside" id="rzn-vS-CJW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0I5-Pf-5N7">
+                    <rect key="frame" x="10" y="264" width="394" height="50"/>
+                    <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="cNp-tl-cBD"/>
+                    </constraints>
+                    <state key="normal" title="3_OC++例子"/>
+                    <connections>
+                        <action selector="demo3:" destination="-1" eventType="touchUpInside" id="Htc-FG-uKa"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cor-Oj-PJv" firstAttribute="top" secondItem="ymK-bC-OGz" secondAttribute="bottom" constant="20" id="1rt-Ne-bce"/>
+                <constraint firstItem="0I5-Pf-5N7" firstAttribute="top" secondItem="cor-Oj-PJv" secondAttribute="bottom" constant="20" id="Bko-TF-3vf"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="0I5-Pf-5N7" secondAttribute="trailing" constant="10" id="G2v-q7-pRF"/>
+                <constraint firstItem="ymK-bC-OGz" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="80" id="bdS-6p-z4C"/>
+                <constraint firstItem="ymK-bC-OGz" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="g6R-mk-t0M"/>
+                <constraint firstItem="0I5-Pf-5N7" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="kmE-bj-oLs"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="cor-Oj-PJv" secondAttribute="trailing" constant="10" id="qqm-yJ-sG6"/>
+                <constraint firstItem="cor-Oj-PJv" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="vZf-gm-Ov8"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="ymK-bC-OGz" secondAttribute="trailing" constant="10" id="x4h-Qj-k0Q"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="132" y="149"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="TestGreen">
+            <color red="0.41999998688697815" green="0.83099997043609619" blue="0.37200000882148743" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="TestOrange">
+            <color red="0.94700002670288086" green="0.64099997282028198" blue="0.23499999940395355" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

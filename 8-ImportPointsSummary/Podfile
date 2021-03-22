@@ -1,0 +1,7 @@
+platform:ios,'8.0'
+
+target '排序总结' do
+
+ pod 'AFNetworking'
+
+end

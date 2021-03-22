@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+    <!-- Vibrate 震动 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>4095</integer>
+		<key>FileName</key>
+		<string></string>
+		<key>Category</key>
+		<string>Vibrate 震动</string>
+	</dict>
+    
+    <!-- MailReceived 邮件接收 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1000</integer>
+		<key>FileName</key>
+		<string>new-mail.caf</string>
+		<key>Category</key>
+		<string>MailReceived 邮件接收</string>
+	</dict>
+    <!-- MailSent 邮件发送 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1001</integer>
+		<key>FileName</key>
+		<string>mail-sent.caf</string>
+		<key>Category</key>
+		<string>MailSent 邮件发送</string>
+	</dict>
+    <!-- VoicemailReceived 语音邮件接收 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1002</integer>
+		<key>FileName</key>
+		<string>Voicemail.caf</string>
+		<key>Category</key>
+		<string>VoicemailReceived 语音邮件接收</string>
+	</dict>
+    <!-- SMSReceived 信息接收 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1003</integer>
+		<key>FileName</key>
+		<string>ReceivedMessage.caf</string>
+		<key>Category</key>
+		<string>SMSReceived 信息接收</string>
+	</dict>
+    <!-- SMSSent 信息发送 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1004</integer>
+		<key>FileName</key>
+		<string>SentMessage.caf</string>
+		<key>Category</key>
+		<string>SMSSent 信息发送</string>
+	</dict>
+    <!-- CalendarAlert 日历提醒 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1005</integer>
+		<key>FileName</key>
+		<string>alarm.caf</string>
+		<key>Category</key>
+		<string>CalendarAlert 日历提醒</string>
+	</dict>
+    <!-- LowPower 低电量 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1006</integer>
+		<key>FileName</key>
+		<string>low_power.caf</string>
+		<key>Category</key>
+		<string>LowPower 低电量</string>
+	</dict>
+    <!-- AudioToneBusy 忙音 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1070</integer>
+		<key>FileName</key>
+		<string>ct-busy.caf</string>
+		<key>Category</key>
+		<string>AudioToneBusy 忙音</string>
+	</dict>
+    <!-- AudioToneCongestion 拥堵拒接 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1071</integer>
+		<key>FileName</key>
+		<string>ct-congestion.caf</string>
+		<key>Category</key>
+		<string>AudioToneCongestion 拥堵拒接</string>
+	</dict>
+    <!-- AudioToneError 音错误 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1073</integer>
+		<key>FileName</key>
+		<string>ct-error.caf</string>
+		<key>Category</key>
+		<string>AudioToneError 音错误</string>
+	</dict>
+    <!-- ScreenLocked 屏幕锁定 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1100</integer>
+		<key>FileName</key>
+		<string>lock.caf</string>
+		<key>Category</key>
+		<string>ScreenLocked 屏幕锁定</string>
+	</dict>
+    <!-- ScreenUnlocked 屏幕解锁（没声音呢） -->
+	<dict>
+		<key>SoundID</key>
+		<real>1101</real>
+		<key>FileName</key>
+		<string>unlock.caf</string>
+		<key>Category</key>
+		<string>ScreenUnlocked 屏幕解锁（没声音呢）</string>
+	</dict>
+    <!-- ConnectedToPower 连接电源 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1106</integer>
+		<key>FileName</key>
+		<string>beep-beep.caf</string>
+		<key>Category</key>
+		<string>ConnectedToPower 连接电源</string>
+	</dict>
+    <!-- RingerSwitchIndication 铃声开关指示 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1107</integer>
+		<key>FileName</key>
+		<string>RingerChanged.caf</string>
+		<key>Category</key>
+		<string>RingerSwitchIndication 铃声开关指示</string>
+	</dict>
+    <!-- CameraShutter 相机的快门 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1108</integer>
+		<key>FileName</key>
+		<string>photoShutter.caf</string>
+		<key>Category</key>
+		<string>CameraShutter 相机的快门</string>
+	</dict>
+    <!-- ShakeToShuffle 摇一摇 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1109</integer>
+		<key>FileName</key>
+		<string>shake.caf</string>
+		<key>Category</key>
+		<string>ShakeToShuffle 摇一摇</string>
+	</dict>
+    <!-- BeginRecording 开始录音 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1113</integer>
+		<key>FileName</key>
+		<string>begin_record.caf</string>
+		<key>Category</key>
+		<string>BeginRecording 开始录音</string>
+	</dict>
+    <!-- EndRecording 结束录音 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1114</integer>
+		<key>FileName</key>
+		<string>end_record.caf</string>
+		<key>Category</key>
+		<string>EndRecording 结束录音</string>
+	</dict>
+    <!-- BeginVideoRecording 开始录像 -->
+    <dict>
+        <key>SoundID</key>
+        <integer>1117</integer>
+        <key>FileName</key>
+        <string>begin_video_record.caf</string>
+        <key>Category</key>
+        <string>BeginVideoRecording 结束录像</string>
+    </dict>
+    <!-- EndVideoRecording 开始录像 -->
+    <dict>
+        <key>SoundID</key>
+        <integer>1118</integer>
+        <key>FileName</key>
+        <string>end_video_record.caf</string>
+        <key>Category</key>
+        <string>EndVideoRecording 结束录像</string>
+    </dict>
+    <!-- TouchTone 拨号键0 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1200</integer>
+		<key>FileName</key>
+		<string>dtmf-0.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键0</string>
+	</dict>
+    <!-- TouchTone 拨号键1 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1201</integer>
+		<key>FileName</key>
+		<string>dtmf-1.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键1</string>
+	</dict>
+    <!-- TouchTone 拨号键2 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1202</integer>
+		<key>FileName</key>
+		<string>dtmf-2.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键2</string>
+	</dict>
+    <!-- TouchTone 拨号键3 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1203</integer>
+		<key>FileName</key>
+		<string>dtmf-3.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键3</string>
+	</dict>
+    <!-- TouchTone 拨号键4 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1204</integer>
+		<key>FileName</key>
+		<string>dtmf-4.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键4</string>
+    </dict>
+    <!-- TouchTone 拨号键5 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1205</integer>
+		<key>FileName</key>
+		<string>dtmf-5.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键5</string>
+    </dict>
+    <!-- TouchTone 拨号键6 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1206</integer>
+		<key>FileName</key>
+		<string>dtmf-6.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键6</string>
+    </dict>
+    <!-- TouchTone 拨号键7 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1207</integer>
+		<key>FileName</key>
+		<string>dtmf-7.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键7</string>
+    </dict>
+    <!-- TouchTone 拨号键8 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1208</integer>
+		<key>FileName</key>
+		<string>dtmf-8.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键8</string>
+    </dict>
+    <!-- TouchTone 拨号键9 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1209</integer>
+		<key>FileName</key>
+		<string>dtmf-9.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键9</string>
+    </dict>
+    <!-- TouchTone 拨号键 * 号 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1210</integer>
+		<key>FileName</key>
+		<string>dtmf-star.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键 * 号</string>
+    </dict>
+    <!-- TouchTone 拨号键 # 号 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1211</integer>
+		<key>FileName</key>
+		<string>dtmf-pound.caf</string>
+		<key>Category</key>
+		<string>TouchTone 拨号键 # 号</string>
+    </dict>
+    <!-- Headset_StartCall 耳机开始通话 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1254</integer>
+		<key>FileName</key>
+		<string>long_low_short_high.caf</string>
+		<key>Category</key>
+		<string>Headset_StartCall 耳机开始通话</string>
+    </dict>
+    <!-- Headset_Redial 耳机重拨 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1255</integer>
+		<key>FileName</key>
+		<string>short_double_high.caf</string>
+		<key>Category</key>
+		<string>Headset_Redial 耳机重拨</string>
+    </dict>
+    <!-- Headset_AnswerCall 耳机应答 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1256</integer>
+		<key>FileName</key>
+		<string>short_low_high.caf</string>
+		<key>Category</key>
+		<string>Headset_AnswerCall 耳机应答</string>
+    </dict>
+    <!-- Headset_EndCall 耳机结束通话 -->
+	<dict>
+		<key>SoundID</key>
+		<integer>1257</integer>
+		<key>FileName</key>
+		<string>short_double_low.caf</string>
+		<key>Category</key>
+		<string>Headset_EndCall 耳机结束通话</string>
+	</dict>
+</array>
+</plist>

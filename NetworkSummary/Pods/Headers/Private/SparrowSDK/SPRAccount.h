@@ -1,0 +1,1 @@
+../../../SparrowSDK/SparrowSDK/Classes/Models/SPRAccount.h

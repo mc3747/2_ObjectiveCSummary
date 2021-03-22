@@ -1,0 +1,40 @@
+{
+    "result": true,
+    "data": {
+        "department_list": [ {
+                            "department_id": "0",
+                            "department_name": "所有部门"
+                            }, {
+                            "department_id": "25",
+                            "department_name": "技术部"
+                            }, {
+                            "department_id": "26",
+                            "department_name": "\u751f\u9c9c\u98df\u54c1"
+                            }, {
+                            "department_id": "27",
+                            "department_name": "\u98df\u54c1\u90e8\u95e8"
+                            }, {
+                            "department_id": "28",
+                            "department_name": "\u4f4f\u5c45\u90e8\u95e8"
+                            }, {
+                            "department_id": "29",
+                            "department_name": "\u529e\u516c\u8017\u6750"
+                            }, {
+                            "department_id": "30",
+                            "department_name": "\u9c9c\u82b1\u4e8b\u4e1a\u90e8"
+                            }, {
+                            "department_id": "31",
+                            "department_name": "\u7cae\u6cb9\u90e8\u95e8"
+                            }, {
+                            "department_id": "32",
+                            "department_name": "\u884c\u653f\u90e8\u95e8"
+                            }, {
+                            "department_id": "33",
+                            "department_name": "\u8d44\u4ea7\u90e8\u95e8"
+                            }]
+    },
+    "msg": "ok",
+    "code": 200,
+    "executed": "0.0307970047"
+}
+

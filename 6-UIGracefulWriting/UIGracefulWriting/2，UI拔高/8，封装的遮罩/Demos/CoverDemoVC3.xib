@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CoverDemoVC3">
+            <connections>
+                <outlet property="view" destination="fyB-Dj-TO3" id="xFL-iT-iBw"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fyB-Dj-TO3">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="v2.4.0版本使用demo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HbJ-4Q-0bx">
+                    <rect key="frame" x="107" y="94" width="200" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="877-aF-Rs4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="baR-RI-77M">
+                    <rect key="frame" x="107" y="130" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="1Dx-bU-w7f"/>
+                    </constraints>
+                    <state key="normal" title="顶部弹出顶部隐藏"/>
+                    <connections>
+                        <action selector="top01:" destination="-1" eventType="touchUpInside" id="uFq-1Q-E9m"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdP-lc-Jmp">
+                    <rect key="frame" x="107" y="175" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="WK4-EA-zpK"/>
+                    </constraints>
+                    <state key="normal" title="顶部弹出无动画"/>
+                    <connections>
+                        <action selector="top02:" destination="-1" eventType="touchUpInside" id="RqF-xj-pYW"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="id7-Jo-vFk">
+                    <rect key="frame" x="107" y="220" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="4wV-Cj-z2n"/>
+                    </constraints>
+                    <state key="normal" title="中间弹窗,上进下出"/>
+                    <connections>
+                        <action selector="center01:" destination="-1" eventType="touchUpInside" id="Mxn-98-zPi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ggf-Ue-scB">
+                    <rect key="frame" x="107" y="265" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="FIc-8J-4mU"/>
+                    </constraints>
+                    <state key="normal" title="中间弹窗,下进上出"/>
+                    <connections>
+                        <action selector="center02:" destination="-1" eventType="touchUpInside" id="1Kn-pE-yfh"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MEp-zf-eUq">
+                    <rect key="frame" x="107" y="310" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="dIY-0z-phg"/>
+                    </constraints>
+                    <state key="normal" title="中间弹窗,中间隐藏"/>
+                    <connections>
+                        <action selector="center03:" destination="-1" eventType="touchUpInside" id="AzF-Qu-Gfc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyz-5y-B99">
+                    <rect key="frame" x="57" y="355" width="300" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="300" id="GHi-BT-XpS"/>
+                    </constraints>
+                    <state key="normal" title="中间弹窗，底部弹窗，隐藏无动画"/>
+                    <connections>
+                        <action selector="center04:" destination="-1" eventType="touchUpInside" id="gAA-rc-BcC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6T-fe-y9F">
+                    <rect key="frame" x="107" y="400" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="edD-f7-bCr"/>
+                    </constraints>
+                    <state key="normal" title="底部弹出底部隐藏"/>
+                    <connections>
+                        <action selector="bottom01:" destination="-1" eventType="touchUpInside" id="efj-TB-ncV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xup-lL-NiR">
+                    <rect key="frame" x="107" y="445" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="RAj-Mx-3pY"/>
+                    </constraints>
+                    <state key="normal" title="底部弹出无动画"/>
+                    <connections>
+                        <action selector="bottom02:" destination="-1" eventType="touchUpInside" id="Ozq-6k-8bs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qu3-Fx-Tks">
+                    <rect key="frame" x="107" y="490" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Vf3-54-wX5"/>
+                    </constraints>
+                    <state key="normal" title="底部弹窗，隐藏后再次弹窗"/>
+                    <connections>
+                        <action selector="bottom03:" destination="-1" eventType="touchUpInside" id="oUu-ki-wIe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oyL-dZ-yww">
+                    <rect key="frame" x="107" y="535" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="Iow-Lx-EaP"/>
+                    </constraints>
+                    <state key="normal" title="左侧弹窗"/>
+                    <connections>
+                        <action selector="left:" destination="-1" eventType="touchUpInside" id="TLX-Bb-NFs"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NHT-JF-6Ll">
+                    <rect key="frame" x="107" y="580" width="200" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="FlZ-IE-x4m"/>
+                    </constraints>
+                    <state key="normal" title="右侧弹窗"/>
+                    <connections>
+                        <action selector="right:" destination="-1" eventType="touchUpInside" id="gGT-oa-KNK"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Ggf-Ue-scB" firstAttribute="top" secondItem="id7-Jo-vFk" secondAttribute="bottom" constant="15" id="1sH-Yy-hqu"/>
+                <constraint firstItem="id7-Jo-vFk" firstAttribute="top" secondItem="kdP-lc-Jmp" secondAttribute="bottom" constant="15" id="8Ye-cN-vzA"/>
+                <constraint firstItem="baR-RI-77M" firstAttribute="top" secondItem="HbJ-4Q-0bx" secondAttribute="bottom" constant="15" id="Am6-by-HpB"/>
+                <constraint firstItem="oyL-dZ-yww" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="FGd-Be-ATL"/>
+                <constraint firstItem="lyz-5y-B99" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="GSm-4N-QBp"/>
+                <constraint firstItem="NHT-JF-6Ll" firstAttribute="top" secondItem="oyL-dZ-yww" secondAttribute="bottom" constant="15" id="GmY-eB-Ie0"/>
+                <constraint firstItem="baR-RI-77M" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="Iqv-EG-59r"/>
+                <constraint firstItem="MEp-zf-eUq" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="LAK-IR-LNo"/>
+                <constraint firstItem="HbJ-4Q-0bx" firstAttribute="top" secondItem="p43-c6-JQ4" secondAttribute="top" constant="50" id="LlV-L9-n6j"/>
+                <constraint firstItem="Qu3-Fx-Tks" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="P0D-IM-mHD"/>
+                <constraint firstItem="MEp-zf-eUq" firstAttribute="top" secondItem="Ggf-Ue-scB" secondAttribute="bottom" constant="15" id="P76-k9-BVp"/>
+                <constraint firstItem="Qu3-Fx-Tks" firstAttribute="top" secondItem="Xup-lL-NiR" secondAttribute="bottom" constant="15" id="Pn9-6i-fpN"/>
+                <constraint firstItem="Ggf-Ue-scB" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="UG4-m4-7K5"/>
+                <constraint firstItem="HbJ-4Q-0bx" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="Vtc-g9-epI"/>
+                <constraint firstItem="Xup-lL-NiR" firstAttribute="top" secondItem="Q6T-fe-y9F" secondAttribute="bottom" constant="15" id="YGZ-Wv-wRE"/>
+                <constraint firstItem="NHT-JF-6Ll" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="YjL-87-YQY"/>
+                <constraint firstItem="lyz-5y-B99" firstAttribute="top" secondItem="MEp-zf-eUq" secondAttribute="bottom" constant="15" id="fpz-eI-a8F"/>
+                <constraint firstItem="id7-Jo-vFk" firstAttribute="leading" secondItem="Ggf-Ue-scB" secondAttribute="leading" id="hpf-zK-ZCq"/>
+                <constraint firstItem="kdP-lc-Jmp" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="kzv-tH-w8O"/>
+                <constraint firstItem="Q6T-fe-y9F" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="lMF-gi-xjM"/>
+                <constraint firstItem="kdP-lc-Jmp" firstAttribute="top" secondItem="baR-RI-77M" secondAttribute="bottom" constant="15" id="lon-nP-WPF"/>
+                <constraint firstItem="Xup-lL-NiR" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="m7f-nM-TTd"/>
+                <constraint firstItem="Q6T-fe-y9F" firstAttribute="top" secondItem="lyz-5y-B99" secondAttribute="bottom" constant="15" id="qXv-fu-3sV"/>
+                <constraint firstItem="oyL-dZ-yww" firstAttribute="top" secondItem="Qu3-Fx-Tks" secondAttribute="bottom" constant="15" id="tSI-5k-4Tp"/>
+                <constraint firstItem="baR-RI-77M" firstAttribute="leading" secondItem="Q6T-fe-y9F" secondAttribute="leading" id="ue7-R9-uBT"/>
+                <constraint firstItem="Ggf-Ue-scB" firstAttribute="leading" secondItem="MEp-zf-eUq" secondAttribute="leading" id="utM-AF-SGR"/>
+                <constraint firstItem="id7-Jo-vFk" firstAttribute="centerX" secondItem="fyB-Dj-TO3" secondAttribute="centerX" id="x4B-Hs-Ml4"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="p43-c6-JQ4"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-NetworkSummary/Pods-NetworkSummary-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/BAAlert/BAAlert.bundle
+${PODS_ROOT}/SGQRCode/SGQRCode/SGQRCode.bundle
+${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/SparrowSDK/SparrowSDK.bundle

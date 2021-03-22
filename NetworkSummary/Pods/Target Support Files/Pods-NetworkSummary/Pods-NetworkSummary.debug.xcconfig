@@ -1,0 +1,9 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/BAAlert" "${PODS_ROOT}/Headers/Public/BANetManager" "${PODS_ROOT}/Headers/Public/FMDB" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/PPNetworkHelper" "${PODS_ROOT}/Headers/Public/SGQRCode" "${PODS_ROOT}/Headers/Public/SVProgressHUD" "${PODS_ROOT}/Headers/Public/SparrowSDK" "${PODS_ROOT}/Headers/Public/XMNetworking" "${PODS_ROOT}/Headers/Public/YTKNetwork" "${PODS_ROOT}/Headers/Public/YYCache"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/BAAlert" "${PODS_CONFIGURATION_BUILD_DIR}/BANetManager" "${PODS_CONFIGURATION_BUILD_DIR}/FMDB" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/PPNetworkHelper" "${PODS_CONFIGURATION_BUILD_DIR}/SGQRCode" "${PODS_CONFIGURATION_BUILD_DIR}/SVProgressHUD" "${PODS_CONFIGURATION_BUILD_DIR}/SparrowSDK" "${PODS_CONFIGURATION_BUILD_DIR}/XMNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/YTKNetwork" "${PODS_CONFIGURATION_BUILD_DIR}/YYCache"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AFNetworking" -l"BAAlert" -l"BANetManager" -l"FMDB" -l"Masonry" -l"PPNetworkHelper" -l"SGQRCode" -l"SVProgressHUD" -l"SparrowSDK" -l"XMNetworking" -l"YTKNetwork" -l"YYCache" -l"sqlite3" -framework "CFNetwork" -framework "CoreFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  NetworkSummary
+//
+//  Created by gjfax on 2019/4/29.
+//  Copyright © 2019 macheng. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "CommonMethod.h"
+
+#define GJWeakSelf  __weak typeof(self) weakSelf = self;
+#define GJStrongSelf __strong typeof(weakSelf) strongSelf = weakSelf;
+
+   //分割线
+#define SEP_LINE printf("==========================================================================================================\n");
+
+#endif /* PrefixHeader_pch */

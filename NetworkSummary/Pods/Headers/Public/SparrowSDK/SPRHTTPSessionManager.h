@@ -1,0 +1,1 @@
+../../../SparrowSDK/SparrowSDK/Classes/Other/SPRHTTPSessionManager.h

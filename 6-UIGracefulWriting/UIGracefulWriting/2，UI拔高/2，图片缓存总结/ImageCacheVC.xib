@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImageCacheVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6X1-di-U4N">
+                    <rect key="frame" x="10" y="94" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="0.56675406679999996" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="VCV-SA-H2x"/>
+                    </constraints>
+                    <state key="normal" title="1，磁盘和内存缓存小案例"/>
+                    <connections>
+                        <action selector="testAction1:" destination="-1" eventType="touchUpInside" id="byG-Gp-LUS"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="az9-2m-UPR">
+                    <rect key="frame" x="10" y="194" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.92941176469999998" green="0.4039215686" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="6lP-Ut-Nch"/>
+                    </constraints>
+                    <state key="normal" title="2，磁盘和内存缓存小封装"/>
+                    <connections>
+                        <action selector="testAction2:" destination="-1" eventType="touchUpInside" id="sxe-2Z-WXT"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="az9-2m-UPR" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="Ep5-85-DZ6"/>
+                <constraint firstItem="6X1-di-U4N" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="KyV-gM-ok8"/>
+                <constraint firstItem="6X1-di-U4N" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="50" id="M3v-78-bfs"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="az9-2m-UPR" secondAttribute="trailing" constant="10" id="UbM-eG-7cb"/>
+                <constraint firstItem="az9-2m-UPR" firstAttribute="top" secondItem="6X1-di-U4N" secondAttribute="bottom" constant="50" id="g3i-ns-1ft"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="6X1-di-U4N" secondAttribute="trailing" constant="10" id="xJm-oK-T6G"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,25 @@
+{
+    "result": true,
+    "data": {
+        "region_list": [ {
+                        "region_id": "0",
+                        "region_name": "所有大区"
+                        }, {
+                        "region_id": "1",
+                        "region_name": "东南"
+                        }, {
+                        "region_id": "2",
+                        "region_name": "东北"
+                        }, {
+                        "region_id": "3",
+                        "region_name": "西南"
+                        }, {
+                        "region_id": "4",
+                        "region_name": "西北"
+                        }]
+    },
+    "msg": "ok",
+    "code": 200,
+    "executed": "0.0275120735"
+}
+

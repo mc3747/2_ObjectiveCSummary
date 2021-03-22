@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SelfDefineWidgetVC">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVS-Ob-MOF">
+                    <rect key="frame" x="10" y="64" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="pJ3-Aj-ISa"/>
+                    </constraints>
+                    <state key="normal" title="1，纯代码形式"/>
+                    <connections>
+                        <action selector="clickAction1:" destination="-1" eventType="touchUpInside" id="nhi-eJ-LMi"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aEz-OE-B58">
+                    <rect key="frame" x="10" y="134" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="YTD-XH-Cl9"/>
+                    </constraints>
+                    <state key="normal" title="2，xib形式"/>
+                    <connections>
+                        <action selector="clickAction2:" destination="-1" eventType="touchUpInside" id="bEE-UR-lTw"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f8g-9R-DEU">
+                    <rect key="frame" x="10" y="204" width="394" height="50"/>
+                    <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="11C-af-qPc"/>
+                    </constraints>
+                    <state key="normal" title="3，自定义cell，详见cell的等高例子"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="aEz-OE-B58" secondAttribute="trailing" constant="10" id="73w-Wg-cXW"/>
+                <constraint firstItem="f8g-9R-DEU" firstAttribute="top" secondItem="aEz-OE-B58" secondAttribute="bottom" constant="20" id="MD4-wg-5RC"/>
+                <constraint firstItem="aEz-OE-B58" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="XHC-vn-x7G"/>
+                <constraint firstItem="aEz-OE-B58" firstAttribute="top" secondItem="LVS-Ob-MOF" secondAttribute="bottom" constant="20" id="bc6-Mm-Q7c"/>
+                <constraint firstItem="f8g-9R-DEU" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="l2R-g7-ixj"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="f8g-9R-DEU" secondAttribute="trailing" constant="10" id="uGu-il-nV6"/>
+                <constraint firstItem="LVS-Ob-MOF" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="10" id="uHm-4d-xXo"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="LVS-Ob-MOF" secondAttribute="trailing" constant="10" id="uoh-Ru-7fb"/>
+                <constraint firstItem="LVS-Ob-MOF" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="20" id="yt7-HH-UBE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+        </view>
+    </objects>
+</document>

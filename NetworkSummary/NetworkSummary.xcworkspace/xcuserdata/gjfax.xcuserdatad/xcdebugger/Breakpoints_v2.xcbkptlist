@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1F7ED4E7-0D48-4406-9721-D603BC3F5B1B"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "567065DD-3BE4-4189-8489-C7B29A00A247"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFNetworkingVC.m"
+            timestampString = "557293048.9123631"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "-getRequest"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F479894-873B-4A5E-AC04-BF161954C278"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFNetworkingVC.m"
+            timestampString = "557293048.912492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-getRequest"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B9966A98-CAC4-4E0F-8EBA-0E4E17B9ECE1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFNetworkingVC.m"
+            timestampString = "557293048.912587"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-getRequest"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "027B4A1A-CBBA-446B-9FA7-6D8EBB630206"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFN&#x5b98;&#x65b9;demo1/Models/Post.m"
+            timestampString = "557293048.91277"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "+globalTimelinePostsWithBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDA261F4-D793-43D7-9BE2-F06A6DCE818B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFN&#x5b98;&#x65b9;demo1/Controllers/GlobalTimelineViewController.m"
+            timestampString = "557293048.912868"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "-tableView:cellForRowAtIndexPath:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8F024BC4-C7E2-4402-8189-7030525B0B53"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFN&#x5b98;&#x65b9;demo2/TodayViewController.m"
+            timestampString = "557293048.914523"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-widgetPerformUpdateWithCompletionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DF4B3CB-B845-414D-8577-49D417E62016"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFN&#x5b98;&#x65b9;demo1/Models/User.m"
+            timestampString = "557293048.916149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "108"
+            endingLineNumber = "108"
+            landmarkName = "-encodeWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9E0BBF1-260A-45AA-A270-00E92C22446E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/3_AFN&#x4f7f;&#x7528;/AFN&#x5b98;&#x65b9;demo1/Models/User.m"
+            timestampString = "557293048.9164391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "114"
+            endingLineNumber = "114"
+            landmarkName = "-initWithCoder:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16706947-02B4-429C-B866-986F59814547"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/4_AFN&#x7684;&#x5c01;&#x88c5;/3&#xff0c;XMNetworking/XMViewController.m"
+            timestampString = "557650023.939857"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "187"
+            endingLineNumber = "187"
+            landmarkName = "-xm_getFeedListFromNet"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3A569E3-5148-4177-8C60-10B26799BF37"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/4_AFN&#x7684;&#x5c01;&#x88c5;/3&#xff0c;XMNetworking/XMViewController.m"
+            timestampString = "557650023.9399379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "192"
+            endingLineNumber = "192"
+            landmarkName = "-xm_getFeedListFromNet"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "225EB07C-DA86-4135-91E1-748D3705FAD9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/4_AFN&#x7684;&#x5c01;&#x88c5;/3&#xff0c;XMNetworking/XMViewController.m"
+            timestampString = "557650023.939992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
+            landmarkName = "-xm_getFeedListFromNet"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66EB92A0-47A6-4988-971A-0326B47713AA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/4_AFN&#x7684;&#x5c01;&#x88c5;/3&#xff0c;XMNetworking/XMViewController.m"
+            timestampString = "557650023.940044"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
+            landmarkName = "-xm_getFeedListFromNet"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D82BFC33-4B56-4910-99E4-A799BB8336A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/4_AFN&#x7684;&#x5c01;&#x88c5;/3&#xff0c;XMNetworking/NetworkManager.m"
+            timestampString = "557649866.394745"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "+setup"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DCD8B803-E5EE-4292-814A-D38E63EF9159"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NetworkSummary/1&#xff0c;&#x7f51;&#x7edc;/5_Server&#x6a21;&#x62df;/SelfMonitorServerVC.m"
+            timestampString = "579776082.21548"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "-simulatePost1:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DCD8B803-E5EE-4292-814A-D38E63EF9159 - d3f9ae21f0e9be62"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[SelfMonitorServerVC simulatePost1:]"
+                  moduleName = "NetworkSummary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/1%EF%BC%8C%E7%BD%91%E7%BB%9C/5_Server%E6%A8%A1%E6%8B%9F/SelfMonitorServerVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "DCD8B803-E5EE-4292-814A-D38E63EF9159 - 57caedb7c43aef8c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__37-[SelfMonitorServerVC simulatePost1:]_block_invoke"
+                  moduleName = "NetworkSummary"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gjfax/Documents/GitHub/13_NetworkSummary/NetworkSummary/1%EF%BC%8C%E7%BD%91%E7%BB%9C/5_Server%E6%A8%A1%E6%8B%9F/SelfMonitorServerVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

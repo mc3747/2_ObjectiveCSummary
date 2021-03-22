@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSThreadVC">
+            <connections>
+                <outlet property="label1" destination="EqS-Rz-738" id="Ycp-6W-M3n"/>
+                <outlet property="label2" destination="cPx-vb-axi" id="lcw-MS-cer"/>
+                <outlet property="label3" destination="ZL1-va-JxL" id="rXA-qF-2q3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zH0-i5-ykb">
+                    <rect key="frame" x="88.5" y="208.5" width="198" height="30"/>
+                    <state key="normal" title="运用NSTHread开线程 方法一"/>
+                    <connections>
+                        <action selector="createNSThread1:" destination="-1" eventType="touchUpInside" id="vlR-t3-JfC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npl-Bb-C2U">
+                    <rect key="frame" x="88.5" y="428.5" width="198" height="30"/>
+                    <state key="normal" title="运用NSTHread开线程 方法三"/>
+                    <connections>
+                        <action selector="createNSThread3:" destination="-1" eventType="touchUpInside" id="zB4-e4-jf0"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z44-mt-qtt">
+                    <rect key="frame" x="16" y="505" width="343" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="阻塞线程"/>
+                    <connections>
+                        <action selector="createNSThread3:" destination="-1" eventType="touchUpInside" id="pph-xy-5ma"/>
+                        <action selector="stopThreadAction:" destination="-1" eventType="touchUpInside" id="GDR-0L-xZE"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pA6-Jb-muQ">
+                    <rect key="frame" x="88.5" y="318.5" width="198" height="30"/>
+                    <state key="normal" title="运用NSTHread开线程 方法二"/>
+                    <connections>
+                        <action selector="createNSThread2:" destination="-1" eventType="touchUpInside" id="x4Y-dj-hk4"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EqS-Rz-738">
+                    <rect key="frame" x="22" y="555" width="337" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cPx-vb-axi">
+                    <rect key="frame" x="22" y="590" width="337" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZL1-va-JxL">
+                    <rect key="frame" x="22" y="625" width="337" height="27"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="npl-Bb-C2U" firstAttribute="top" secondItem="pA6-Jb-muQ" secondAttribute="bottom" constant="80" id="4Gx-nC-w4f"/>
+                <constraint firstItem="pA6-Jb-muQ" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ccW-Rr-cd0"/>
+                <constraint firstItem="pA6-Jb-muQ" firstAttribute="top" secondItem="zH0-i5-ykb" secondAttribute="bottom" constant="80" id="hZI-U8-eD3"/>
+                <constraint firstItem="pA6-Jb-muQ" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mTQ-YE-SvS"/>
+                <constraint firstItem="npl-Bb-C2U" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pX3-Ql-J5r"/>
+                <constraint firstItem="zH0-i5-ykb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="wSp-pY-6T5"/>
+            </constraints>
+            <point key="canvasLocation" x="-148" y="63.418290854572717"/>
+        </view>
+    </objects>
+</document>

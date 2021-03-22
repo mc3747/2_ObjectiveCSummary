@@ -1,0 +1,6 @@
+module Pods_WHLatticeDemo [system] {
+  umbrella header "Pods-WHLatticeDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

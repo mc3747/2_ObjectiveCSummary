@@ -1,0 +1,64 @@
+{
+    "result": true,
+    "data": {
+        "house_list": [ {
+                       "house_id": "0",
+                       "house_name": "所有门店"
+                       },{
+                       "house_id": "4122",
+                       "house_name": "\u4e48\u4e48\u8a89\u5cf0\u5e97"
+                       }, {
+                       "house_id": "6715",
+                       "house_name": "\u4e48\u4e48\u9f99\u57ce\u4e00\u53f7\u5e97"
+                       }, {
+                       "house_id": "6224",
+                       "house_name": "\u4e48\u4e48\u4ec1\u548c\u5e97"
+                       }, {
+                       "house_id": "6131",
+                       "house_name": "\u4e48\u4e48\u7f57\u6d6e\u4e16\u5bb6\u5e97"
+                       }, {
+                       "house_id": "5139",
+                       "house_name": "\u4e48\u4e48\u9e3f\u4e91\u5e97"
+                       }, {
+                       "house_id": "5657",
+                       "house_name": "\u4e48\u4e48\u767d\u9a6c\u5bfa"
+                       }, {
+                       "house_id": "5436",
+                       "house_name": "\u4e48\u4e48\u7eff\u5730468\u5e97"
+                       }, {
+                       "house_id": "5675",
+                       "house_name": "\u4e48\u4e48\u540e\u82b1\u56ed\u5e97"
+                       }, {
+                       "house_id": "5824",
+                       "house_name": "\u4e48\u4e48\u6210\u5916\u5e97"
+                       }, {
+                       "house_id": "5163",
+                       "house_name": "\u4e48\u4e48\u534e\u7f6e\u897f\u9526\u57ce\u5e97"
+                       }, {
+                       "house_id": "5361",
+                       "house_name": "\u4e48\u4e48\u91d1\u51e4\u8def\u5e97"
+                       }, {
+                       "house_id": "5750",
+                       "house_name": "\u4e48\u4e48\u9f99\u6e7e\u5e97"
+                       }, {
+                       "house_id": "4358",
+                       "house_name": "\u4e48\u4e48\u53cc\u5143\u5e97"
+                       }, {
+                       "house_id": "4087",
+                       "house_name": "\u4e48\u4e48\u7d2b\u7af9\u5e97"
+                       }, {
+                       "house_id": "4536",
+                       "house_name": "\u4e48\u4e48\u5357\u6e56\u5e97"
+                       }, {
+                       "house_id": "4472",
+                       "house_name": "\u4e48\u4e48\u5929\u8a89\u5e97"
+                       }, {
+                       "house_id": "6549",
+                       "house_name": "\u4e48\u4e48\u4e2d\u6d77\u9526\u57ce\u5e97"
+                       }]
+    },
+    "msg": "ok",
+    "code": 200,
+    "executed": "0.0357670784"
+}
+

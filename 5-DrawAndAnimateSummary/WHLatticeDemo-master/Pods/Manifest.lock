@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - ComponentKit (0.15)
+  - FlexLib (2.2.2):
+    - FlexLib/no-arc (= 2.2.2)
+    - Yoga (= 1.6.0)
+  - FlexLib/no-arc (2.2.2):
+    - Yoga (= 1.6.0)
+  - Masonry (1.1.0)
+  - MJExtension (3.1.2)
+  - SDAutoLayout (2.2.1)
+  - SVPullToRefresh (0.4.1)
+  - Yoga (1.6.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - ComponentKit
+  - FlexLib
+  - Masonry
+  - MJExtension
+  - SDAutoLayout
+  - SVPullToRefresh
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ComponentKit
+    - FlexLib
+    - Masonry
+    - SDAutoLayout
+    - Yoga
+  trunk:
+    - AFNetworking
+    - MJExtension
+    - SVPullToRefresh
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  ComponentKit: 02f5ab822d9183835d9afb0a780d29ebf0b94fdb
+  FlexLib: f996d47215bfadf5c55cfc1777e5d10d43a00e2f
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 81e8e411ced318561dd09334b0c83d8227cef79c
+  SDAutoLayout: 8bf6b3bbc8b01f775d4defbb4fda2ace805461be
+  SVPullToRefresh: ba2e718695a43253d8bea6852d2960097dc15d8c
+  Yoga: 81670877477311136b1b3f69a6307ce62e1c89cf
+
+PODFILE CHECKSUM: c7ce14552d699251af67dcd9e171f1b707d9575e
+
+COCOAPODS: 1.8.0

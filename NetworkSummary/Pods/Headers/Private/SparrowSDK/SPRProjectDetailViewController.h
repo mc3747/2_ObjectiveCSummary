@@ -1,0 +1,1 @@
+../../../SparrowSDK/SparrowSDK/Classes/Controllers/SPRProjectDetailViewController.h

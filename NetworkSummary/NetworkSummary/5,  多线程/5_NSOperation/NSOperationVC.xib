@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NSOperationVC">
+            <connections>
+                <outlet property="hideImageViewButton" destination="mfO-vw-68r" id="YoO-hJ-ppZ"/>
+                <outlet property="imageView" destination="QU6-DE-Z0Q" id="Y0X-az-CU4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q78-p7-a48">
+                    <rect key="frame" x="83.5" y="277" width="208" height="30"/>
+                    <state key="normal" title="addExecutionBlock实现多线程"/>
+                    <connections>
+                        <action selector="addExecutionBlockAction:" destination="-1" eventType="touchUpInside" id="RJP-8M-Xti"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kgd-vO-JxH">
+                    <rect key="frame" x="79" y="315" width="217" height="30"/>
+                    <state key="normal" title="把任务加入到队列addOperation"/>
+                    <connections>
+                        <action selector="AddOperationAction:" destination="-1" eventType="touchUpInside" id="cPL-X6-jOc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C8l-WA-c3c">
+                    <rect key="frame" x="52.5" y="353" width="270" height="30"/>
+                    <state key="normal" title="addOperationWithBlock任务加入到队列"/>
+                    <connections>
+                        <action selector="AddOperationWithBlockAction:" destination="-1" eventType="touchUpInside" id="chc-OQ-qL9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9bb-mC-lZi">
+                    <rect key="frame" x="228" y="391" width="77" height="30"/>
+                    <state key="normal" title="最大并发数"/>
+                    <connections>
+                        <action selector="MaxConcurrentOperationCountAction:" destination="-1" eventType="touchUpInside" id="wkk-5w-wFH"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7rQ-xF-MrA">
+                    <rect key="frame" x="70" y="391" width="77" height="30"/>
+                    <state key="normal" title="线程间通信"/>
+                    <connections>
+                        <action selector="communicationBetweenThreadAction:" destination="-1" eventType="touchUpInside" id="yN3-OR-cHr"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ua7-Oa-6QN">
+                    <rect key="frame" x="63" y="90" width="250" height="172"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fQO-tW-Tgd">
+                            <rect key="frame" x="22.5" y="51" width="205" height="30"/>
+                            <state key="normal" title="NSInvocationOperation的使用"/>
+                            <connections>
+                                <action selector="NSInvocationOperationAction:" destination="-1" eventType="touchUpInside" id="2Rs-Ap-tx5"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NSOperation的三种创建方式" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Td-dm-d6j">
+                            <rect key="frame" x="15" y="15" width="220" height="21"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w6O-Tv-Yti">
+                            <rect key="frame" x="39" y="89" width="172" height="30"/>
+                            <state key="normal" title="NSBlockOperation的使用"/>
+                            <connections>
+                                <action selector="NSBlockOperationAction:" destination="-1" eventType="touchUpInside" id="vJy-Ua-K2o"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvA-7K-wsh">
+                            <rect key="frame" x="35" y="127" width="180" height="30"/>
+                            <state key="normal" title="继承自NSOperation的子类"/>
+                            <connections>
+                                <action selector="WHOperationAction:" destination="-1" eventType="touchUpInside" id="QGF-Wd-p8R"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="3Td-dm-d6j" firstAttribute="centerX" secondItem="ua7-Oa-6QN" secondAttribute="centerX" id="LzJ-2Q-3A7"/>
+                        <constraint firstAttribute="width" constant="250" id="TFv-Nb-Bsq"/>
+                        <constraint firstItem="gvA-7K-wsh" firstAttribute="top" secondItem="w6O-Tv-Yti" secondAttribute="bottom" constant="8" id="YkR-nf-Q7X"/>
+                        <constraint firstAttribute="height" constant="172" id="cOq-0t-vJJ"/>
+                        <constraint firstItem="w6O-Tv-Yti" firstAttribute="centerX" secondItem="ua7-Oa-6QN" secondAttribute="centerX" id="g96-uL-qAq"/>
+                        <constraint firstItem="gvA-7K-wsh" firstAttribute="centerX" secondItem="ua7-Oa-6QN" secondAttribute="centerX" id="gDH-ah-JLV"/>
+                        <constraint firstItem="fQO-tW-Tgd" firstAttribute="top" secondItem="3Td-dm-d6j" secondAttribute="bottom" constant="15" id="jpb-GB-oTJ"/>
+                        <constraint firstItem="w6O-Tv-Yti" firstAttribute="top" secondItem="fQO-tW-Tgd" secondAttribute="bottom" constant="8" id="sqF-4g-sOI"/>
+                        <constraint firstItem="fQO-tW-Tgd" firstAttribute="centerX" secondItem="ua7-Oa-6QN" secondAttribute="centerX" id="vnv-eZ-Fp2"/>
+                        <constraint firstItem="3Td-dm-d6j" firstAttribute="top" secondItem="ua7-Oa-6QN" secondAttribute="top" constant="15" id="yzu-wl-4xR"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QU6-DE-Z0Q">
+                    <rect key="frame" x="112.5" y="487" width="150" height="150"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="L7y-Qc-qLS"/>
+                        <constraint firstAttribute="width" constant="150" id="rn7-BR-7pf"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mfO-vw-68r">
+                    <rect key="frame" x="157" y="452" width="62" height="30"/>
+                    <state key="normal" title="隐藏图片"/>
+                    <connections>
+                        <action selector="hideImageViewAction:" destination="-1" eventType="touchUpInside" id="KBP-lq-SQZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkT-jR-QG6">
+                    <rect key="frame" x="70" y="429" width="62" height="30"/>
+                    <state key="normal" title="操作依赖"/>
+                    <connections>
+                        <action selector="AddDependencyAction:" destination="-1" eventType="touchUpInside" id="Q7q-Rg-aBQ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="C8l-WA-c3c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="1MA-uB-eGU"/>
+                <constraint firstItem="zkT-jR-QG6" firstAttribute="leading" secondItem="7rQ-xF-MrA" secondAttribute="leading" id="4SO-RX-71h"/>
+                <constraint firstItem="Q78-p7-a48" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5ay-BL-jXl"/>
+                <constraint firstItem="ua7-Oa-6QN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="8ea-CR-Mo8"/>
+                <constraint firstItem="kgd-vO-JxH" firstAttribute="top" secondItem="Q78-p7-a48" secondAttribute="bottom" constant="8" id="B4X-Av-xPW"/>
+                <constraint firstItem="QU6-DE-Z0Q" firstAttribute="top" secondItem="mfO-vw-68r" secondAttribute="bottom" constant="5" id="Bxc-kj-mts"/>
+                <constraint firstItem="7rQ-xF-MrA" firstAttribute="top" secondItem="C8l-WA-c3c" secondAttribute="bottom" constant="8" id="F6v-Qr-1Zu"/>
+                <constraint firstItem="9bb-mC-lZi" firstAttribute="top" secondItem="C8l-WA-c3c" secondAttribute="bottom" constant="8" id="Ir1-Us-j88"/>
+                <constraint firstItem="kgd-vO-JxH" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="KQX-o7-mFA"/>
+                <constraint firstItem="ua7-Oa-6QN" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZdS-f4-AlD"/>
+                <constraint firstItem="zkT-jR-QG6" firstAttribute="top" secondItem="7rQ-xF-MrA" secondAttribute="bottom" constant="8" id="eHu-Ha-lMe"/>
+                <constraint firstItem="mfO-vw-68r" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="lPl-JU-zLl"/>
+                <constraint firstAttribute="trailing" secondItem="9bb-mC-lZi" secondAttribute="trailing" constant="70" id="maQ-XA-MWV"/>
+                <constraint firstAttribute="bottom" secondItem="QU6-DE-Z0Q" secondAttribute="bottom" constant="30" id="od8-QN-MoC"/>
+                <constraint firstItem="C8l-WA-c3c" firstAttribute="top" secondItem="kgd-vO-JxH" secondAttribute="bottom" constant="8" id="wl5-IV-WJD"/>
+                <constraint firstItem="7rQ-xF-MrA" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="70" id="xbo-2h-fF4"/>
+                <constraint firstItem="QU6-DE-Z0Q" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="yGT-eG-3e6"/>
+                <constraint firstItem="Q78-p7-a48" firstAttribute="top" secondItem="ua7-Oa-6QN" secondAttribute="bottom" constant="15" id="yno-bk-cnb"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

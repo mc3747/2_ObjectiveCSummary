@@ -1,0 +1,13 @@
+platform:ios,'8.0'
+
+target 'WHLatticeDemo' do
+
+pod 'Masonry'
+pod 'ComponentKit'
+pod 'FlexLib'
+pod 'SDAutoLayout'
+pod 'MJExtension'
+pod 'SVPullToRefresh'
+pod 'AFNetworking'
+
+end

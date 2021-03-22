@@ -1,11 +1,4 @@
 PODS:
-  - AsyncDisplayKit (2.2.1):
-    - AsyncDisplayKit/PINRemoteImage (= 2.2.1)
-  - AsyncDisplayKit/Core (2.2.1)
-  - AsyncDisplayKit/PINRemoteImage (2.2.1):
-    - AsyncDisplayKit/Core
-    - PINRemoteImage/iOS (= 3.0.0-beta.8)
-    - PINRemoteImage/PINCache
   - CYLTabBarController (1.29.0):
     - CYLTabBarController/Core (= 1.29.0)
   - CYLTabBarController/Core (1.29.0)
@@ -22,32 +15,52 @@ PODS:
   - Masonry (1.1.0)
   - MJExtension (3.2.4)
   - MJRefresh (3.5.0)
-  - PINCache (3.0.1-beta.4):
-    - PINCache/Arc-exception-safe (= 3.0.1-beta.4)
-    - PINCache/Core (= 3.0.1-beta.4)
-  - PINCache/Arc-exception-safe (3.0.1-beta.4):
+  - PINCache (3.0.3):
+    - PINCache/Arc-exception-safe (= 3.0.3)
+    - PINCache/Core (= 3.0.3)
+  - PINCache/Arc-exception-safe (3.0.3):
     - PINCache/Core
-  - PINCache/Core (3.0.1-beta.4):
-    - PINOperation (= 1.0.3)
-  - PINOperation (1.0.3)
-  - PINRemoteImage/Core (3.0.0-beta.8)
-  - PINRemoteImage/iOS (3.0.0-beta.8):
+  - PINCache/Core (3.0.3):
+    - PINOperation (~> 1.2.1)
+  - PINOperation (1.2.1)
+  - PINRemoteImage/Core (3.0.3):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.3):
     - PINRemoteImage/Core
-  - PINRemoteImage/PINCache (3.0.0-beta.8):
-    - PINCache (= 3.0.1-beta.4)
+  - PINRemoteImage/PINCache (3.0.3):
+    - PINCache (~> 3.0.3)
     - PINRemoteImage/Core
   - SDWebImage (5.10.4):
     - SDWebImage/Core (= 5.10.4)
   - SDWebImage/Core (5.10.4)
   - SVProgressHUD (2.2.5)
   - SWTableViewCell (0.3.7)
+  - Texture (3.0.0):
+    - Texture/AssetsLibrary (= 3.0.0)
+    - Texture/Core (= 3.0.0)
+    - Texture/MapKit (= 3.0.0)
+    - Texture/Photos (= 3.0.0)
+    - Texture/PINRemoteImage (= 3.0.0)
+    - Texture/Video (= 3.0.0)
+  - Texture/AssetsLibrary (3.0.0):
+    - Texture/Core
+  - Texture/Core (3.0.0)
+  - Texture/MapKit (3.0.0):
+    - Texture/Core
+  - Texture/Photos (3.0.0):
+    - Texture/Core
+  - Texture/PINRemoteImage (3.0.0):
+    - PINRemoteImage/iOS (~> 3.0.0)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - Texture/Video (3.0.0):
+    - Texture/Core
   - TYAttributedLabel (2.6.9)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - AsyncDisplayKit
   - CYLTabBarController
   - DZNEmptyDataSet
   - FMDB
@@ -61,12 +74,12 @@ DEPENDENCIES:
   - SDWebImage
   - SVProgressHUD
   - SWTableViewCell
+  - Texture
   - TYAttributedLabel
   - YYKit
 
 SPEC REPOS:
   trunk:
-    - AsyncDisplayKit
     - CYLTabBarController
     - DZNEmptyDataSet
     - FMDB
@@ -84,11 +97,11 @@ SPEC REPOS:
     - SDWebImage
     - SVProgressHUD
     - SWTableViewCell
+    - Texture
     - TYAttributedLabel
     - YYKit
 
 SPEC CHECKSUMS:
-  AsyncDisplayKit: 2234dd8d8770a5ed72936b3f8394bd5a807765f6
   CYLTabBarController: f5460b8446f82d016945d4d53895a1ef185b79e3
   DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
@@ -100,15 +113,16 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJExtension: 88e0900751b6cac8de1cf724ca9838a0b28d5acb
   MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
-  PINCache: a89c8f609232afac77128557bd12c861844423d7
-  PINOperation: ac23db44796d4a564ecf9b5ea7163510f579b71d
-  PINRemoteImage: c4f9f16932840c597f32e69dd288e10e111a1929
+  PINCache: 7a8fc1a691173d21dbddbf86cd515de6efa55086
+  PINOperation: 00c935935f1e8cf0d1e2d6b542e75b88fc3e5e20
+  PINRemoteImage: f1295b29f8c5e640e25335a1b2bd9d805171bd01
   SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
+  Texture: 2f109e937850d94d1d07232041c9c7313ccddb81
   TYAttributedLabel: 566d7503cf9e5460f409bb5d4c14690d25088972
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: 5a7f5edb87c723b8f0d67a02eaa2471526d16ca5
+PODFILE CHECKSUM: baf74b04cfcb2ef98ecbb169ca57d852a82c8eae
 
 COCOAPODS: 1.10.1

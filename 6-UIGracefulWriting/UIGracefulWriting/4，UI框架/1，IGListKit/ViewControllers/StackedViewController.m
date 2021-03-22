@@ -46,12 +46,24 @@
 }
 
 - (IGListSectionController *)listAdapter:(IGListAdapter *)listAdapter sectionControllerForObject:(id)object {
-    IGListStackedSectionController *sc = [[IGListStackedSectionController alloc]
-                                          initWithSectionControllers:@[
-                                                                       [[WorkingRangeSectionController alloc] init],
-                                                                       [[DisplaySectionController alloc] init],
-                                                                       [[HorizontalSectionController alloc] init]
-                                                                       ]];
+    
+//    IGListStackedSectionController *sc = [[IGListStackedSectionController alloc]
+//                                          initWithSectionControllers:@[
+//                                                                       [[WorkingRangeSectionController alloc] init],
+//                                                                       [[DisplaySectionController alloc] init],
+//                                                                       [[HorizontalSectionController alloc] init]
+//                                                                       ]];
+   
+    IGListSingleSectionController *sc = [[IGListSingleSectionController alloc] initWithCellClass:@[
+        [[WorkingRangeSectionController alloc] init],
+        [[DisplaySectionController alloc] init],
+        [[HorizontalSectionController alloc] init]
+        ] configureBlock:^(id  _Nonnull item, __kindof UICollectionViewCell * _Nonnull cell) {
+        
+    } sizeBlock:^CGSize(id  _Nonnull item, id<IGListCollectionContext>  _Nullable collectionContext) {
+        
+        return CGSizeZero;
+    }];
     sc.inset = UIEdgeInsetsMake(0, 0, 20, 0);
     
     return sc;

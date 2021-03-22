@@ -1,0 +1,1 @@
+../../../PINRemoteImage/Source/Classes/include/PINAnimatedImageView+PINRemoteImage.h

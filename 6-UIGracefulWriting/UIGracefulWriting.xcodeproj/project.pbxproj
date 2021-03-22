@@ -29,13 +29,6 @@
 		42166F7922801300006724CD /* BaseRefreshTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F70228012FF006724CD /* BaseRefreshTableView.m */; };
 		42166F7A22801300006724CD /* BaseTableViewDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F72228012FF006724CD /* BaseTableViewDelegateVC.m */; };
 		42166F7B22801300006724CD /* BaseTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F7422801300006724CD /* BaseTableView.m */; };
-		42166F9122801358006724CD /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8122801358006724CD /* LYEmptyBaseView.m */; };
-		42166F9222801358006724CD /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8322801358006724CD /* UIView+Empty.m */; };
-		42166F9322801358006724CD /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8422801358006724CD /* UIView+LYExtension.m */; };
-		42166F9422801358006724CD /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8722801358006724CD /* LYEmptyView.m */; };
-		42166F9522801358006724CD /* BaseBlockTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8B22801358006724CD /* BaseBlockTableView.m */; };
-		42166F9622801358006724CD /* BaseEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F8C22801358006724CD /* BaseEmptyView.m */; };
-		42166F9722801358006724CD /* BaseTableViewBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F9022801358006724CD /* BaseTableViewBlockVC.m */; };
 		4216700F2280136A006724CD /* TableViewDemosVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F9922801368006724CD /* TableViewDemosVC.m */; };
 		421670102280136A006724CD /* HSZhiHuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F9B22801369006724CD /* HSZhiHuTableViewController.m */; };
 		421670112280136A006724CD /* HSSetTableViewQQController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42166F9C22801369006724CD /* HSSetTableViewQQController.m */; };
@@ -925,8 +918,6 @@
 		42DE3C41226487AA00422577 /* AutolayoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42DE3C2F226487AA00422577 /* AutolayoutTableViewCell.xib */; };
 		42DE3C42226487AA00422577 /* FrameCountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE3C31226487AA00422577 /* FrameCountTableViewController.m */; };
 		42DE3C43226487AA00422577 /* FrameLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE3C33226487AA00422577 /* FrameLayoutTableViewCell.m */; };
-		42DE3C44226487AA00422577 /* AsyncDisplayKitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE3C37226487AA00422577 /* AsyncDisplayKitTableViewController.m */; };
-		42DE3C45226487AA00422577 /* AsyncDisplayKitTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE3C38226487AA00422577 /* AsyncDisplayKitTableViewCell.m */; };
 		42DE3C5D226487E100422577 /* DataSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DE3C4A226487E000422577 /* DataSupport.m */; };
 		42DE3C5E226487E100422577 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42DE3C4E226487E000422577 /* 4.jpg */; };
 		42DE3C5F226487E100422577 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42DE3C4F226487E000422577 /* 5.jpg */; };
@@ -1083,21 +1074,6 @@
 		42166F72228012FF006724CD /* BaseTableViewDelegateVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegateVC.m; sourceTree = "<group>"; };
 		42166F7422801300006724CD /* BaseTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableView.m; sourceTree = "<group>"; };
 		42166F7522801300006724CD /* BaseTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableView.h; sourceTree = "<group>"; };
-		42166F8122801358006724CD /* LYEmptyBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyBaseView.m; sourceTree = "<group>"; };
-		42166F8222801358006724CD /* LYEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyView.h; sourceTree = "<group>"; };
-		42166F8322801358006724CD /* UIView+Empty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Empty.m"; sourceTree = "<group>"; };
-		42166F8422801358006724CD /* UIView+LYExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LYExtension.m"; sourceTree = "<group>"; };
-		42166F8522801358006724CD /* LYEmptyBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyBaseView.h; sourceTree = "<group>"; };
-		42166F8622801358006724CD /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYEmptyViewHeader.h; sourceTree = "<group>"; };
-		42166F8722801358006724CD /* LYEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYEmptyView.m; sourceTree = "<group>"; };
-		42166F8822801358006724CD /* UIView+LYExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LYExtension.h"; sourceTree = "<group>"; };
-		42166F8922801358006724CD /* UIView+Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Empty.h"; sourceTree = "<group>"; };
-		42166F8B22801358006724CD /* BaseBlockTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBlockTableView.m; sourceTree = "<group>"; };
-		42166F8C22801358006724CD /* BaseEmptyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseEmptyView.m; sourceTree = "<group>"; };
-		42166F8D22801358006724CD /* BaseBlockTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBlockTableView.h; sourceTree = "<group>"; };
-		42166F8E22801358006724CD /* BaseEmptyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseEmptyView.h; sourceTree = "<group>"; };
-		42166F8F22801358006724CD /* BaseTableViewBlockVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseTableViewBlockVC.h; path = "../../../../../../18_ThirdPartTool/ThirdPartTool/ThirdPartTool/1，TableView升级/3，TableView基类/2,block加统一模式/BaseTableViewBlockVC.h"; sourceTree = "<group>"; };
-		42166F9022801358006724CD /* BaseTableViewBlockVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseTableViewBlockVC.m; path = "../../../../../../18_ThirdPartTool/ThirdPartTool/ThirdPartTool/1，TableView升级/3，TableView基类/2,block加统一模式/BaseTableViewBlockVC.m"; sourceTree = "<group>"; };
 		42166F9822801368006724CD /* TableViewDemosVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDemosVC.h; sourceTree = "<group>"; };
 		42166F9922801368006724CD /* TableViewDemosVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDemosVC.m; sourceTree = "<group>"; };
 		42166F9B22801369006724CD /* HSZhiHuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSZhiHuTableViewController.m; sourceTree = "<group>"; };
@@ -2813,10 +2789,6 @@
 		42DE3C32226487AA00422577 /* FrameLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameLayoutTableViewCell.h; sourceTree = "<group>"; };
 		42DE3C33226487AA00422577 /* FrameLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrameLayoutTableViewCell.m; sourceTree = "<group>"; };
 		42DE3C34226487AA00422577 /* FrameCountTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameCountTableViewController.h; sourceTree = "<group>"; };
-		42DE3C36226487AA00422577 /* AsyncDisplayKitTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDisplayKitTableViewCell.h; sourceTree = "<group>"; };
-		42DE3C37226487AA00422577 /* AsyncDisplayKitTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDisplayKitTableViewController.m; sourceTree = "<group>"; };
-		42DE3C38226487AA00422577 /* AsyncDisplayKitTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncDisplayKitTableViewCell.m; sourceTree = "<group>"; };
-		42DE3C39226487AA00422577 /* AsyncDisplayKitTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncDisplayKitTableViewController.h; sourceTree = "<group>"; };
 		42DE3C48226487E000422577 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		42DE3C4A226487E000422577 /* DataSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSupport.m; sourceTree = "<group>"; };
 		42DE3C4B226487E000422577 /* DataSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSupport.h; sourceTree = "<group>"; };
@@ -3199,17 +3171,6 @@
 			path = "2，tableView基类-代理写";
 			sourceTree = "<group>";
 		};
-		42166F642280124C006724CD /* 3，tableView基类-block写 */ = {
-			isa = PBXGroup;
-			children = (
-				42166F8F22801358006724CD /* BaseTableViewBlockVC.h */,
-				42166F9022801358006724CD /* BaseTableViewBlockVC.m */,
-				42166F8A22801358006724CD /* BaseTableView */,
-				42166F8022801358006724CD /* LYEmptyView */,
-			);
-			path = "3，tableView基类-block写";
-			sourceTree = "<group>";
-		};
 		42166F652280128E006724CD /* 4，tableVIewController基类 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3254,35 +3215,6 @@
 				42166F7522801300006724CD /* BaseTableView.h */,
 			);
 			path = BaseTableView;
-			sourceTree = "<group>";
-		};
-		42166F8022801358006724CD /* LYEmptyView */ = {
-			isa = PBXGroup;
-			children = (
-				42166F8122801358006724CD /* LYEmptyBaseView.m */,
-				42166F8222801358006724CD /* LYEmptyView.h */,
-				42166F8322801358006724CD /* UIView+Empty.m */,
-				42166F8422801358006724CD /* UIView+LYExtension.m */,
-				42166F8522801358006724CD /* LYEmptyBaseView.h */,
-				42166F8622801358006724CD /* LYEmptyViewHeader.h */,
-				42166F8722801358006724CD /* LYEmptyView.m */,
-				42166F8822801358006724CD /* UIView+LYExtension.h */,
-				42166F8922801358006724CD /* UIView+Empty.h */,
-			);
-			name = LYEmptyView;
-			path = "../../../../../../18_ThirdPartTool/ThirdPartTool/ThirdPartTool/1，TableView升级/3，TableView基类/2,block加统一模式/LYEmptyView";
-			sourceTree = "<group>";
-		};
-		42166F8A22801358006724CD /* BaseTableView */ = {
-			isa = PBXGroup;
-			children = (
-				42166F8D22801358006724CD /* BaseBlockTableView.h */,
-				42166F8B22801358006724CD /* BaseBlockTableView.m */,
-				42166F8C22801358006724CD /* BaseEmptyView.m */,
-				42166F8E22801358006724CD /* BaseEmptyView.h */,
-			);
-			name = BaseTableView;
-			path = "../../../../../../18_ThirdPartTool/ThirdPartTool/ThirdPartTool/1，TableView升级/3，TableView基类/2,block加统一模式/BaseTableView";
 			sourceTree = "<group>";
 		};
 		42166F9A22801369006724CD /* Controllers */ = {
@@ -7985,7 +7917,6 @@
 				42DE3C1A2264878D00422577 /* NotEquelCellHeightVC.h */,
 				42DE3C1B2264878D00422577 /* NotEquelCellHeightVC.m */,
 				42DE3C46226487C600422577 /* Sources */,
-				42DE3C35226487AA00422577 /* AsyncDisplayKitTableViewController */,
 				42DE3C2A226487AA00422577 /* AutolayoutTableViewController */,
 				42DE3C27226487A900422577 /* CountHeightTableViewController */,
 				42DE3C30226487AA00422577 /* FrameCountTableViewController */,
@@ -8046,17 +7977,6 @@
 				42DE3C34226487AA00422577 /* FrameCountTableViewController.h */,
 			);
 			path = FrameCountTableViewController;
-			sourceTree = "<group>";
-		};
-		42DE3C35226487AA00422577 /* AsyncDisplayKitTableViewController */ = {
-			isa = PBXGroup;
-			children = (
-				42DE3C36226487AA00422577 /* AsyncDisplayKitTableViewCell.h */,
-				42DE3C37226487AA00422577 /* AsyncDisplayKitTableViewController.m */,
-				42DE3C38226487AA00422577 /* AsyncDisplayKitTableViewCell.m */,
-				42DE3C39226487AA00422577 /* AsyncDisplayKitTableViewController.h */,
-			);
-			path = AsyncDisplayKitTableViewController;
 			sourceTree = "<group>";
 		};
 		42DE3C46226487C600422577 /* Sources */ = {
@@ -8360,7 +8280,6 @@
 				42E9FA49226FF3C000D840A2 /* 6，一般封装tableView */,
 				42166F66228012BF006724CD /* 5，多种cell组合 */,
 				42166F652280128E006724CD /* 4，tableVIewController基类 */,
-				42166F642280124C006724CD /* 3，tableView基类-block写 */,
 				42166F6322801232006724CD /* 2，tableView基类-代理写 */,
 				42166F62228011A5006724CD /* 1，CCtableview-拆分 */,
 			);
@@ -8946,7 +8865,6 @@
 				42D1C77922783F55001F170F /* WHC_KeyboardHeaderView.m in Sources */,
 				42C4DF25215F2B3000247949 /* UITableViewCell+Animated.m in Sources */,
 				426707452121325B00046FE6 /* ExampleDynamicHeightCell.m in Sources */,
-				42DE3C44226487AA00422577 /* AsyncDisplayKitTableViewController.m in Sources */,
 				422789212145F44F002B9C13 /* JXPagingListContainerView.m in Sources */,
 				42C5B4C921422F5300563794 /* AttributedLabelCell.m in Sources */,
 				42CF2C1B21A54B9000951C6D /* ZLYTextView.m in Sources */,
@@ -8984,7 +8902,6 @@
 				42B573ED213FD11C0089CFDF /* UIButton+Category.m in Sources */,
 				426854FC223F2C9400680CDA /* UITableViewController+EasyNavigationExt.m in Sources */,
 				42DD8DCC21A7ACA400CB04A5 /* AAPLCustomPresentationFirstViewController.m in Sources */,
-				42166F9222801358006724CD /* UIView+Empty.m in Sources */,
 				422788A42145F431002B9C13 /* JXCategoryNumberCell.m in Sources */,
 				42D1C6562277E719001F170F /* EasyTextView.m in Sources */,
 				42CB7E8021391F3F003397FB /* WebviewLoadingHtmlController.m in Sources */,
@@ -9229,7 +9146,6 @@
 				421670152280136A006724CD /* HSCategoryViewController.m in Sources */,
 				42C5B4C521422F5300563794 /* TYLabelViewController.m in Sources */,
 				42D1C6532277E719001F170F /* EasyLoadingTypes.m in Sources */,
-				42166F9422801358006724CD /* LYEmptyView.m in Sources */,
 				42B182762106D07800C1E682 /* UIButton+Enlarge.m in Sources */,
 				42C783D1213CCBFF0012188E /* YZPullDownMenu.m in Sources */,
 				42166F7822801300006724CD /* CustomCell.m in Sources */,
@@ -9243,7 +9159,6 @@
 				422789272145F44F002B9C13 /* JXBaseViewController.m in Sources */,
 				422AB7012174278A0019F1D9 /* ARAlignLabel.m in Sources */,
 				429B15122160C2FC00F595FC /* STRefreshHeader.m in Sources */,
-				42166F9522801358006724CD /* BaseBlockTableView.m in Sources */,
 				42CB7E7A21391F3F003397FB /* WebviewCell.m in Sources */,
 				4291629922637CF7005C8626 /* EffectiveCornerVC.m in Sources */,
 				4238B93121255B4A00AF272E /* ImgTool.m in Sources */,
@@ -9329,7 +9244,6 @@
 				42F1393123D5A8930082813B /* AttributedClickableView.m in Sources */,
 				42DD8DCA21A7ACA400CB04A5 /* AAPLCustomPresentationController.m in Sources */,
 				429CB108210436960063A0D8 /* TAAnimatedDotView.m in Sources */,
-				42166F9622801358006724CD /* BaseEmptyView.m in Sources */,
 				429CB105210436960063A0D8 /* SDCollectionViewCell.m in Sources */,
 				42DD8DC621A7ACA400CB04A5 /* AAPLCrossDissolveFirstViewController.m in Sources */,
 				42CD424D22603F2800652FA6 /* InputWithSpaceVC.m in Sources */,
@@ -9446,7 +9360,6 @@
 				42C4DF21215F2B3000247949 /* UITableView+Animated.m in Sources */,
 				42BF8198211A88BB0090E612 /* CQCategoryItemModel.m in Sources */,
 				4242B950212A72D800C3A2C5 /* UIView+Frame.m in Sources */,
-				42166F9722801358006724CD /* BaseTableViewBlockVC.m in Sources */,
 				42D42FD4225C7C0600EA4AA8 /* CustomBannerScrollVC.m in Sources */,
 				42DE3C64226487E100422577 /* ImageCache.m in Sources */,
 				42C5B69F2142699B00563794 /* SXColorListCell.m in Sources */,
@@ -9681,7 +9594,6 @@
 				42C7836A213CC45B0012188E /* NibSelfSizingCell.m in Sources */,
 				42C78353213CC45B0012188E /* Post.m in Sources */,
 				4265FB1C2265C5C700EA45CE /* UIBarButtonItem+Custom.m in Sources */,
-				42DE3C45226487AA00422577 /* AsyncDisplayKitTableViewCell.m in Sources */,
 				42C783CA213CCB6A0012188E /* YZDropViewController.m in Sources */,
 				42CB7E7D21391F3F003397FB /* LxButton.m in Sources */,
 				422789102145F44F002B9C13 /* DotViewController.m in Sources */,
@@ -9757,7 +9669,6 @@
 				42B573E0213FC1FE0089CFDF /* SGPageContentCollectionView.m in Sources */,
 				427B4945227E889400675542 /* ImageCacheVC.m in Sources */,
 				42C78378213CC45B0012188E /* LabelCell.m in Sources */,
-				42166F9322801358006724CD /* UIView+LYExtension.m in Sources */,
 				42C5B4BD21422F5300563794 /* ParseTextViewController.m in Sources */,
 				426018D32338A89A00AF656A /* WellKnownSayingOneCellModel.m in Sources */,
 				426707432121325B00046FE6 /* ExampleData.m in Sources */,
@@ -9778,7 +9689,6 @@
 				42340AA1228BE9D500BAF230 /* IndexAnimationDemo1VC.m in Sources */,
 				4277D7E8241F65AD00AEC27A /* MyTwoView.m in Sources */,
 				42C787DA213D2BA50012188E /* SGCountdownVC.m in Sources */,
-				42166F9122801358006724CD /* LYEmptyBaseView.m in Sources */,
 				42D1C6BB2277E835001F170F /* CQContentsModel.m in Sources */,
 				422789342145F44F002B9C13 /* JXCategoryTitleAttributeView.m in Sources */,
 				4265FB0F2265C41D00EA45CE /* NavigationBarBackgroundViewController.m in Sources */,

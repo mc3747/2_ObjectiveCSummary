@@ -16,11 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+//    AsyncDisplayKit改成了Texture，暂未处理
     self.vcNameArray = @[@[@"AutolayoutTableViewController",
                            @"CountHeightTableViewController",
                            @"FrameCountTableViewController",
                            @"YYKitTableViewController",
-                           @"AsyncDisplayKitTableViewController",]];
+                           @"",]];
     
     self.subtitleArray = @[@[@"autolay方式",
                              @"countHeight方式",

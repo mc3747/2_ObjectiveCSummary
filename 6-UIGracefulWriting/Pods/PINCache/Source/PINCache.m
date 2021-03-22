@@ -4,7 +4,11 @@
 
 #import "PINCache.h"
 
+#if SWIFT_PACKAGE
+@import PINOperation;
+#else
 #import <PINOperation/PINOperation.h>
+#endif
 
 static NSString * const PINCachePrefix = @"com.pinterest.PINCache";
 static NSString * const PINCacheSharedName = @"PINCacheShared";
@@ -26,20 +30,35 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
 
 - (instancetype)initWithName:(NSString *)name
 {
-    return [self initWithName:name fileExtension:nil];
+    return [self initWithName:name rootPath:[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject]];
 }
 
-- (instancetype)initWithName:(NSString *)name fileExtension:(NSString *)fileExtension
+- (instancetype)initWithName:(NSString *)name rootPath:(NSString *)rootPath
 {
-    return [self initWithName:name rootPath:[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) firstObject] fileExtension:fileExtension];
+    return [self initWithName:name rootPath:rootPath serializer:nil deserializer:nil];
 }
 
-- (instancetype)initWithName:(NSString *)name rootPath:(NSString *)rootPath fileExtension:(NSString *)fileExtension
+- (instancetype)initWithName:(NSString *)name rootPath:(NSString *)rootPath serializer:(PINDiskCacheSerializerBlock)serializer deserializer:(PINDiskCacheDeserializerBlock)deserializer {
+    return [self initWithName:name rootPath:rootPath serializer:serializer deserializer:deserializer keyEncoder:nil keyDecoder:nil];
+}
+
+- (instancetype)initWithName:(NSString *)name
+                    rootPath:(NSString *)rootPath
+                  serializer:(PINDiskCacheSerializerBlock)serializer
+                deserializer:(PINDiskCacheDeserializerBlock)deserializer
+                  keyEncoder:(PINDiskCacheKeyEncoderBlock)keyEncoder
+                  keyDecoder:(PINDiskCacheKeyDecoderBlock)keyDecoder
 {
-    return [self initWithName:name rootPath:rootPath serializer:nil deserializer:nil fileExtension:fileExtension];
+    return [self initWithName:name rootPath:rootPath serializer:serializer deserializer:deserializer keyEncoder:keyEncoder keyDecoder:keyDecoder ttlCache:NO];
 }
 
-- (instancetype)initWithName:(NSString *)name rootPath:(NSString *)rootPath serializer:(PINDiskCacheSerializerBlock)serializer deserializer:(PINDiskCacheDeserializerBlock)deserializer fileExtension:(NSString *)fileExtension
+- (instancetype)initWithName:(NSString *)name
+                    rootPath:(NSString *)rootPath
+                  serializer:(PINDiskCacheSerializerBlock)serializer
+                deserializer:(PINDiskCacheDeserializerBlock)deserializer
+                  keyEncoder:(PINDiskCacheKeyEncoderBlock)keyEncoder
+                  keyDecoder:(PINDiskCacheKeyDecoderBlock)keyDecoder
+                    ttlCache:(BOOL)ttlCache
 {
     if (!name)
         return nil;
@@ -49,8 +68,16 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
       
         //10 may actually be a bit high, but currently much of our threads are blocked on empyting the trash. Until we can resolve that, lets bump this up.
         _operationQueue = [[PINOperationQueue alloc] initWithMaxConcurrentOperations:10];
-        _diskCache = [[PINDiskCache alloc] initWithName:_name prefix:PINDiskCachePrefix rootPath:rootPath serializer:serializer deserializer:deserializer fileExtension:fileExtension operationQueue:_operationQueue];
-        _memoryCache = [[PINMemoryCache alloc] initWithOperationQueue:_operationQueue];
+        _diskCache = [[PINDiskCache alloc] initWithName:_name
+                                                 prefix:PINDiskCachePrefix
+                                               rootPath:rootPath
+                                             serializer:serializer
+                                           deserializer:deserializer
+                                             keyEncoder:keyEncoder
+                                             keyDecoder:keyDecoder
+                                         operationQueue:_operationQueue
+                                               ttlCache:ttlCache];
+        _memoryCache = [[PINMemoryCache alloc] initWithName:_name operationQueue:_operationQueue ttlCache:ttlCache];
     }
     return self;
 }
@@ -79,13 +106,9 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     if (!key || !block) {
         return;
     }
-    
-    __weak PINCache *weakSelf = self;
   
-    [self.operationQueue addOperation:^{
-        PINCache *strongSelf = weakSelf;
-        
-        BOOL containsObject = [strongSelf containsObjectForKey:key];
+    [self.operationQueue scheduleOperation:^{
+        BOOL containsObject = [self containsObjectForKey:key];
         block(containsObject);
     }];
 }
@@ -98,37 +121,21 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     if (!key || !block)
         return;
     
-    __weak PINCache *weakSelf = self;
-    
-    [self.operationQueue addOperation:^{
-        PINCache *strongSelf = weakSelf;
-        if (!strongSelf)
-            return;
-        [strongSelf->_memoryCache objectForKeyAsync:key completion:^(PINMemoryCache *memoryCache, NSString *memoryCacheKey, id memoryCacheObject) {
-            PINCache *strongSelf = weakSelf;
-            if (!strongSelf)
-                return;
-            
+    [self.operationQueue scheduleOperation:^{
+        [self->_memoryCache objectForKeyAsync:key completion:^(id<PINCaching> memoryCache, NSString *memoryCacheKey, id memoryCacheObject) {
             if (memoryCacheObject) {
                 // Update file modification date. TODO: make this a separate method?
-                [strongSelf->_diskCache fileURLForKeyAsync:memoryCacheKey completion:^(NSString * _Nonnull key, NSURL * _Nullable fileURL) {}];
-                [strongSelf->_operationQueue addOperation:^{
-                    PINCache *strongSelf = weakSelf;
-                    if (strongSelf)
-                        block(strongSelf, memoryCacheKey, memoryCacheObject);
+                [self->_diskCache fileURLForKeyAsync:memoryCacheKey completion:^(NSString * _Nonnull key, NSURL * _Nullable fileURL) {}];
+                [self->_operationQueue scheduleOperation:^{
+                    block(self, memoryCacheKey, memoryCacheObject);
                 }];
             } else {
-                [strongSelf->_diskCache objectForKeyAsync:memoryCacheKey completion:^(PINDiskCache *diskCache, NSString *diskCacheKey, id <NSCoding> diskCacheObject) {
-                    PINCache *strongSelf = weakSelf;
-                    if (!strongSelf)
-                        return;
+                [self->_diskCache objectForKeyAsync:memoryCacheKey completion:^(PINDiskCache *diskCache, NSString *diskCacheKey, id <NSCoding> diskCacheObject) {
                     
-                    [strongSelf->_memoryCache setObjectAsync:diskCacheObject forKey:diskCacheKey completion:nil];
+                    [self->_memoryCache setObjectAsync:diskCacheObject forKey:diskCacheKey completion:nil];
                     
-                    [strongSelf->_operationQueue addOperation:^{
-                        PINCache *strongSelf = weakSelf;
-                        if (strongSelf)
-                            block(strongSelf, diskCacheKey, diskCacheObject);
+                    [self->_operationQueue scheduleOperation:^{
+                        block(self, diskCacheKey, diskCacheObject);
                     }];
                 }];
             }
@@ -143,7 +150,17 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     [self setObjectAsync:object forKey:key withCost:0 completion:block];
 }
 
+- (void)setObjectAsync:(id <NSCoding>)object forKey:(NSString *)key withAgeLimit:(NSTimeInterval)ageLimit completion:(PINCacheObjectBlock)block
+{
+    [self setObjectAsync:object forKey:key withCost:0 ageLimit:ageLimit completion:block];
+}
+
 - (void)setObjectAsync:(id <NSCoding>)object forKey:(NSString *)key withCost:(NSUInteger)cost completion:(PINCacheObjectBlock)block
+{
+    [self setObjectAsync:object forKey:key withCost:cost ageLimit:0.0 completion:block];
+}
+
+- (void)setObjectAsync:(nonnull id)object forKey:(nonnull NSString *)key withCost:(NSUInteger)cost ageLimit:(NSTimeInterval)ageLimit completion:(nullable PINCacheObjectBlock)block
 {
     if (!key || !object)
         return;
@@ -151,10 +168,10 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     PINOperationGroup *group = [PINOperationGroup asyncOperationGroupWithQueue:_operationQueue];
     
     [group addOperation:^{
-        [_memoryCache setObject:object forKey:key withCost:cost];
+        [self->_memoryCache setObject:object forKey:key withCost:cost ageLimit:ageLimit];
     }];
     [group addOperation:^{
-        [_diskCache setObject:object forKey:key];
+        [self->_diskCache setObject:object forKey:key withAgeLimit:ageLimit];
     }];
   
     if (block) {
@@ -174,10 +191,10 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     PINOperationGroup *group = [PINOperationGroup asyncOperationGroupWithQueue:_operationQueue];
     
     [group addOperation:^{
-        [_memoryCache removeObjectForKey:key];
+        [self->_memoryCache removeObjectForKey:key];
     }];
     [group addOperation:^{
-        [_diskCache removeObjectForKey:key];
+        [self->_diskCache removeObjectForKey:key];
     }];
 
     if (block) {
@@ -194,10 +211,10 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     PINOperationGroup *group = [PINOperationGroup asyncOperationGroupWithQueue:_operationQueue];
     
     [group addOperation:^{
-        [_memoryCache removeAllObjects];
+        [self->_memoryCache removeAllObjects];
     }];
     [group addOperation:^{
-        [_diskCache removeAllObjects];
+        [self->_diskCache removeAllObjects];
     }];
 
     if (block) {
@@ -217,10 +234,10 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     PINOperationGroup *group = [PINOperationGroup asyncOperationGroupWithQueue:_operationQueue];
     
     [group addOperation:^{
-        [_memoryCache trimToDate:date];
+        [self->_memoryCache trimToDate:date];
     }];
     [group addOperation:^{
-        [_diskCache trimToDate:date];
+        [self->_diskCache trimToDate:date];
     }];
   
     if (block) {
@@ -232,14 +249,34 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     [group start];
 }
 
+- (void)removeExpiredObjectsAsync:(PINCacheBlock)block
+{
+    PINOperationGroup *group = [PINOperationGroup asyncOperationGroupWithQueue:_operationQueue];
+
+    [group addOperation:^{
+        [self->_memoryCache removeExpiredObjects];
+    }];
+    [group addOperation:^{
+        [self->_diskCache removeExpiredObjects];
+    }];
+
+    if (block) {
+        [group setCompletion:^{
+            block(self);
+        }];
+    }
+
+    [group start];
+}
+
 #pragma mark - Public Synchronous Accessors -
 
 - (NSUInteger)diskByteCount
 {
     __block NSUInteger byteCount = 0;
     
-    [_diskCache synchronouslyLockFileAccessWhileExecutingBlock:^(PINDiskCache *diskCache) {
-        byteCount = diskCache.byteCount;
+    [_diskCache synchronouslyLockFileAccessWhileExecutingBlock:^(id<PINCaching> diskCache) {
+        byteCount = ((PINDiskCache *)diskCache).byteCount;
     }];
     
     return byteCount;
@@ -278,13 +315,23 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     [self setObject:object forKey:key withCost:0];
 }
 
+- (void)setObject:(id <NSCoding>)object forKey:(NSString *)key withAgeLimit:(NSTimeInterval)ageLimit
+{
+    [self setObject:object forKey:key withCost:0 ageLimit:ageLimit];
+}
+
 - (void)setObject:(id <NSCoding>)object forKey:(NSString *)key withCost:(NSUInteger)cost
+{
+    [self setObject:object forKey:key withCost:cost ageLimit:0.0];
+}
+
+- (void)setObject:(nullable id)object forKey:(nonnull NSString *)key withCost:(NSUInteger)cost ageLimit:(NSTimeInterval)ageLimit
 {
     if (!key || !object)
         return;
     
-    [_memoryCache setObject:object forKey:key withCost:cost];
-    [_diskCache setObject:object forKey:key];
+    [_memoryCache setObject:object forKey:key withCost:cost ageLimit:ageLimit];
+    [_diskCache setObject:object forKey:key withAgeLimit:ageLimit];
 }
 
 - (nullable id)objectForKeyedSubscript:(NSString *)key
@@ -317,6 +364,12 @@ static NSString * const PINCacheSharedName = @"PINCacheShared";
     
     [_memoryCache trimToDate:date];
     [_diskCache trimToDate:date];
+}
+
+- (void)removeExpiredObjects
+{
+    [_memoryCache removeExpiredObjects];
+    [_diskCache removeExpiredObjects];
 }
 
 - (void)removeAllObjects

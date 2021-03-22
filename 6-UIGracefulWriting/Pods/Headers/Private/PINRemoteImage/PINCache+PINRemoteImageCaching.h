@@ -1,1 +1,1 @@
-../../../PINRemoteImage/Source/Classes/PINCache/PINCache+PINRemoteImageCaching.h
+../../../PINRemoteImage/Source/Classes/include/PINCache+PINRemoteImageCaching.h

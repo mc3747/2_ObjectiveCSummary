@@ -14,10 +14,10 @@ pod 'SWTableViewCell'
 pod 'CYLTabBarController'
 pod 'FMDB'
 pod 'YYKit'
-pod 'AsyncDisplayKit'
 pod 'MJRefresh'
 pod 'MJExtension'
 pod 'DZNEmptyDataSet'
 
+pod "Texture"
 
 end

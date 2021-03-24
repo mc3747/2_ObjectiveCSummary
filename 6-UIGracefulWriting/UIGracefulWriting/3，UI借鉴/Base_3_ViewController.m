@@ -19,9 +19,7 @@
     self.title = @"UI借鉴";
     self.vcNameArray = @[@[@"DemosViewController",@"",@"",@""],@[@"",@"",@"",@""]];
     
-    self.subtitleArray = @[@[@"IGListKit案例",@"MJRefresh",@"腾讯的QMUI",@"Qi分享团队"],@[@"BSY.com封装的很好",@"BAUIKit非常好",@"无业之星辰CaiWanFeng封装的不错",@"吴海超(WHC)不错"]];
-    
-    
+    self.subtitleArray = @[@[@"IGListKit案例",@"MJRefresh",@"腾讯的QMUI",@"Qi分享团队"],@[@"baishiyun(白仕云)",@"BAUIKit(baoai,孙博岩,https://github.com/BAHome)",@"无夜之星辰(无业之星辰)",@"WHC(吴海超)不错"]];
 }
 
 @end

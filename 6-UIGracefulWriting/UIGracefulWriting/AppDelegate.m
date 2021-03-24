@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
 #import "ScreenBlurry.h"
 #import "AppDelegate+LaunchView.h"
 #import "WCYADImageView.h"

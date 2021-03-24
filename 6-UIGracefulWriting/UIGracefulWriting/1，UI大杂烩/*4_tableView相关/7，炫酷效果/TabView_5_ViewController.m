@@ -29,8 +29,8 @@
 
 - (void)pushVC {
     Common_ViewController *vc = [[Common_ViewController alloc] init];
-    vc.subtitleArray = @[@[@"1_点击折叠cell",@"2_滑动cell编辑",@"3_点击动画打开cell"]];
-    vc.vcNameArray = @[@[@"FoldCellVC",@"SwipEditorCellVC",@"FoldCellAnimateVC"]];
+    vc.subtitleArray = @[@[@"点击折叠cell",@"滑动cell编辑",@"点击动画打开cell",@"便签效果"]];
+    vc.vcNameArray = @[@[@"FoldCellVC",@"SwipEditorCellVC",@"FoldCellAnimateVC",@"MemoTableViewController"]];
     [self.navigationController pushViewController:vc animated:YES];
 }
 

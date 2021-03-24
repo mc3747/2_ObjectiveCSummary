@@ -490,7 +490,6 @@
 		42B573ED213FD11C0089CFDF /* UIButton+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B573EC213FD11C0089CFDF /* UIButton+Category.m */; };
 		42BAFEF92108772D003CFD9A /* TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BAFEF82108772D003CFD9A /* TextViewViewController.m */; };
 		42BB66E920D1231A007BE2CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB66E820D1231A007BE2CF /* AppDelegate.m */; };
-		42BB66EC20D1231A007BE2CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB66EB20D1231A007BE2CF /* ViewController.m */; };
 		42BB66EF20D1231A007BE2CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BB66ED20D1231A007BE2CF /* Main.storyboard */; };
 		42BB66F420D1231B007BE2CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BB66F220D1231B007BE2CF /* LaunchScreen.storyboard */; };
 		42BB66F720D1231B007BE2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42BB66F620D1231B007BE2CF /* main.m */; };
@@ -1008,6 +1007,8 @@
 		42FB510F23A8D34700C5E315 /* AttributedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */; };
 		42FB511023A8D34700C5E315 /* CJLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510623A8D34700C5E315 /* CJLabelViewController.m */; };
 		42FB511223A8D4A800C5E315 /* Example.json in Resources */ = {isa = PBXBuildFile; fileRef = 42FB511123A8D4A800C5E315 /* Example.json */; };
+		4BB642F4260AE309003355C6 /* ElegantTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB642EF260AE309003355C6 /* ElegantTableViewVC.m */; };
+		4BB642F5260AE309003355C6 /* ElegantTableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB642F1260AE309003355C6 /* ElegantTableViewGenerator.m */; };
 		7AAE78BAA5A74D93D9F72D30 /* libPods-UIGracefulWriting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14963D90AB1CDCB894329DCE /* libPods-UIGracefulWriting.a */; };
 /* End PBXBuildFile section */
 
@@ -1966,8 +1967,6 @@
 		42BB66E420D1231A007BE2CF /* UIGracefulWriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIGracefulWriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BB66E720D1231A007BE2CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		42BB66E820D1231A007BE2CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		42BB66EA20D1231A007BE2CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		42BB66EB20D1231A007BE2CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		42BB66EE20D1231A007BE2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		42BB66F320D1231B007BE2CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BB66F520D1231B007BE2CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2958,6 +2957,10 @@
 		42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedTableViewCell.m; sourceTree = "<group>"; };
 		42FB510623A8D34700C5E315 /* CJLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLabelViewController.m; sourceTree = "<group>"; };
 		42FB511123A8D4A800C5E315 /* Example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Example.json; sourceTree = "<group>"; };
+		4BB642EF260AE309003355C6 /* ElegantTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewVC.m; sourceTree = "<group>"; };
+		4BB642F1260AE309003355C6 /* ElegantTableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewGenerator.m; sourceTree = "<group>"; };
+		4BB642F2260AE309003355C6 /* ElegantTableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegantTableViewGenerator.h; sourceTree = "<group>"; };
+		4BB642F3260AE309003355C6 /* ElegantTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegantTableViewVC.h; sourceTree = "<group>"; };
 		738B0AD82298246E9B0FD270 /* Pods-UIGracefulWriting.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIGracefulWriting.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIGracefulWriting/Pods-UIGracefulWriting.release.xcconfig"; sourceTree = "<group>"; };
 		80C7864567D28FF1398761C7 /* Pods-UIGracefulWriting.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIGracefulWriting.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIGracefulWriting/Pods-UIGracefulWriting.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -5819,8 +5822,6 @@
 				42CFD906215E14F6005792BD /* AppDelegate+LaunchView.m */,
 				42B1826D2106CA9E00C1E682 /* Controllers */,
 				429CB1BD21043C3E0063A0D8 /* Resources */,
-				42BB66EA20D1231A007BE2CF /* ViewController.h */,
-				42BB66EB20D1231A007BE2CF /* ViewController.m */,
 				42BF81B1211A8B0C0090E612 /* PrefixHeader.pch */,
 				42204D75215CB941002447BF /* Images.xcassets */,
 				42BB66ED20D1231A007BE2CF /* Main.storyboard */,
@@ -6159,7 +6160,7 @@
 			path = "3,倒计时label";
 			sourceTree = "<group>";
 		};
-		42C4DF03215F2A6C00247949 /* 7，无数据动画tableview */ = {
+		42C4DF03215F2A6C00247949 /* 9，无数据动画tableview */ = {
 			isa = PBXGroup;
 			children = (
 				42C4DF12215F2B2F00247949 /* Controller */,
@@ -6168,7 +6169,7 @@
 				42C4DF04215F2B2F00247949 /* TABAnimated */,
 				42C4DF15215F2B3000247949 /* View */,
 			);
-			path = "7，无数据动画tableview";
+			path = "9，无数据动画tableview";
 			sourceTree = "<group>";
 		};
 		42C4DF04215F2B2F00247949 /* TABAnimated */ = {
@@ -6969,7 +6970,7 @@
 			path = "5，小众1-TY系列";
 			sourceTree = "<group>";
 		};
-		42CB7E8321393900003397FB /* 8，便签效果 */ = {
+		42CB7E8321393900003397FB /* 4-便签效果 */ = {
 			isa = PBXGroup;
 			children = (
 				42CB7E88213939C3003397FB /* MemoTableViewController.h */,
@@ -6979,7 +6980,7 @@
 				42CB7E86213939C2003397FB /* UIAlertView+RWBlock.h */,
 				42CB7E84213939C1003397FB /* UIAlertView+RWBlock.m */,
 			);
-			path = "8，便签效果";
+			path = "4-便签效果";
 			sourceTree = "<group>";
 		};
 		42CD41E9226033CE00652FA6 /* #3_键盘遮挡问题（轻量级） */ = {
@@ -8223,13 +8224,14 @@
 			isa = PBXGroup;
 			children = (
 				42EFA8272109BAA900AFC827 /* 1，原生常用 */,
-				42EFA8282109BAC100AFC827 /* 2，自定义等高 */,
-				42EFA8292109BAD700AFC827 /* 3，自定义不等高 */,
-				42EFA82A2109BAE200AFC827 /* 4，优雅地写 */,
-				42EFA82B2109BAFD00AFC827 /* 5，炫酷效果 */,
-				42EFA82C2109BB1700AFC827 /* 6，性能优化 */,
-				42C4DF03215F2A6C00247949 /* 7，无数据动画tableview */,
-				42CB7E8321393900003397FB /* 8，便签效果 */,
+				4BB642EE260AE309003355C6 /* 2，一般封装 */,
+				4BB64319260AEC19003355C6 /* 3，完整封装 */,
+				42EFA8282109BAC100AFC827 /* 4，自定义等高 */,
+				42EFA8292109BAD700AFC827 /* 5，自定义不等高 */,
+				42EFA82A2109BAE200AFC827 /* 6，优雅地写 */,
+				42EFA82B2109BAFD00AFC827 /* 7，炫酷效果 */,
+				42EFA82C2109BB1700AFC827 /* 8，性能优化 */,
+				42C4DF03215F2A6C00247949 /* 9，无数据动画tableview */,
 			);
 			path = "*4_tableView相关";
 			sourceTree = "<group>";
@@ -8247,7 +8249,7 @@
 			path = "1，原生常用";
 			sourceTree = "<group>";
 		};
-		42EFA8282109BAC100AFC827 /* 2，自定义等高 */ = {
+		42EFA8282109BAC100AFC827 /* 4，自定义等高 */ = {
 			isa = PBXGroup;
 			children = (
 				42EFA8302109BBCC00AFC827 /* TabView_2_ViewController.h */,
@@ -8258,19 +8260,19 @@
 				42C519DA211C3E3400742239 /* XMGDealCell.m */,
 				42C519DE211C3E5400742239 /* deals.plist */,
 			);
-			path = "2，自定义等高";
+			path = "4，自定义等高";
 			sourceTree = "<group>";
 		};
-		42EFA8292109BAD700AFC827 /* 3，自定义不等高 */ = {
+		42EFA8292109BAD700AFC827 /* 5，自定义不等高 */ = {
 			isa = PBXGroup;
 			children = (
 				4249E3FC23F1040A007FBE83 /* 1_常用不等高 */,
 				42DE3C192264872B00422577 /* 2_5种不同的不等高tablecell写法 */,
 			);
-			path = "3，自定义不等高";
+			path = "5，自定义不等高";
 			sourceTree = "<group>";
 		};
-		42EFA82A2109BAE200AFC827 /* 4，优雅地写 */ = {
+		42EFA82A2109BAE200AFC827 /* 6，优雅地写 */ = {
 			isa = PBXGroup;
 			children = (
 				421670452280145D006724CD /* GracefulTableViewVC.h */,
@@ -8283,10 +8285,10 @@
 				42166F6322801232006724CD /* 2，tableView基类-代理写 */,
 				42166F62228011A5006724CD /* 1，CCtableview-拆分 */,
 			);
-			path = "4，优雅地写";
+			path = "6，优雅地写";
 			sourceTree = "<group>";
 		};
-		42EFA82B2109BAFD00AFC827 /* 5，炫酷效果 */ = {
+		42EFA82B2109BAFD00AFC827 /* 7，炫酷效果 */ = {
 			isa = PBXGroup;
 			children = (
 				42EFA8392109BBF700AFC827 /* TabView_5_ViewController.h */,
@@ -8294,11 +8296,12 @@
 				42C444642217F5FC004983B3 /* 1-点击折叠cell */,
 				42C444652217F610004983B3 /* 2-滑动编辑 */,
 				42C444662217F62D004983B3 /* 3-点击动画展开 */,
+				42CB7E8321393900003397FB /* 4-便签效果 */,
 			);
-			path = "5，炫酷效果";
+			path = "7，炫酷效果";
 			sourceTree = "<group>";
 		};
-		42EFA82C2109BB1700AFC827 /* 6，性能优化 */ = {
+		42EFA82C2109BB1700AFC827 /* 8，性能优化 */ = {
 			isa = PBXGroup;
 			children = (
 				42EFA83C2109BC0600AFC827 /* TabView_6_ViewController.h */,
@@ -8307,7 +8310,7 @@
 				42166F29227FE26A006724CD /* 2，tableview解耦 */,
 				42E8E113221A84A700A04331 /* 1，tableview分页加载 */,
 			);
-			path = "6，性能优化";
+			path = "8，性能优化";
 			sourceTree = "<group>";
 		};
 		42F1392A23D5A8060082813B /* 1,富文本可点击 */ = {
@@ -8539,6 +8542,32 @@
 				42FB510023A8D34400C5E315 /* CJLabelConfigure.m */,
 			);
 			path = config;
+			sourceTree = "<group>";
+		};
+		4BB642EE260AE309003355C6 /* 2，一般封装 */ = {
+			isa = PBXGroup;
+			children = (
+				4BB642F3260AE309003355C6 /* ElegantTableViewVC.h */,
+				4BB642EF260AE309003355C6 /* ElegantTableViewVC.m */,
+				4BB642F0260AE309003355C6 /* ElegantTableView */,
+			);
+			path = "2，一般封装";
+			sourceTree = "<group>";
+		};
+		4BB642F0260AE309003355C6 /* ElegantTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4BB642F1260AE309003355C6 /* ElegantTableViewGenerator.m */,
+				4BB642F2260AE309003355C6 /* ElegantTableViewGenerator.h */,
+			);
+			path = ElegantTableView;
+			sourceTree = "<group>";
+		};
+		4BB64319260AEC19003355C6 /* 3，完整封装 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3，完整封装";
 			sourceTree = "<group>";
 		};
 		E735A50B206D935B3AD216D4 /* Frameworks */ = {
@@ -8918,7 +8947,6 @@
 				429CB1B9210436960063A0D8 /* Demo7ViewController.m in Sources */,
 				42D1C6542277E719001F170F /* EasyTextConfig.m in Sources */,
 				42D1C6552277E719001F170F /* EasyAlertTypes.m in Sources */,
-				42BB66EC20D1231A007BE2CF /* ViewController.m in Sources */,
 				42C783C5213CCB6A0012188E /* YZSortCell.m in Sources */,
 				42CD423C22603B6100652FA6 /* CorverUpKeyboardVC.m in Sources */,
 				4265FB0D2265C41D00EA45CE /* NavigationBarMoreButtonController.m in Sources */,
@@ -9173,6 +9201,7 @@
 				42C78388213CC45B0012188E /* StoryboardLabelSectionController.m in Sources */,
 				42D1C6192277E4E6001F170F /* SettingModel.m in Sources */,
 				42C5B4DD214251E700563794 /* ShowViewController.m in Sources */,
+				4BB642F5260AE309003355C6 /* ElegantTableViewGenerator.m in Sources */,
 				42789BF02154759900F85994 /* Test1ViewController.m in Sources */,
 				42C4449922184E5F004983B3 /* PLTableViewController.m in Sources */,
 				425900EC2140BD8100304394 /* AlertTableViewController.m in Sources */,
@@ -9245,6 +9274,7 @@
 				42DD8DCA21A7ACA400CB04A5 /* AAPLCustomPresentationController.m in Sources */,
 				429CB108210436960063A0D8 /* TAAnimatedDotView.m in Sources */,
 				429CB105210436960063A0D8 /* SDCollectionViewCell.m in Sources */,
+				4BB642F4260AE309003355C6 /* ElegantTableViewVC.m in Sources */,
 				42DD8DC621A7ACA400CB04A5 /* AAPLCrossDissolveFirstViewController.m in Sources */,
 				42CD424D22603F2800652FA6 /* InputWithSpaceVC.m in Sources */,
 				429CB0F4210436960063A0D8 /* TYCyclePagerView.m in Sources */,

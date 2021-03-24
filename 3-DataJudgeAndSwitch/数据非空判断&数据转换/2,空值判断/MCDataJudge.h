@@ -31,4 +31,14 @@
 /*7，判断对象是否为非空NSData */
 + (BOOL)judgeNSDataNilWithObject:(id )object;
 
+//是否为空或是[NSNull null]
+#define kYJNotNilAndNull(_ref)  (((_ref) != nil) && (![(_ref) isEqual:[NSNull null]]))
+#define kYJIsNilOrNull(_ref)   (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]))
+
+// 字符串是否为空
+#define kYJStringIsEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref)isEqualToString:@""]))
+
+// 数组是否为空
+#define kYJArrayIsEmpty(_ref)    (((_ref) == nil) || ([(_ref) isEqual:[NSNull null]]) ||([(_ref) count] == 0))
+
 @end

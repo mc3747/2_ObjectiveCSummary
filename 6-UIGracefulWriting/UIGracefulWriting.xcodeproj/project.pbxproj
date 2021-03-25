@@ -5898,13 +5898,13 @@
 		42C444642217F5FC004983B3 /* 1-点击折叠cell */ = {
 			isa = PBXGroup;
 			children = (
+				42C444672217F662004983B3 /* YUFoldingTableView */,
 				42C444712217F664004983B3 /* FoldCellVC.h */,
 				42C444702217F664004983B3 /* FoldCellVC.m */,
 				42C4446D2217F662004983B3 /* YUCustomHeaderView.h */,
 				42C444722217F664004983B3 /* YUCustomHeaderView.m */,
 				42C444742217F666004983B3 /* YUCustomTestController.h */,
 				42C4446F2217F663004983B3 /* YUCustomTestController.m */,
-				42C444672217F662004983B3 /* YUFoldingTableView */,
 				42C4446E2217F663004983B3 /* YUTestViewController.h */,
 				42C444732217F665004983B3 /* YUTestViewController.m */,
 			);
@@ -5940,11 +5940,11 @@
 		42C444672217F662004983B3 /* YUFoldingTableView */ = {
 			isa = PBXGroup;
 			children = (
-				42C444682217F662004983B3 /* YUFoldingTableView.m */,
-				42C444692217F662004983B3 /* YUFoldingSectionHeader.m */,
 				42C4446A2217F662004983B3 /* YUFoldingTableView.h */,
-				42C4446B2217F662004983B3 /* YUFolding_arrow.png */,
+				42C444682217F662004983B3 /* YUFoldingTableView.m */,
 				42C4446C2217F662004983B3 /* YUFoldingSectionHeader.h */,
+				42C444692217F662004983B3 /* YUFoldingSectionHeader.m */,
+				42C4446B2217F662004983B3 /* YUFolding_arrow.png */,
 			);
 			path = YUFoldingTableView;
 			sourceTree = "<group>";
@@ -5952,12 +5952,12 @@
 		42C4447E2217F9B2004983B3 /* HSFolderCell */ = {
 			isa = PBXGroup;
 			children = (
-				42C4447F2217F9B2004983B3 /* UIView+SnapShot.m */,
-				42C444802217F9B2004983B3 /* HSFolderCell.m */,
-				42C444812217F9B2004983B3 /* HSRotatedView.m */,
 				42C444822217F9B2004983B3 /* UIView+SnapShot.h */,
-				42C444832217F9B2004983B3 /* HSRotatedView.h */,
+				42C4447F2217F9B2004983B3 /* UIView+SnapShot.m */,
 				42C444842217F9B2004983B3 /* HSFolderCell.h */,
+				42C444802217F9B2004983B3 /* HSFolderCell.m */,
+				42C444832217F9B2004983B3 /* HSRotatedView.h */,
+				42C444812217F9B2004983B3 /* HSRotatedView.m */,
 			);
 			path = HSFolderCell;
 			sourceTree = "<group>";

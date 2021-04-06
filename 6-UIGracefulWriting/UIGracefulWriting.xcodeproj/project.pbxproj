@@ -983,6 +983,13 @@
 		42FB510F23A8D34700C5E315 /* AttributedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */; };
 		42FB511023A8D34700C5E315 /* CJLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510623A8D34700C5E315 /* CJLabelViewController.m */; };
 		42FB511223A8D4A800C5E315 /* Example.json in Resources */ = {isa = PBXBuildFile; fileRef = 42FB511123A8D4A800C5E315 /* Example.json */; };
+		4B77FE37261BE72F006F439E /* DynamicChangeIconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE36261BE72F006F439E /* DynamicChangeIconVC.m */; };
+		4B77FE46261BE7B9006F439E /* FSAppIconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE3F261BE7B8006F439E /* FSAppIconManager.m */; };
+		4B77FE47261BE7B9006F439E /* male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FE42261BE7B9006F439E /* male@2x.png */; };
+		4B77FE48261BE7B9006F439E /* male@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FE43261BE7B9006F439E /* male@3x.png */; };
+		4B77FE49261BE7B9006F439E /* female@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FE44261BE7B9006F439E /* female@2x.png */; };
+		4B77FE4A261BE7B9006F439E /* female@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FE45261BE7B9006F439E /* female@3x.png */; };
+		4B77FE55261C02E2006F439E /* UIViewController+LQNoPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE54261C02E2006F439E /* UIViewController+LQNoPresent.m */; };
 		4BB642F4260AE309003355C6 /* ElegantTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB642EF260AE309003355C6 /* ElegantTableViewVC.m */; };
 		4BB642F5260AE309003355C6 /* ElegantTableViewGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB642F1260AE309003355C6 /* ElegantTableViewGenerator.m */; };
 		4BB64328260B1A13003355C6 /* Base_1_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB64326260B1A13003355C6 /* Base_1_ViewController.m */; };
@@ -2890,6 +2897,16 @@
 		42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedTableViewCell.m; sourceTree = "<group>"; };
 		42FB510623A8D34700C5E315 /* CJLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLabelViewController.m; sourceTree = "<group>"; };
 		42FB511123A8D4A800C5E315 /* Example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Example.json; sourceTree = "<group>"; };
+		4B77FE35261BE72F006F439E /* DynamicChangeIconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicChangeIconVC.h; sourceTree = "<group>"; };
+		4B77FE36261BE72F006F439E /* DynamicChangeIconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicChangeIconVC.m; sourceTree = "<group>"; };
+		4B77FE3F261BE7B8006F439E /* FSAppIconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppIconManager.m; sourceTree = "<group>"; };
+		4B77FE40261BE7B8006F439E /* FSAppIconManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSAppIconManager.h; sourceTree = "<group>"; };
+		4B77FE42261BE7B9006F439E /* male@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "male@2x.png"; sourceTree = "<group>"; };
+		4B77FE43261BE7B9006F439E /* male@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "male@3x.png"; sourceTree = "<group>"; };
+		4B77FE44261BE7B9006F439E /* female@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female@2x.png"; sourceTree = "<group>"; };
+		4B77FE45261BE7B9006F439E /* female@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "female@3x.png"; sourceTree = "<group>"; };
+		4B77FE53261C02A7006F439E /* UIViewController+LQNoPresent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LQNoPresent.h"; sourceTree = "<group>"; };
+		4B77FE54261C02E2006F439E /* UIViewController+LQNoPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LQNoPresent.m"; sourceTree = "<group>"; };
 		4BB642EF260AE309003355C6 /* ElegantTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewVC.m; sourceTree = "<group>"; };
 		4BB642F1260AE309003355C6 /* ElegantTableViewGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElegantTableViewGenerator.m; sourceTree = "<group>"; };
 		4BB642F2260AE309003355C6 /* ElegantTableViewGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElegantTableViewGenerator.h; sourceTree = "<group>"; };
@@ -4966,6 +4983,8 @@
 			children = (
 				42B3E1172238D88E00379C2D /* Base_2_ViewController.h */,
 				42B3E1182238D88E00379C2D /* Base_2_ViewController.m */,
+				4B77FE34261BE6B9006F439E /* 14，动态换肤 */,
+				4B77FE33261BE6AA006F439E /* 13，动态换app图标 */,
 				425FA0EF22928B6700E00B55 /* 12，自定义控件的方式 */,
 				426D5592228584470060AEF4 /* 11，通用带tableview的VC（基类） */,
 				426D5591228584390060AEF4 /* 10，通用VC（基类） */,
@@ -8336,6 +8355,46 @@
 			path = config;
 			sourceTree = "<group>";
 		};
+		4B77FE33261BE6AA006F439E /* 13，动态换app图标 */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FE41261BE7B9006F439E /* AppIcons */,
+				4B77FE3E261BE7B8006F439E /* FSAppIconManager */,
+				4B77FE35261BE72F006F439E /* DynamicChangeIconVC.h */,
+				4B77FE36261BE72F006F439E /* DynamicChangeIconVC.m */,
+				4B77FE53261C02A7006F439E /* UIViewController+LQNoPresent.h */,
+				4B77FE54261C02E2006F439E /* UIViewController+LQNoPresent.m */,
+			);
+			path = "13，动态换app图标";
+			sourceTree = "<group>";
+		};
+		4B77FE34261BE6B9006F439E /* 14，动态换肤 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "14，动态换肤";
+			sourceTree = "<group>";
+		};
+		4B77FE3E261BE7B8006F439E /* FSAppIconManager */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FE3F261BE7B8006F439E /* FSAppIconManager.m */,
+				4B77FE40261BE7B8006F439E /* FSAppIconManager.h */,
+			);
+			path = FSAppIconManager;
+			sourceTree = "<group>";
+		};
+		4B77FE41261BE7B9006F439E /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FE42261BE7B9006F439E /* male@2x.png */,
+				4B77FE43261BE7B9006F439E /* male@3x.png */,
+				4B77FE44261BE7B9006F439E /* female@2x.png */,
+				4B77FE45261BE7B9006F439E /* female@3x.png */,
+			);
+			path = AppIcons;
+			sourceTree = "<group>";
+		};
 		4BB642EE260AE309003355C6 /* 2，一般封装 */ = {
 			isa = PBXGroup;
 			children = (
@@ -8503,6 +8562,7 @@
 				42C444772217F666004983B3 /* YUFolding_arrow.png in Resources */,
 				42C7836D213CC45B0012188E /* UserHeaderView.xib in Resources */,
 				42B573CB213FC1FE0089CFDF /* ChildFourthPopGestureVC.xib in Resources */,
+				4B77FE48261BE7B9006F439E /* male@3x.png in Resources */,
 				42DD8DC821A7ACA400CB04A5 /* CrossDissolve.storyboard in Resources */,
 				42DD8DD921A7ACA400CB04A5 /* AdaptivePresentation.storyboard in Resources */,
 				42BB66F420D1231B007BE2CF /* LaunchScreen.storyboard in Resources */,
@@ -8512,6 +8572,7 @@
 				42DE3C61226487E100422577 /* 3.jpg in Resources */,
 				4216701F2280136A006724CD /* ic_hs_tableView_arrow@2x.png in Resources */,
 				4242B93F212A72C400C3A2C5 /* RequesCover.xib in Resources */,
+				4B77FE47261BE7B9006F439E /* male@2x.png in Resources */,
 				42C51A28211C445D00742239 /* statuses.plist in Resources */,
 				42551D8D225F1519003DF389 /* DatePickerTool.xib in Resources */,
 				42D1C78A22783F7C001F170F /* StyleVC2.xib in Resources */,
@@ -8535,6 +8596,7 @@
 				42523F39218BDEAD0038CEE3 /* NineGridUsingCollectionVC.xib in Resources */,
 				429CB0F7210436960063A0D8 /* placeholder@2x.png in Resources */,
 				42FB510C23A8D34700C5E315 /* FirstDetailViewController.xib in Resources */,
+				4B77FE49261BE7B9006F439E /* female@2x.png in Resources */,
 				42340AA2228BE9D500BAF230 /* friends.plist in Resources */,
 				42B573D8213FC1FE0089CFDF /* ChildVCTwo.xib in Resources */,
 				429CB0F9210436960063A0D8 /* 005.jpg in Resources */,
@@ -8551,6 +8613,7 @@
 				42DD8DD521A7ACA400CB04A5 /* Checkerboard.storyboard in Resources */,
 				42C783C4213CCB6A0012188E /* YZSortCell.xib in Resources */,
 				429B15132160C2FC00F595FC /* github.png in Resources */,
+				4B77FE4A261BE7B9006F439E /* female@3x.png in Resources */,
 				4227317223544DDB007D22B7 /* 微博logo@2x.png in Resources */,
 				42C4449322184DBD004983B3 /* SwipEditorCellVC.xib in Resources */,
 				42C5B6F621426E9800563794 /* WonderfulColor.storyboard in Resources */,
@@ -8810,6 +8873,7 @@
 				4227889B2145F431002B9C13 /* JXCategoryTitleImageCell.m in Sources */,
 				42D1C65C2277E719001F170F /* EasyAlertItem.m in Sources */,
 				42B573B8213FC1FE0089CFDF /* DefaultDynamicVC.m in Sources */,
+				4B77FE55261C02E2006F439E /* UIViewController+LQNoPresent.m in Sources */,
 				42DB02F0221E4BD2002B5675 /* CreateQRCodeVC.m in Sources */,
 				42DD8DD321A7ACA400CB04A5 /* AAPLSwipeTransitionInteractionController.m in Sources */,
 				42F772562193D0DD00FFD237 /* JMBaseButtonConfig.m in Sources */,
@@ -9013,6 +9077,7 @@
 				4242B957212A959B00C3A2C5 /* UIImage+IconFont.m in Sources */,
 				42916083226EEC0F005B7902 /* CommonToastVC.m in Sources */,
 				42C78376213CC45B0012188E /* UserHeaderView.m in Sources */,
+				4B77FE46261BE7B9006F439E /* FSAppIconManager.m in Sources */,
 				42D1C78522783F7C001F170F /* StyleVC3.m in Sources */,
 				42D1C6622277E719001F170F /* EasyLoadingGlobalConfig.m in Sources */,
 				42166F5C22800997006724CD /* UIImageView+Cache.m in Sources */,
@@ -9096,6 +9161,7 @@
 				42DD8DD721A7ACA400CB04A5 /* AAPLAdaptivePresentationSegue.m in Sources */,
 				42B1828821070BEF00C1E682 /* CustomFirstRateClickableButton.m in Sources */,
 				42662BB1228ACC15000729A5 /* BAGridView.m in Sources */,
+				4B77FE37261BE72F006F439E /* DynamicChangeIconVC.m in Sources */,
 				422789352145F44F002B9C13 /* JXCategoryTitleAttributeCellModel.m in Sources */,
 				429B15182160C2FD00F595FC /* STListController.m in Sources */,
 				42C7834E213CC45B0012188E /* DayViewModel.m in Sources */,

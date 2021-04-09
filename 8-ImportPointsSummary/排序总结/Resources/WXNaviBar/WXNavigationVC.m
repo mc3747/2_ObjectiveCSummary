@@ -15,23 +15,31 @@
 @end
 
 @implementation WXNavigationVC
+
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.navigationController.navigationBar.translucent = NO;
+//    以导航栏的最下部为坐标
+//    [[UINavigationBar appearance] setTranslucent:NO];
+//    self.navigationBar.height = 200;
+    self.navigationBar.y = +44;
+//    self.navigationBarHidden = YES;
+    
+//    WXNavigationBar *naviBar = [[WXNavigationBar alloc] initWithFrame:CGRectMake(0, 0, MAIN_SCREEN_WIDTH, 100)];
+//    [self.view addSubview:naviBar];
+    
 }
+//使用系统的UINavigationBar
 + (void)load {
     [super load];
-    
     UINavigationBar *navigationBar = [UINavigationBar appearanceWhenContainedInInstancesOfClasses:@[self]];
-    
     NSMutableDictionary *dict = [NSMutableDictionary dictionary];
     dict[NSFontAttributeName] = [UIFont boldSystemFontOfSize:20];
+    dict[NSForegroundColorAttributeName] = UIColor.redColor;
     [navigationBar setTitleTextAttributes:dict];
 
 //    [navigationBar setBackgroundImage:[UIImage image] forBarMetrics:UIBarMetricsDefault];
-  
     navigationBar.tintColor = [UIColor colorWithRed:26 / 255.0 green:178 / 255.0 blue:10 / 255.0 alpha:1];
-    
+    navigationBar.y = +44;
 }
 
 

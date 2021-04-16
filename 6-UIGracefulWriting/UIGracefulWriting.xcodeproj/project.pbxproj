@@ -983,6 +983,8 @@
 		42FB510F23A8D34700C5E315 /* AttributedTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */; };
 		42FB511023A8D34700C5E315 /* CJLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FB510623A8D34700C5E315 /* CJLabelViewController.m */; };
 		42FB511223A8D4A800C5E315 /* Example.json in Resources */ = {isa = PBXBuildFile; fileRef = 42FB511123A8D4A800C5E315 /* Example.json */; };
+		4B7661F52629206F0093B89A /* ImageManageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B7661F32629206F0093B89A /* ImageManageVC.m */; };
+		4B7661F62629206F0093B89A /* ImageManageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B7661F42629206F0093B89A /* ImageManageVC.xib */; };
 		4B77FE37261BE72F006F439E /* DynamicChangeIconVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE36261BE72F006F439E /* DynamicChangeIconVC.m */; };
 		4B77FE46261BE7B9006F439E /* FSAppIconManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE3F261BE7B8006F439E /* FSAppIconManager.m */; };
 		4B77FE47261BE7B9006F439E /* male@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FE42261BE7B9006F439E /* male@2x.png */; };
@@ -2897,6 +2899,9 @@
 		42FB510523A8D34600C5E315 /* AttributedTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedTableViewCell.m; sourceTree = "<group>"; };
 		42FB510623A8D34700C5E315 /* CJLabelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CJLabelViewController.m; sourceTree = "<group>"; };
 		42FB511123A8D4A800C5E315 /* Example.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Example.json; sourceTree = "<group>"; };
+		4B7661F22629206F0093B89A /* ImageManageVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageManageVC.h; sourceTree = "<group>"; };
+		4B7661F32629206F0093B89A /* ImageManageVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageManageVC.m; sourceTree = "<group>"; };
+		4B7661F42629206F0093B89A /* ImageManageVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageManageVC.xib; sourceTree = "<group>"; };
 		4B77FE35261BE72F006F439E /* DynamicChangeIconVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DynamicChangeIconVC.h; sourceTree = "<group>"; };
 		4B77FE36261BE72F006F439E /* DynamicChangeIconVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DynamicChangeIconVC.m; sourceTree = "<group>"; };
 		4B77FE3F261BE7B8006F439E /* FSAppIconManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSAppIconManager.m; sourceTree = "<group>"; };
@@ -4983,6 +4988,7 @@
 			children = (
 				42B3E1172238D88E00379C2D /* Base_2_ViewController.h */,
 				42B3E1182238D88E00379C2D /* Base_2_ViewController.m */,
+				4B7661F126291D670093B89A /* 15，图片资源 */,
 				4B77FE34261BE6B9006F439E /* 14，动态换肤 */,
 				4B77FE33261BE6AA006F439E /* 13，动态换app图标 */,
 				425FA0EF22928B6700E00B55 /* 12，自定义控件的方式 */,
@@ -8355,6 +8361,16 @@
 			path = config;
 			sourceTree = "<group>";
 		};
+		4B7661F126291D670093B89A /* 15，图片资源 */ = {
+			isa = PBXGroup;
+			children = (
+				4B7661F22629206F0093B89A /* ImageManageVC.h */,
+				4B7661F32629206F0093B89A /* ImageManageVC.m */,
+				4B7661F42629206F0093B89A /* ImageManageVC.xib */,
+			);
+			path = "15，图片资源";
+			sourceTree = "<group>";
+		};
 		4B77FE33261BE6AA006F439E /* 13，动态换app图标 */ = {
 			isa = PBXGroup;
 			children = (
@@ -8559,6 +8575,7 @@
 				42DD8DCF21A7ACA400CB04A5 /* Swipe.storyboard in Resources */,
 				42FB510923A8D34700C5E315 /* SecondDetailViewController.xib in Resources */,
 				429CB0FF210436960063A0D8 /* pageControlDot@2x.png in Resources */,
+				4B7661F62629206F0093B89A /* ImageManageVC.xib in Resources */,
 				42C444772217F666004983B3 /* YUFolding_arrow.png in Resources */,
 				42C7836D213CC45B0012188E /* UserHeaderView.xib in Resources */,
 				42B573CB213FC1FE0089CFDF /* ChildFourthPopGestureVC.xib in Resources */,
@@ -9192,6 +9209,7 @@
 				425900ED2140BD8100304394 /* ActionSheetTableViewController.m in Sources */,
 				42C78374213CC45B0012188E /* ManuallySelfSizingCell.m in Sources */,
 				42B573C8213FC1FE0089CFDF /* ChildFourthPopGestureVC.m in Sources */,
+				4B7661F52629206F0093B89A /* ImageManageVC.m in Sources */,
 				42CD42632260672800652FA6 /* MoreAlertManageVC.m in Sources */,
 				422788A92145F431002B9C13 /* JXCategoryBaseView.m in Sources */,
 				42CFD901215DCB45005792BD /* IPhoneDeviceInfo.m in Sources */,

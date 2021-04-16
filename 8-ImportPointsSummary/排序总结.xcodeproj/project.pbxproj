@@ -1614,13 +1614,6 @@
 			path = "8，block封装";
 			sourceTree = "<group>";
 		};
-		421E0F9D2355B399001FD3C4 /* 6_ 单元测试 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "6_ 单元测试";
-			sourceTree = "<group>";
-		};
 		421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2296,16 +2289,16 @@
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
-				421E0F9D2355B399001FD3C4 /* 6_ 单元测试 */,
+				4B7661FD262931F40093B89A /* 6_app单元测试 */,
 				42C5B4DE2142593800563794 /* 7_常见设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
-				427D28B1216C9843009DDEAC /* 9_代码架构 */,
-				427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */,
+				427D28B1216C9843009DDEAC /* 9_app架构 */,
+				4B7661FE2629320F0093B89A /* 10_app组件化 */,
 				42D04E962176C2920075ECEF /* 11_RunTime汇总 */,
 				427479CE21817321004CFC10 /* 12_对象初始化方法 */,
 				427479DB218199EB004CFC10 /* 13_字典转模型 */,
 				42747A202181BEE5004CFC10 /* 14_RunLoop汇总 */,
-				42747A212181BEF7004CFC10 /* 15_性能优化 */,
+				4B7661FF262932240093B89A /* 15_app性能优化 */,
 				42747A242181D435004CFC10 /* 16_加密汇总 */,
 				42D7013921830492008DFABB /* 17_音频汇总 */,
 				42E7A1322199127B00304651 /* 18_计算文件大小 */,
@@ -2315,10 +2308,11 @@
 				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
 				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
 				4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */,
-				42747A222181D3C9004CFC10 /* 25_APP安全 */,
-				4B77FEB4261C5E3C006F439E /* 26_xx */,
+				42747A222181D3C9004CFC10 /* 25_app安全 */,
+				4B77FEB4261C5E3C006F439E /* 26_app瘦身 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
 				42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */,
+				4B766200262932C20093B89A /* 29，app架构 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -2481,18 +2475,11 @@
 			path = "14_RunLoop汇总";
 			sourceTree = "<group>";
 		};
-		42747A212181BEF7004CFC10 /* 15_性能优化 */ = {
+		42747A222181D3C9004CFC10 /* 25_app安全 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "15_性能优化";
-			sourceTree = "<group>";
-		};
-		42747A222181D3C9004CFC10 /* 25_APP安全 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "25_APP安全";
+			path = "25_app安全";
 			sourceTree = "<group>";
 		};
 		42747A242181D435004CFC10 /* 16_加密汇总 */ = {
@@ -2512,7 +2499,7 @@
 			path = "16_加密汇总";
 			sourceTree = "<group>";
 		};
-		427D28B1216C9843009DDEAC /* 9_代码架构 */ = {
+		427D28B1216C9843009DDEAC /* 9_app架构 */ = {
 			isa = PBXGroup;
 			children = (
 				4B77FEAF261C5772006F439E /* ArchitectureVC.h */,
@@ -2523,14 +2510,7 @@
 				4B77FE98261C51D6006F439E /* 3-viper */,
 				4B77FE8C261C4352006F439E /* 4-mvvm */,
 			);
-			path = "9_代码架构";
-			sourceTree = "<group>";
-		};
-		427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "10_封装，解耦，路由，组件化，MVVM，AOP";
+			path = "9_app架构";
 			sourceTree = "<group>";
 		};
 		4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */ = {
@@ -3930,6 +3910,34 @@
 			path = "5，Base64";
 			sourceTree = "<group>";
 		};
+		4B7661FD262931F40093B89A /* 6_app单元测试 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6_app单元测试";
+			sourceTree = "<group>";
+		};
+		4B7661FE2629320F0093B89A /* 10_app组件化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10_app组件化";
+			sourceTree = "<group>";
+		};
+		4B7661FF262932240093B89A /* 15_app性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15_app性能优化";
+			sourceTree = "<group>";
+		};
+		4B766200262932C20093B89A /* 29，app架构 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "29，app架构";
+			sourceTree = "<group>";
+		};
 		4B77FE8B261C434B006F439E /* 1-mvc */ = {
 			isa = PBXGroup;
 			children = (
@@ -4002,11 +4010,11 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		4B77FEB4261C5E3C006F439E /* 26_xx */ = {
+		4B77FEB4261C5E3C006F439E /* 26_app瘦身 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = 26_xx;
+			path = "26_app瘦身";
 			sourceTree = "<group>";
 		};
 		5DBF32C8776305E579ACB9AE /* Pods */ = {

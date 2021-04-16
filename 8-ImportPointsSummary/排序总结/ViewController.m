@@ -56,7 +56,7 @@
     
     
     self.cellDisplayNameArray = @[@"1，方法的调用相关",@"2，button传递多个参数",@"3，控制器传值",
-                                  @"4, 预编译&枚举总结" ,@"5，定时器汇总",@"6，单元测试",@"7.1，单例模式",@"7.2.1，简单代理",@"7.2.2，协议代理",@"7.2.3，多代理",@"7.3，KVO总结",@"7.4，通知模式",@"7.5，block总结",@"7.6，KVC总结",@"7.7，24种设计模式汇总",@"8.1，匹配的三种方式",@"8.2，正则表达式的使用场景",@"9，代码架构",@"10，组件化",@"11，RunTime总结",@"12，对象的初始化方法",@"13，字典转模型",@"14，RunLoop汇总",@"15，性能优化",@"16，加密汇总",@"17，音频汇总",@"18，文件大小及图片相关汇总",@"19，代替if-else的条件方法",@"20，内存泄露",@"21，原生和js交互",@"22，事件的封装",@"23，控件的简单写法（懒加载）",@"24，协议&继承&多态&分类&扩展",@"25，app安全",@"26，xx",@"27，日志打印",@"28, oc,c和c++混编"];
+                                  @"4, 预编译&枚举总结" ,@"5，定时器汇总",@"6，单元测试",@"7.1，单例模式",@"7.2.1，简单代理",@"7.2.2，协议代理",@"7.2.3，多代理",@"7.3，KVO总结",@"7.4，通知模式",@"7.5，block总结",@"7.6，KVC总结",@"7.7，24种设计模式汇总",@"8.1，匹配的三种方式",@"8.2，正则表达式的使用场景",@"9，app架构",@"10，app组件化",@"11，RunTime总结",@"12，对象的初始化方法",@"13，字典转模型",@"14，RunLoop汇总",@"15，性能优化",@"16，加密汇总",@"17，音频汇总",@"18，文件大小及图片相关汇总",@"19，代替if-else的条件方法",@"20，内存泄露",@"21，原生和js交互",@"22，事件的封装",@"23，控件的简单写法（懒加载）",@"24，协议&继承&多态&分类&扩展",@"25，app安全",@"26，app瘦身",@"27，日志打印",@"28, oc,c和c++混编"];
     
     self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",@"PrecompliedViewController",
  @"TimerViewController",@"",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"NotificationVC",@"BlockSummaryVC",@"KVCSummaryVC",@"DesignModeSummaryVC",@"MatchingMethodVC",@"RegularExpressionVC",@"ArchitectureVC",@"",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"",@"ElementMakerVC",@"ObjectOrientedViewController",@"",@"",@"PrintLogVC",@"MixedProgramVC"];

@@ -162,7 +162,6 @@
 		424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059622759E400039CD62 /* BAWKWebViewVC2.m */; };
 		424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059822759E410039CD62 /* BAWKWebViewVC3.m */; };
 		424F059F22759E420039CD62 /* BACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059A22759E410039CD62 /* BACell.m */; };
-		42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42525614241B0EC7000F2295 /* WXNavigationVC.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -422,10 +421,8 @@
 		42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014821830723008DFABB /* SystemSoundModel.m */; };
 		42D7014C21830724008DFABB /* SystemSound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D7014A21830724008DFABB /* SystemSound.plist */; };
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
-		42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */; };
 		42DBDE902419C97C0008A71F /* Common_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8F2419C97C0008A71F /* Common_ViewController.m */; };
 		42DBDE94241A1CBB0008A71F /* PolymorphismVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */; };
-		42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE98241A35B70008A71F /* WXNavigationBar.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E7A135219920E500304651 /* CalculateImageStorageVC.m */; };
@@ -479,6 +476,9 @@
 		4B77FEAE261C5214006F439E /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEA8261C5214006F439E /* JNViewController.m */; };
 		4B77FEB2261C5772006F439E /* ArchitectureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEB0261C5772006F439E /* ArchitectureVC.m */; };
 		4B77FEB3261C5772006F439E /* ArchitectureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FEB1261C5772006F439E /* ArchitectureVC.xib */; };
+		4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF49262E80DC00617B41 /* MainNavigationController.m */; };
+		4BB2CF4E262E80E400617B41 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF4D262E80E400617B41 /* MainTabBarController.m */; };
+		4BB2CF52262E85C200617B41 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF51262E85C200617B41 /* ViewController2.m */; };
 		96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */; };
 /* End PBXBuildFile section */
 
@@ -776,8 +776,6 @@
 		424F059922759E410039CD62 /* BAWKWebViewVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebViewVC3.h; sourceTree = "<group>"; };
 		424F059A22759E410039CD62 /* BACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACell.m; sourceTree = "<group>"; };
 		424F059B22759E420039CD62 /* WebVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVIewModel.h; sourceTree = "<group>"; };
-		42525613241B0EC7000F2295 /* WXNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationVC.h; sourceTree = "<group>"; };
-		42525614241B0EC7000F2295 /* WXNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationVC.m; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1296,14 +1294,10 @@
 		42D7014A21830724008DFABB /* SystemSound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SystemSound.plist; sourceTree = "<group>"; };
 		42D7014D218307D9008DFABB /* AudioPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayVC.h; sourceTree = "<group>"; };
 		42D7014E218307D9008DFABB /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
-		42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTabBarController.m; sourceTree = "<group>"; };
-		42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTabBarController.h; sourceTree = "<group>"; };
 		42DBDE8E2419C97C0008A71F /* Common_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_ViewController.h; sourceTree = "<group>"; };
 		42DBDE8F2419C97C0008A71F /* Common_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common_ViewController.m; sourceTree = "<group>"; };
 		42DBDE92241A1CBB0008A71F /* PolymorphismVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolymorphismVC.h; sourceTree = "<group>"; };
 		42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolymorphismVC.m; sourceTree = "<group>"; };
-		42DBDE97241A35B70008A71F /* WXNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationBar.h; sourceTree = "<group>"; };
-		42DBDE98241A35B70008A71F /* WXNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationBar.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -1400,6 +1394,12 @@
 		4B77FEAF261C5772006F439E /* ArchitectureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchitectureVC.h; sourceTree = "<group>"; };
 		4B77FEB0261C5772006F439E /* ArchitectureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectureVC.m; sourceTree = "<group>"; };
 		4B77FEB1261C5772006F439E /* ArchitectureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchitectureVC.xib; sourceTree = "<group>"; };
+		4BB2CF49262E80DC00617B41 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		4BB2CF4A262E80DC00617B41 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		4BB2CF4C262E80E300617B41 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		4BB2CF4D262E80E400617B41 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		4BB2CF50262E85C200617B41 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4BB2CF51262E85C200617B41 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-排序总结.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序总结.release.xcconfig"; path = "Target Support Files/Pods-排序总结/Pods-排序总结.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2281,8 +2281,10 @@
 			children = (
 				4257582520A29F0700BA4F54 /* AppDelegate.h */,
 				4257582620A29F0700BA4F54 /* AppDelegate.m */,
-				4257582820A29F0700BA4F54 /* ViewController.h */,
-				4257582920A29F0700BA4F54 /* ViewController.m */,
+				4BB2CF4F262E858100617B41 /* BaseVC */,
+				42DBDE8D2419C97C0008A71F /* CommonVC */,
+				42DBDE96241A35830008A71F /* NaviBarController */,
+				42DBDE892419C6EA0008A71F /* TabBarController */,
 				42C5B66F2142643E00563794 /* Resources */,
 				422355D2219514D800A7DF99 /* 1_方法调用相关 */,
 				4268A95823A3644900448758 /* 2_button传递参数 */,
@@ -2312,7 +2314,7 @@
 				4B77FEB4261C5E3C006F439E /* 26_app瘦身 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
 				42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */,
-				4B766200262932C20093B89A /* 29，app架构 */,
+				4B766200262932C20093B89A /* 29_静态库和sdk制作 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -3362,9 +3364,6 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE892419C6EA0008A71F /* WXTabBar */,
-				42DBDE96241A35830008A71F /* WXNaviBar */,
-				42DBDE8D2419C97C0008A71F /* CommonViewController */,
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
@@ -3680,22 +3679,22 @@
 			path = "3_展示本地音频文件";
 			sourceTree = "<group>";
 		};
-		42DBDE892419C6EA0008A71F /* WXTabBar */ = {
+		42DBDE892419C6EA0008A71F /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */,
-				42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */,
+				4BB2CF4C262E80E300617B41 /* MainTabBarController.h */,
+				4BB2CF4D262E80E400617B41 /* MainTabBarController.m */,
 			);
-			path = WXTabBar;
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
-		42DBDE8D2419C97C0008A71F /* CommonViewController */ = {
+		42DBDE8D2419C97C0008A71F /* CommonVC */ = {
 			isa = PBXGroup;
 			children = (
 				42DBDE8E2419C97C0008A71F /* Common_ViewController.h */,
 				42DBDE8F2419C97C0008A71F /* Common_ViewController.m */,
 			);
-			path = CommonViewController;
+			path = CommonVC;
 			sourceTree = "<group>";
 		};
 		42DBDE91241A1B8E0008A71F /* 4_多态 */ = {
@@ -3707,15 +3706,13 @@
 			path = "4_多态";
 			sourceTree = "<group>";
 		};
-		42DBDE96241A35830008A71F /* WXNaviBar */ = {
+		42DBDE96241A35830008A71F /* NaviBarController */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE97241A35B70008A71F /* WXNavigationBar.h */,
-				42DBDE98241A35B70008A71F /* WXNavigationBar.m */,
-				42525613241B0EC7000F2295 /* WXNavigationVC.h */,
-				42525614241B0EC7000F2295 /* WXNavigationVC.m */,
+				4BB2CF4A262E80DC00617B41 /* MainNavigationController.h */,
+				4BB2CF49262E80DC00617B41 /* MainNavigationController.m */,
 			);
-			path = WXNaviBar;
+			path = NaviBarController;
 			sourceTree = "<group>";
 		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
@@ -3931,11 +3928,11 @@
 			path = "15_app性能优化";
 			sourceTree = "<group>";
 		};
-		4B766200262932C20093B89A /* 29，app架构 */ = {
+		4B766200262932C20093B89A /* 29_静态库和sdk制作 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "29，app架构";
+			path = "29_静态库和sdk制作";
 			sourceTree = "<group>";
 		};
 		4B77FE8B261C434B006F439E /* 1-mvc */ = {
@@ -4015,6 +4012,17 @@
 			children = (
 			);
 			path = "26_app瘦身";
+			sourceTree = "<group>";
+		};
+		4BB2CF4F262E858100617B41 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4257582820A29F0700BA4F54 /* ViewController.h */,
+				4257582920A29F0700BA4F54 /* ViewController.m */,
+				4BB2CF50262E85C200617B41 /* ViewController2.h */,
+				4BB2CF51262E85C200617B41 /* ViewController2.m */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		5DBF32C8776305E579ACB9AE /* Pods */ = {
@@ -4301,6 +4309,7 @@
 				42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */,
 				4212D9C0221662E8004A7BA8 /* WKWebViewVC.m in Sources */,
 				42E8C8C521476FDA00BA399D /* RegularUtils.m in Sources */,
+				4BB2CF4E262E80E400617B41 /* MainTabBarController.m in Sources */,
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
@@ -4413,7 +4422,6 @@
 				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,
 				422355DF2195624C00A7DF99 /* MultiReturnValueVC.m in Sources */,
 				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
-				42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
@@ -4442,6 +4450,7 @@
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				4212088723D01717001D16B9 /* KVC_Book.m in Sources */,
+				4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42EF237C2415DF2A00EB5F74 /* ProtocolDemoViewController.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
@@ -4451,6 +4460,7 @@
 				42C5B66D21425EE300563794 /* DesignModeSummaryVC.m in Sources */,
 				424F059222759E150039CD62 /* NSMutableAttributedString+BAKit.m in Sources */,
 				42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */,
+				4BB2CF52262E85C200617B41 /* ViewController2.m in Sources */,
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
 				4B77FEAD261C5214006F439E /* JNBaseViewModel.m in Sources */,
 				42977AC82418E6BC00FFA893 /* DMPrinterManager.mm in Sources */,
@@ -4616,7 +4626,6 @@
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
 				424F0536227540500039CD62 /* StatusItem2.m in Sources */,
-				42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */,
 				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				42EF238C24161A7200EB5F74 /* MC_Daughter.m in Sources */,
@@ -4652,7 +4661,6 @@
 				4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
-				42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */,
 				4201E549241F05750089044A /* MacroApplicationVC.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,

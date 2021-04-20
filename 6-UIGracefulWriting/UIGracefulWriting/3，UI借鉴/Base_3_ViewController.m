@@ -22,7 +22,6 @@
     self.subtitleArray = @[@[@"IGListKit案例",@"MJRefresh",@"腾讯的QMUI",@"Qi分享团队"],
     @[@"BSY.com",@"博爱（BAUIKit）",@"无业之星辰CaiWanFeng",@"吴海超(WHC)",@"QuintGao"]];
     
-    
 }
 
 @end

@@ -17,9 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"UI借鉴";
-    self.vcNameArray = @[@[@"DemosViewController",@"",@"",@""],@[@"",@"",@"",@""]];
+    self.vcNameArray = @[@[@"DemosViewController",@"",@"",@""],@[@"",@"",@"",@"",@""]];
     
-    self.subtitleArray = @[@[@"IGListKit案例",@"MJRefresh",@"腾讯的QMUI",@"Qi分享团队"],@[@"baishiyun(白仕云)",@"BAUIKit(baoai,孙博岩,https://github.com/BAHome)",@"无夜之星辰(无业之星辰)",@"WHC(吴海超)不错"]];
+    self.subtitleArray = @[@[@"IGListKit案例",@"MJRefresh",@"腾讯的QMUI",@"Qi分享团队"],
+    @[@"BSY.com",@"博爱（BAUIKit）",@"无业之星辰CaiWanFeng",@"吴海超(WHC)",@"QuintGao"]];
+    
 }
 
 @end

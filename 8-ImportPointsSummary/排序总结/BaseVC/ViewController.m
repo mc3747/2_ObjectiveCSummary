@@ -56,11 +56,10 @@
     
     
     self.cellDisplayNameArray = @[@"1，方法的调用相关",@"2，button传递多个参数",@"3，控制器传值",
-                                  @"4，定时器汇总",@"5，24种设计模式汇总",@"6，block总结",@"7，KVC总结",@"8，单例模式",@"9，简单代理",@"10，协议代理",@"11，多代理",@"12，KVO总结",@"14，通知模式",@"15，匹配的三种方式",@"16，正则表达式的使用场景",@"17，RunTime总结",@"18，对象的初始化方法",@"19，字典转模型",@"20，RunLoop汇总",@"22，加密汇总",@"23，音频汇总",@"24，文件大小及图片相关汇总",@"25，代替if-else的条件方法",@"26，内存泄露",@"27，原生和js交互",@"28，控件的简单写法（懒加载）",@"29，日志打印",@"30，协议&继承&多态&分类&扩展",
-    @"31, 预编译&枚举总结",@"32, oc,c和c++混编"];
+                                  @"4, 预编译&枚举总结" ,@"5，定时器汇总",@"6，单元测试",@"7.1，单例模式",@"7.2.1，简单代理",@"7.2.2，协议代理",@"7.2.3，多代理",@"7.3，KVO总结",@"7.4，通知模式",@"7.5，block总结",@"7.6，KVC总结",@"7.7，24种设计模式汇总",@"8.1，匹配的三种方式",@"8.2，正则表达式的使用场景",@"9，app架构",@"10，app组件化",@"11，RunTime总结",@"12，对象的初始化方法",@"13，字典转模型",@"14，RunLoop汇总",@"15，性能优化",@"16，加密汇总",@"17，音频汇总",@"18，文件大小及图片相关汇总",@"19，代替if-else的条件方法",@"20，内存泄露",@"21，原生和js交互",@"22，事件的封装",@"23，控件的简单写法（懒加载）",@"24，协议&继承&多态&分类&扩展",@"25，app安全",@"26，app瘦身",@"27，日志打印",@"28, oc,c和c++混编",@"29,静态库和sdk制作"];
     
-    self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",
- @"TimerViewController",@"DesignModeSummaryVC",@"BlockSummaryVC",@"KVCSummaryVC",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"NotificationVC",@"MatchingMethodVC",@"RegularExpressionVC",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"ElementMakerVC",@"PrintLogVC",@"ObjectOrientedViewController09                                                         ",@"PrecompliedViewController",@"MixedProgramVC"];
+    self.cellControllerNameArray = @[@"MethodCallVC",@"ButtonTransferParameterVC",@"PassValueVC",@"PrecompliedViewController",
+ @"TimerViewController",@"",@"SingltonVC",@"SimpleDelegateTestVC",@"ProtocolDelegateVC",@"MutiDelegatVC",@"KVOSummaryVC",@"NotificationVC",@"BlockSummaryVC",@"KVCSummaryVC",@"DesignModeSummaryVC",@"MatchingMethodVC",@"RegularExpressionVC",@"ArchitectureVC",@"",@"RunTimeVC",@"InitMethodVC",@"DicToModelVC",@"RunLoopVC",@"",@"EncryptVC",@"AudioSummaryVC",@"CacalateStorageVC",@"ReplaceIfElseVC",@"MemoryLeakVC",@"NativeAndWebTableVC",@"",@"ElementMakerVC",@"ObjectOrientedViewController",@"",@"",@"PrintLogVC",@"MixedProgramVC",@""];
 }
 
 #pragma mark -  初始化tableview

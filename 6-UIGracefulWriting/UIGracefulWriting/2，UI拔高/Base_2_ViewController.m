@@ -24,7 +24,9 @@
         
         @[@"RoundCornerSummaryVC",@"ImageCacheVC"],
         
-        @[@"",@"SelfDefineWidgetVC"],
+        @[@"",@"SelfDefineWidgetVC",@"DynamicChangeIconVC",@""],
+        
+        @[@"",@""],
         
         @[@"",@""]
         
@@ -37,7 +39,7 @@
     
     @[@"圆角总结",@"图片缓存总结"],
     
-    @[@"文本展示",@"自定义控件的写法"],
+    @[@"文本展示",@"自定义控件的写法",@"动态更换app图标",@"动态换肤"],
     
     @[@"UI封装",@"UI的优雅写法"],
     

@@ -1030,8 +1030,8 @@
 		42939E0D2421F60000C11BA6 /* 6_具体应用 */ = {
 			isa = PBXGroup;
 			children = (
-				42939E0E2421F60000C11BA6 /* MultiThreadApplicationVC.m */,
 				42939E0F2421F60000C11BA6 /* MultiThreadApplicationVC.h */,
+				42939E0E2421F60000C11BA6 /* MultiThreadApplicationVC.m */,
 				42939E102421F60000C11BA6 /* MultiThreadApplicationVC.xib */,
 			);
 			path = "6_具体应用";

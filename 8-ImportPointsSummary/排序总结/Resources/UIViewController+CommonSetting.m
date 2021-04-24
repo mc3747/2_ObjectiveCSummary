@@ -57,9 +57,7 @@ typedef void (* _VIMP)(id, SEL, ...);
         if ((self.class != class1) && (self.class != class2)) {
                    self.view.backgroundColor = RGBColor(255, 238, 248);
                }
-        
 
-    
 }
 
 //统一打印类名

@@ -162,7 +162,6 @@
 		424F059D22759E420039CD62 /* BAWKWebViewVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059622759E400039CD62 /* BAWKWebViewVC2.m */; };
 		424F059E22759E420039CD62 /* BAWKWebViewVC3.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059822759E410039CD62 /* BAWKWebViewVC3.m */; };
 		424F059F22759E420039CD62 /* BACell.m in Sources */ = {isa = PBXBuildFile; fileRef = 424F059A22759E410039CD62 /* BACell.m */; };
-		42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42525614241B0EC7000F2295 /* WXNavigationVC.m */; };
 		4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582620A29F0700BA4F54 /* AppDelegate.m */; };
 		4257582A20A29F0700BA4F54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4257582920A29F0700BA4F54 /* ViewController.m */; };
 		4257582D20A29F0700BA4F54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4257582B20A29F0700BA4F54 /* Main.storyboard */; };
@@ -422,10 +421,8 @@
 		42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014821830723008DFABB /* SystemSoundModel.m */; };
 		42D7014C21830724008DFABB /* SystemSound.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D7014A21830724008DFABB /* SystemSound.plist */; };
 		42D7014F218307D9008DFABB /* AudioPlayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D7014E218307D9008DFABB /* AudioPlayVC.m */; };
-		42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */; };
 		42DBDE902419C97C0008A71F /* Common_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE8F2419C97C0008A71F /* Common_ViewController.m */; };
 		42DBDE94241A1CBB0008A71F /* PolymorphismVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */; };
-		42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 42DBDE98241A35B70008A71F /* WXNavigationBar.m */; };
 		42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E1E54F20CE02E3000A263B /* GCD_Singleton.m */; };
 		42E457A0212E3D8D00898A3D /* CallMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E4579E212E3D8D00898A3D /* CallMethodViewController.m */; };
 		42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E7A135219920E500304651 /* CalculateImageStorageVC.m */; };
@@ -471,6 +468,17 @@
 		42FFFFA021F6F11700C594AA /* Base64EncryptVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */; };
 		42FFFFA421F6F4C700C594AA /* EncryptApplicationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */; };
 		42FFFFA521F6F4C700C594AA /* EncryptApplicationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */; };
+		4B77FEA9261C5214006F439E /* JNModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE9B261C5213006F439E /* JNModel.m */; };
+		4B77FEAA261C5214006F439E /* JNTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FE9E261C5214006F439E /* JNTableViewCell.m */; };
+		4B77FEAB261C5214006F439E /* JNViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEA0261C5214006F439E /* JNViewModel.m */; };
+		4B77FEAC261C5214006F439E /* JNTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEA3261C5214006F439E /* JNTableDataSource.m */; };
+		4B77FEAD261C5214006F439E /* JNBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEA5261C5214006F439E /* JNBaseViewModel.m */; };
+		4B77FEAE261C5214006F439E /* JNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEA8261C5214006F439E /* JNViewController.m */; };
+		4B77FEB2261C5772006F439E /* ArchitectureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B77FEB0261C5772006F439E /* ArchitectureVC.m */; };
+		4B77FEB3261C5772006F439E /* ArchitectureVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B77FEB1261C5772006F439E /* ArchitectureVC.xib */; };
+		4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF49262E80DC00617B41 /* MainNavigationController.m */; };
+		4BB2CF4E262E80E400617B41 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF4D262E80E400617B41 /* MainTabBarController.m */; };
+		4BB2CF52262E85C200617B41 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF51262E85C200617B41 /* ViewController2.m */; };
 		96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */; };
 /* End PBXBuildFile section */
 
@@ -768,8 +776,6 @@
 		424F059922759E410039CD62 /* BAWKWebViewVC3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BAWKWebViewVC3.h; sourceTree = "<group>"; };
 		424F059A22759E410039CD62 /* BACell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACell.m; sourceTree = "<group>"; };
 		424F059B22759E420039CD62 /* WebVIewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVIewModel.h; sourceTree = "<group>"; };
-		42525613241B0EC7000F2295 /* WXNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationVC.h; sourceTree = "<group>"; };
-		42525614241B0EC7000F2295 /* WXNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationVC.m; sourceTree = "<group>"; };
 		4257582220A29F0700BA4F54 /* 排序总结.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "排序总结.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4257582520A29F0700BA4F54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4257582620A29F0700BA4F54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1288,14 +1294,10 @@
 		42D7014A21830724008DFABB /* SystemSound.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SystemSound.plist; sourceTree = "<group>"; };
 		42D7014D218307D9008DFABB /* AudioPlayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioPlayVC.h; sourceTree = "<group>"; };
 		42D7014E218307D9008DFABB /* AudioPlayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioPlayVC.m; sourceTree = "<group>"; };
-		42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXTabBarController.m; sourceTree = "<group>"; };
-		42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXTabBarController.h; sourceTree = "<group>"; };
 		42DBDE8E2419C97C0008A71F /* Common_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common_ViewController.h; sourceTree = "<group>"; };
 		42DBDE8F2419C97C0008A71F /* Common_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common_ViewController.m; sourceTree = "<group>"; };
 		42DBDE92241A1CBB0008A71F /* PolymorphismVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolymorphismVC.h; sourceTree = "<group>"; };
 		42DBDE93241A1CBB0008A71F /* PolymorphismVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolymorphismVC.m; sourceTree = "<group>"; };
-		42DBDE97241A35B70008A71F /* WXNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXNavigationBar.h; sourceTree = "<group>"; };
-		42DBDE98241A35B70008A71F /* WXNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXNavigationBar.m; sourceTree = "<group>"; };
 		42E1E54E20CE02E3000A263B /* GCD_Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCD_Singleton.h; sourceTree = "<group>"; };
 		42E1E54F20CE02E3000A263B /* GCD_Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCD_Singleton.m; sourceTree = "<group>"; };
 		42E4579E212E3D8D00898A3D /* CallMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CallMethodViewController.m; sourceTree = "<group>"; };
@@ -1377,6 +1379,27 @@
 		42FFFFA121F6F4C700C594AA /* EncryptApplicationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptApplicationVC.h; sourceTree = "<group>"; };
 		42FFFFA221F6F4C700C594AA /* EncryptApplicationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncryptApplicationVC.m; sourceTree = "<group>"; };
 		42FFFFA321F6F4C700C594AA /* EncryptApplicationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EncryptApplicationVC.xib; sourceTree = "<group>"; };
+		4B77FE9A261C5213006F439E /* JNModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNModel.h; sourceTree = "<group>"; };
+		4B77FE9B261C5213006F439E /* JNModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNModel.m; sourceTree = "<group>"; };
+		4B77FE9D261C5214006F439E /* JNTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTableViewCell.h; sourceTree = "<group>"; };
+		4B77FE9E261C5214006F439E /* JNTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTableViewCell.m; sourceTree = "<group>"; };
+		4B77FEA0261C5214006F439E /* JNViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNViewModel.m; sourceTree = "<group>"; };
+		4B77FEA1261C5214006F439E /* JNTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNTableDataSource.h; sourceTree = "<group>"; };
+		4B77FEA2261C5214006F439E /* JNBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNBaseViewModel.h; sourceTree = "<group>"; };
+		4B77FEA3261C5214006F439E /* JNTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNTableDataSource.m; sourceTree = "<group>"; };
+		4B77FEA4261C5214006F439E /* JNViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNViewModel.h; sourceTree = "<group>"; };
+		4B77FEA5261C5214006F439E /* JNBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNBaseViewModel.m; sourceTree = "<group>"; };
+		4B77FEA7261C5214006F439E /* JNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNViewController.h; sourceTree = "<group>"; };
+		4B77FEA8261C5214006F439E /* JNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNViewController.m; sourceTree = "<group>"; };
+		4B77FEAF261C5772006F439E /* ArchitectureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArchitectureVC.h; sourceTree = "<group>"; };
+		4B77FEB0261C5772006F439E /* ArchitectureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArchitectureVC.m; sourceTree = "<group>"; };
+		4B77FEB1261C5772006F439E /* ArchitectureVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArchitectureVC.xib; sourceTree = "<group>"; };
+		4BB2CF49262E80DC00617B41 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		4BB2CF4A262E80DC00617B41 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		4BB2CF4C262E80E300617B41 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		4BB2CF4D262E80E400617B41 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		4BB2CF50262E85C200617B41 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4BB2CF51262E85C200617B41 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 		9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-排序总结.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序总结.release.xcconfig"; path = "Target Support Files/Pods-排序总结/Pods-排序总结.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1589,13 +1612,6 @@
 				4218DFC823C87A7200758F12 /* BlockDemo8VC.m */,
 			);
 			path = "8，block封装";
-			sourceTree = "<group>";
-		};
-		421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "26_ 单元测试";
 			sourceTree = "<group>";
 		};
 		421F15CC21EF0A9E00428704 /* 19_代替if else的方法 */ = {
@@ -2265,24 +2281,26 @@
 			children = (
 				4257582520A29F0700BA4F54 /* AppDelegate.h */,
 				4257582620A29F0700BA4F54 /* AppDelegate.m */,
-				4257582820A29F0700BA4F54 /* ViewController.h */,
-				4257582920A29F0700BA4F54 /* ViewController.m */,
+				4BB2CF4F262E858100617B41 /* BaseVC */,
+				42DBDE8D2419C97C0008A71F /* CommonVC */,
+				42DBDE96241A35830008A71F /* NaviBarController */,
+				42DBDE892419C6EA0008A71F /* TabBarController */,
 				42C5B66F2142643E00563794 /* Resources */,
 				422355D2219514D800A7DF99 /* 1_方法调用相关 */,
 				4268A95823A3644900448758 /* 2_button传递参数 */,
 				426FB1C120CA755E00B2B747 /* 3_控制器传值 */,
 				42FB50C123A8B1C400C5E315 /* 4_预编译&枚举 */,
 				42CB7E382138E355003397FB /* 5_定时器总结 */,
-				42EF238024160C5200EB5F74 /* 6_const,static,extern */,
+				4B7661FD262931F40093B89A /* 6_app单元测试 */,
 				42C5B4DE2142593800563794 /* 7_常见设计模式 */,
 				4227897D214645F5002B9C13 /* 8_正则表达式 */,
-				427D28B1216C9843009DDEAC /* 9_代码架构 */,
-				427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */,
+				427D28B1216C9843009DDEAC /* 9_app架构 */,
+				4B7661FE2629320F0093B89A /* 10_app组件化 */,
 				42D04E962176C2920075ECEF /* 11_RunTime汇总 */,
 				427479CE21817321004CFC10 /* 12_对象初始化方法 */,
 				427479DB218199EB004CFC10 /* 13_字典转模型 */,
 				42747A202181BEE5004CFC10 /* 14_RunLoop汇总 */,
-				42747A232181D421004CFC10 /* 15_空 */,
+				4B7661FF262932240093B89A /* 15_app性能优化 */,
 				42747A242181D435004CFC10 /* 16_加密汇总 */,
 				42D7013921830492008DFABB /* 17_音频汇总 */,
 				42E7A1322199127B00304651 /* 18_计算文件大小 */,
@@ -2292,12 +2310,11 @@
 				426D559C2285C61B0060AEF4 /* 22_事件的封装 */,
 				4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */,
 				4288EF232331D2BC00113EAE /* 24_协议&继承&多态&分类&扩展 */,
-				4288EF2E2332375100113EAE /* 25_空 */,
-				421E0F9D2355B399001FD3C4 /* 26_ 单元测试 */,
+				42747A222181D3C9004CFC10 /* 25_app安全 */,
+				4B77FEB4261C5E3C006F439E /* 26_app瘦身 */,
 				42A4DC4023619F9A003C345A /* 27_打印日志 */,
 				42977A8D2418854C00FFA893 /* 28_OC和c,oc++混编 */,
-				42747A212181BEF7004CFC10 /* 性能优化 */,
-				42747A222181D3C9004CFC10 /* APP安全 */,
+				4B766200262932C20093B89A /* 29_静态库和sdk制作 */,
 				4257582B20A29F0700BA4F54 /* Main.storyboard */,
 				4257582E20A29F0900BA4F54 /* Assets.xcassets */,
 				4257583020A29F0900BA4F54 /* LaunchScreen.storyboard */,
@@ -2460,25 +2477,11 @@
 			path = "14_RunLoop汇总";
 			sourceTree = "<group>";
 		};
-		42747A212181BEF7004CFC10 /* 性能优化 */ = {
+		42747A222181D3C9004CFC10 /* 25_app安全 */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "性能优化";
-			sourceTree = "<group>";
-		};
-		42747A222181D3C9004CFC10 /* APP安全 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "APP安全";
-			sourceTree = "<group>";
-		};
-		42747A232181D421004CFC10 /* 15_空 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "15_空";
+			path = "25_app安全";
 			sourceTree = "<group>";
 		};
 		42747A242181D435004CFC10 /* 16_加密汇总 */ = {
@@ -2498,18 +2501,18 @@
 			path = "16_加密汇总";
 			sourceTree = "<group>";
 		};
-		427D28B1216C9843009DDEAC /* 9_代码架构 */ = {
+		427D28B1216C9843009DDEAC /* 9_app架构 */ = {
 			isa = PBXGroup;
 			children = (
+				4B77FEAF261C5772006F439E /* ArchitectureVC.h */,
+				4B77FEB0261C5772006F439E /* ArchitectureVC.m */,
+				4B77FEB1261C5772006F439E /* ArchitectureVC.xib */,
+				4B77FE8B261C434B006F439E /* 1-mvc */,
+				4B77FE8D261C4359006F439E /* 2-mvp */,
+				4B77FE98261C51D6006F439E /* 3-viper */,
+				4B77FE8C261C4352006F439E /* 4-mvvm */,
 			);
-			path = "9_代码架构";
-			sourceTree = "<group>";
-		};
-		427D28B2216C9863009DDEAC /* 10_封装，解耦，路由，组件化，MVVM，AOP */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "10_封装，解耦，路由，组件化，MVVM，AOP";
+			path = "9_app架构";
 			sourceTree = "<group>";
 		};
 		4288EF222331BD3500113EAE /* 23_控件的写法(懒加载等） */ = {
@@ -2531,13 +2534,6 @@
 				42EF23742415D2B000EB5F74 /* ObjectOrientedViewController.xib */,
 			);
 			path = "24_协议&继承&多态&分类&扩展";
-			sourceTree = "<group>";
-		};
-		4288EF2E2332375100113EAE /* 25_空 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "25_空";
 			sourceTree = "<group>";
 		};
 		429674CF23B492E400637C82 /* SimpleJsWithWK */ = {
@@ -3368,9 +3364,6 @@
 		42C5B66F2142643E00563794 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE892419C6EA0008A71F /* WXTabBar */,
-				42DBDE96241A35830008A71F /* WXNaviBar */,
-				42DBDE8D2419C97C0008A71F /* CommonViewController */,
 				42D7010D2182A8B7008DFABB /* SVProgressHUD */,
 				42747A192181A492004CFC10 /* 日志显示 */,
 				42C5B66E2142606800563794 /* PrefixHeader.pch */,
@@ -3686,22 +3679,22 @@
 			path = "3_展示本地音频文件";
 			sourceTree = "<group>";
 		};
-		42DBDE892419C6EA0008A71F /* WXTabBar */ = {
+		42DBDE892419C6EA0008A71F /* TabBarController */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE8B2419C6EA0008A71F /* WXTabBarController.h */,
-				42DBDE8A2419C6EA0008A71F /* WXTabBarController.m */,
+				4BB2CF4C262E80E300617B41 /* MainTabBarController.h */,
+				4BB2CF4D262E80E400617B41 /* MainTabBarController.m */,
 			);
-			path = WXTabBar;
+			path = TabBarController;
 			sourceTree = "<group>";
 		};
-		42DBDE8D2419C97C0008A71F /* CommonViewController */ = {
+		42DBDE8D2419C97C0008A71F /* CommonVC */ = {
 			isa = PBXGroup;
 			children = (
 				42DBDE8E2419C97C0008A71F /* Common_ViewController.h */,
 				42DBDE8F2419C97C0008A71F /* Common_ViewController.m */,
 			);
-			path = CommonViewController;
+			path = CommonVC;
 			sourceTree = "<group>";
 		};
 		42DBDE91241A1B8E0008A71F /* 4_多态 */ = {
@@ -3713,15 +3706,13 @@
 			path = "4_多态";
 			sourceTree = "<group>";
 		};
-		42DBDE96241A35830008A71F /* WXNaviBar */ = {
+		42DBDE96241A35830008A71F /* NaviBarController */ = {
 			isa = PBXGroup;
 			children = (
-				42DBDE97241A35B70008A71F /* WXNavigationBar.h */,
-				42DBDE98241A35B70008A71F /* WXNavigationBar.m */,
-				42525613241B0EC7000F2295 /* WXNavigationVC.h */,
-				42525614241B0EC7000F2295 /* WXNavigationVC.m */,
+				4BB2CF4A262E80DC00617B41 /* MainNavigationController.h */,
+				4BB2CF49262E80DC00617B41 /* MainNavigationController.m */,
 			);
-			path = WXNaviBar;
+			path = NaviBarController;
 			sourceTree = "<group>";
 		};
 		42E4579D212E3CDF00898A3D /* 4_调用方法的方式 */ = {
@@ -3832,13 +3823,6 @@
 			path = "1_协议";
 			sourceTree = "<group>";
 		};
-		42EF238024160C5200EB5F74 /* 6_const,static,extern */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "6_const,static,extern";
-			sourceTree = "<group>";
-		};
 		42EF2392241626D300EB5F74 /* 1_宏定义 */ = {
 			isa = PBXGroup;
 			children = (
@@ -3921,6 +3905,124 @@
 				42FFFF9E21F6F11700C594AA /* Base64EncryptVC.xib */,
 			);
 			path = "5，Base64";
+			sourceTree = "<group>";
+		};
+		4B7661FD262931F40093B89A /* 6_app单元测试 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6_app单元测试";
+			sourceTree = "<group>";
+		};
+		4B7661FE2629320F0093B89A /* 10_app组件化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "10_app组件化";
+			sourceTree = "<group>";
+		};
+		4B7661FF262932240093B89A /* 15_app性能优化 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "15_app性能优化";
+			sourceTree = "<group>";
+		};
+		4B766200262932C20093B89A /* 29_静态库和sdk制作 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "29_静态库和sdk制作";
+			sourceTree = "<group>";
+		};
+		4B77FE8B261C434B006F439E /* 1-mvc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "1-mvc";
+			sourceTree = "<group>";
+		};
+		4B77FE8C261C4352006F439E /* 4-mvvm */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FEA6261C5214006F439E /* ViewController */,
+				4B77FE99261C5213006F439E /* Model */,
+				4B77FE9C261C5214006F439E /* View */,
+				4B77FE9F261C5214006F439E /* ViewModel */,
+			);
+			path = "4-mvvm";
+			sourceTree = "<group>";
+		};
+		4B77FE8D261C4359006F439E /* 2-mvp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "2-mvp";
+			sourceTree = "<group>";
+		};
+		4B77FE98261C51D6006F439E /* 3-viper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3-viper";
+			sourceTree = "<group>";
+		};
+		4B77FE99261C5213006F439E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FE9A261C5213006F439E /* JNModel.h */,
+				4B77FE9B261C5213006F439E /* JNModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4B77FE9C261C5214006F439E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FE9D261C5214006F439E /* JNTableViewCell.h */,
+				4B77FE9E261C5214006F439E /* JNTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4B77FE9F261C5214006F439E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FEA4261C5214006F439E /* JNViewModel.h */,
+				4B77FEA0261C5214006F439E /* JNViewModel.m */,
+				4B77FEA1261C5214006F439E /* JNTableDataSource.h */,
+				4B77FEA3261C5214006F439E /* JNTableDataSource.m */,
+				4B77FEA2261C5214006F439E /* JNBaseViewModel.h */,
+				4B77FEA5261C5214006F439E /* JNBaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4B77FEA6261C5214006F439E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4B77FEA7261C5214006F439E /* JNViewController.h */,
+				4B77FEA8261C5214006F439E /* JNViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4B77FEB4261C5E3C006F439E /* 26_app瘦身 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "26_app瘦身";
+			sourceTree = "<group>";
+		};
+		4BB2CF4F262E858100617B41 /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				4257582820A29F0700BA4F54 /* ViewController.h */,
+				4257582920A29F0700BA4F54 /* ViewController.m */,
+				4BB2CF50262E85C200617B41 /* ViewController2.h */,
+				4BB2CF51262E85C200617B41 /* ViewController2.m */,
+			);
+			path = BaseVC;
 			sourceTree = "<group>";
 		};
 		5DBF32C8776305E579ACB9AE /* Pods */ = {
@@ -4079,6 +4181,7 @@
 				420189B821F9AA1200257DCF /* private_key.p12 in Resources */,
 				42E8C8C1214758F100BA399D /* RegularExpressionVC.storyboard in Resources */,
 				429674CE23B48FA600637C82 /* JSPost.html in Resources */,
+				4B77FEB3261C5772006F439E /* ArchitectureVC.xib in Resources */,
 				4218DF9923C8272500758F12 /* AssociatedMethodVC.xib in Resources */,
 				424F056822758E8A0039CD62 /* index2.html in Resources */,
 				42FFFF9121F6F06200C594AA /* HashEncryptVC.xib in Resources */,
@@ -4206,9 +4309,11 @@
 				42E7A137219920E500304651 /* CalculateImageStorageVC.m in Sources */,
 				4212D9C0221662E8004A7BA8 /* WKWebViewVC.m in Sources */,
 				42E8C8C521476FDA00BA399D /* RegularUtils.m in Sources */,
+				4BB2CF4E262E80E400617B41 /* MainTabBarController.m in Sources */,
 				42C5B66321425EA500563794 /* Calculator.m in Sources */,
 				42B573F7213FDCFF0089CFDF /* PerformSelectorNoViewController.m in Sources */,
 				42C5B61121425EA500563794 /* DelegatePatternViewController.m in Sources */,
+				4B77FEA9261C5214006F439E /* JNModel.m in Sources */,
 				42EF2390241622CC00EB5F74 /* PrecompliedViewController.m in Sources */,
 				424F051922753C700039CD62 /* TestClass.m in Sources */,
 				42C5B5FE21425EA500563794 /* GameDecortor.m in Sources */,
@@ -4233,6 +4338,7 @@
 				42CB7E4E2138E399003397FB /* TimerViewController.m in Sources */,
 				422789422145FCEE002B9C13 /* TestVC1.m in Sources */,
 				42747A1821819E1E004CFC10 /* DicToModelVC.m in Sources */,
+				4B77FEAC261C5214006F439E /* JNTableDataSource.m in Sources */,
 				42C5B61D21425EA500563794 /* FlyweightPatternViewController.m in Sources */,
 				424F058722759E150039CD62 /* WKWebView+BAKit.m in Sources */,
 				424F051A22753C700039CD62 /* TestClass+Category.m in Sources */,
@@ -4316,7 +4422,6 @@
 				42D7011A2182A8B7008DFABB /* SVProgressHUD.m in Sources */,
 				422355DF2195624C00A7DF99 /* MultiReturnValueVC.m in Sources */,
 				42E8C8BB214758BB00BA399D /* SearchViewController.m in Sources */,
-				42525615241B0EC7000F2295 /* WXNavigationVC.m in Sources */,
 				42C5B5FA21425EA500563794 /* GameLoL.m in Sources */,
 				42747A0921819DC4004CFC10 /* YYClassInfo.m in Sources */,
 				42C5B64721425EA500563794 /* MediatorPatternViewController.m in Sources */,
@@ -4327,12 +4432,14 @@
 				42A4DC4323619FED003C345A /* PrintLogVC.m in Sources */,
 				42D1C76222782F4C001F170F /* MJBook.m in Sources */,
 				42B26F6E21F18150007351A9 /* TestReplaceIfElseVC.m in Sources */,
+				4B77FEB2261C5772006F439E /* ArchitectureVC.m in Sources */,
 				424F053F227585750039CD62 /* WebViewUseJsBridgeVC.m in Sources */,
 				42D1C76022782F4C001F170F /* MJDog.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				4201E548241F05750089044A /* NOMacroApplicationVC.m in Sources */,
+				4B77FEAA261C5214006F439E /* JNTableViewCell.m in Sources */,
 				424F056722758E8A0039CD62 /* WebViewUseJsBridge2VC.m in Sources */,
 				42C5B60421425EA500563794 /* AdapterDemo2ViewController.m in Sources */,
 				42C5B61021425EA500563794 /* Person.m in Sources */,
@@ -4343,15 +4450,19 @@
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				4212088723D01717001D16B9 /* KVC_Book.m in Sources */,
+				4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42EF237C2415DF2A00EB5F74 /* ProtocolDemoViewController.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
+				4B77FEAE261C5214006F439E /* JNViewController.m in Sources */,
 				423C391622449322005319C1 /* OCCallJSViewController.m in Sources */,
 				424F055E22758C160039CD62 /* WebViewJavascriptBridgeBase.m in Sources */,
 				42C5B66D21425EE300563794 /* DesignModeSummaryVC.m in Sources */,
 				424F059222759E150039CD62 /* NSMutableAttributedString+BAKit.m in Sources */,
 				42E8C8BE214758BB00BA399D /* ThirdViewController.m in Sources */,
+				4BB2CF52262E85C200617B41 /* ViewController2.m in Sources */,
 				42C5B64821425EA500563794 /* Colleague.m in Sources */,
+				4B77FEAD261C5214006F439E /* JNBaseViewModel.m in Sources */,
 				42977AC82418E6BC00FFA893 /* DMPrinterManager.mm in Sources */,
 				42C5B63E21425EA500563794 /* CAP.m in Sources */,
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
@@ -4422,6 +4533,7 @@
 				42C5B62D21425EA500563794 /* Director.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
 				421485F8227303C5009D0B0A /* UIImage+swizzlingImage.m in Sources */,
+				4B77FEAB261C5214006F439E /* JNViewModel.m in Sources */,
 				4227895E2146093B002B9C13 /* TestTableViewDigitConfig.m in Sources */,
 				42C5B63821425EA500563794 /* OperationAdd.m in Sources */,
 				422789602146093B002B9C13 /* TestTableViewClickConfig.m in Sources */,
@@ -4514,7 +4626,6 @@
 				42C5B62221425EA500563794 /* PenFactory.m in Sources */,
 				42C5B5F821425EA500563794 /* GameLoL+Cheat.m in Sources */,
 				424F0536227540500039CD62 /* StatusItem2.m in Sources */,
-				42DBDE8C2419C6EA0008A71F /* WXTabBarController.m in Sources */,
 				42D70147218306AD008DFABB /* AudioSystemVC.m in Sources */,
 				426FB1C720CA7CFD00B2B747 /* ReceiveValueVC.m in Sources */,
 				42EF238C24161A7200EB5F74 /* MC_Daughter.m in Sources */,
@@ -4550,7 +4661,6 @@
 				4268A95B23A364B400448758 /* ButtonTransferParameterVC.m in Sources */,
 				42C5B60C21425EA500563794 /* UIView+SetRect.m in Sources */,
 				4257582720A29F0700BA4F54 /* AppDelegate.m in Sources */,
-				42DBDE99241A35B70008A71F /* WXNavigationBar.m in Sources */,
 				4201E549241F05750089044A /* MacroApplicationVC.m in Sources */,
 				42747A0721819DC4004CFC10 /* ZSAnalysisClass.m in Sources */,
 				42C5B62121425EA500563794 /* Pencil.m in Sources */,

@@ -17,7 +17,11 @@ pod 'YYKit'
 pod 'MJRefresh'
 pod 'MJExtension'
 pod 'DZNEmptyDataSet'
-
 pod "Texture"
+
+pod 'SVPullToRefresh'
+pod 'AFNetworking'
+pod 'ComponentKit'
+pod 'FlexLib'
 
 end

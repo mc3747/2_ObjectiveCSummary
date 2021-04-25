@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-UIGracefulWriting/Pods-UIGracefulWriting-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLib.bundle
 ${PODS_ROOT}/GPUImage/framework/Resources/lookup.png
 ${PODS_ROOT}/GPUImage/framework/Resources/lookup_amatorka.png
 ${PODS_ROOT}/GPUImage/framework/Resources/lookup_miss_etikate.png

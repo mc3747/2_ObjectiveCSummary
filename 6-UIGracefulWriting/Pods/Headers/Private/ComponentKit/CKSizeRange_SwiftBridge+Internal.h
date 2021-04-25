@@ -1,0 +1,1 @@
+../../../ComponentKit/ComponentKit/Core/Swift/CKSizeRange_SwiftBridge+Internal.h

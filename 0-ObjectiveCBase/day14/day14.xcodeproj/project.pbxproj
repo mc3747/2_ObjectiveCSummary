@@ -1,0 +1,1755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		70AE5D1D1B38E74200A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D1C1B38E74200A80C3B /* main.m */; };
+		70AE5D251B38E75C00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D241B38E75C00A80C3B /* Person.m */; };
+		70AE5D2D1B38EA6100A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D2C1B38EA6100A80C3B /* main.m */; };
+		70AE5D331B38EA7600A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D321B38EA7600A80C3B /* Person.m */; };
+		70AE5D3B1B38EF7100A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D3A1B38EF7100A80C3B /* main.m */; };
+		70AE5D411B38EF7B00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D401B38EF7B00A80C3B /* Person.m */; };
+		70AE5D491B38F53800A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D481B38F53800A80C3B /* main.m */; };
+		70AE5D4F1B38F54300A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D4E1B38F54300A80C3B /* Person.m */; };
+		70AE5D571B38F90200A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D561B38F90200A80C3B /* main.m */; };
+		70AE5D5D1B38F91200A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D5C1B38F91200A80C3B /* Person.m */; };
+		70AE5D651B38FDF800A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D641B38FDF800A80C3B /* main.m */; };
+		70AE5D6B1B38FE3C00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D6A1B38FE3C00A80C3B /* Person.m */; };
+		70AE5D6E1B38FE4700A80C3B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D6D1B38FE4700A80C3B /* Student.m */; };
+		70AE5D761B3906DA00A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D751B3906DA00A80C3B /* main.m */; };
+		70AE5D7C1B3906EB00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D7B1B3906EB00A80C3B /* Person.m */; };
+		70AE5D841B390AC200A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D831B390AC200A80C3B /* main.m */; };
+		70AE5D8A1B390AF200A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D891B390AF200A80C3B /* Person.m */; };
+		70AE5D921B390E5200A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D911B390E5200A80C3B /* main.m */; };
+		70AE5D981B390E5C00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D971B390E5C00A80C3B /* Person.m */; };
+		70AE5D9B1B390EC900A80C3B /* Studnet.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5D9A1B390EC900A80C3B /* Studnet.m */; };
+		70AE5DA31B3935AD00A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DA21B3935AD00A80C3B /* main.m */; };
+		70AE5DA91B3935B900A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DA81B3935B900A80C3B /* Person.m */; };
+		70AE5DB11B39381D00A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DB01B39381D00A80C3B /* main.m */; };
+		70AE5DB71B39385700A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DB61B39385700A80C3B /* Person.m */; };
+		70AE5DBF1B393B3200A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DBE1B393B3200A80C3B /* main.m */; };
+		70AE5DC51B393B3C00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DC41B393B3C00A80C3B /* Person.m */; };
+		70AE5DC81B393B4C00A80C3B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DC71B393B4C00A80C3B /* Student.m */; };
+		70AE5DD01B3942D800A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DCF1B3942D800A80C3B /* main.m */; };
+		70AE5DD61B3942E800A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DD51B3942E800A80C3B /* Person.m */; };
+		70AE5DDE1B39457C00A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DDD1B39457C00A80C3B /* main.m */; };
+		70AE5DE41B39458500A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DE31B39458500A80C3B /* Person.m */; };
+		70AE5DE71B39459700A80C3B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DE61B39459700A80C3B /* Student.m */; };
+		70AE5DEF1B39488300A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DEE1B39488300A80C3B /* main.m */; };
+		70AE5DF51B3948FB00A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DF41B3948FB00A80C3B /* Person.m */; };
+		70AE5DF81B3954CC00A80C3B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DF71B3954CC00A80C3B /* Car.m */; };
+		70AE5E001B39555000A80C3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5DFF1B39555000A80C3B /* main.m */; };
+		70AE5E061B39555800A80C3B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5E051B39555800A80C3B /* Person.m */; };
+		70AE5E091B3955E500A80C3B /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5E081B3955E500A80C3B /* Car.m */; };
+		70AE5E0C1B39570000A80C3B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5E0B1B39570000A80C3B /* Student.m */; };
+		70AE5E0F1B39576500A80C3B /* GoodStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 70AE5E0E1B39576500A80C3B /* GoodStudent.m */; };
+		9D84D7EE1B356EF200F057FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84D7ED1B356EF200F057FD /* main.m */; };
+		9D84D7F41B356F0800F057FD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84D7F31B356F0800F057FD /* Person.m */; };
+		9D84D7F71B35736D00F057FD /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D84D7F61B35736D00F057FD /* Car.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		70AE5D171B38E74200A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D281B38EA6100A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D361B38EF7100A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D441B38F53800A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D521B38F90200A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D601B38FDF800A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D711B3906D900A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D7F1B390AC200A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D8D1B390E5200A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5D9E1B3935AD00A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DAC1B39381D00A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DBA1B393B3100A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DCB1B3942D800A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DD91B39457C00A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DEA1B39488300A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		70AE5DFB1B39555000A80C3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		9D84D7E91B356EF200F057FD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		70AE5D191B38E74200A80C3B /* day14 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = day14; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D1C1B38E74200A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D231B38E75C00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D241B38E75C00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D2A1B38EA6100A80C3B /* Property基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Property基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D2C1B38EA6100A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D311B38EA7600A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D321B38EA7600A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D381B38EF7100A80C3B /* synthesize基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "synthesize基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D3A1B38EF7100A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D3F1B38EF7B00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D401B38EF7B00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D461B38F53800A80C3B /* Property增强 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Property增强"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D481B38F53800A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D4D1B38F54300A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D4E1B38F54300A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D541B38F90200A80C3B /* property修饰符 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "property修饰符"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D561B38F90200A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D5B1B38F91200A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D5C1B38F91200A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D621B38FDF800A80C3B /* id类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "id类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D641B38FDF800A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D691B38FE3C00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D6A1B38FE3C00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D6C1B38FE4700A80C3B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		70AE5D6D1B38FE4700A80C3B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		70AE5D731B3906D900A80C3B /* new方法实现原理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "new方法实现原理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D751B3906DA00A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D7A1B3906EB00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D7B1B3906EB00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D811B390AC200A80C3B /* 构造方法基本概念 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "构造方法基本概念"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D831B390AC200A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D881B390AF200A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D891B390AF200A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D8F1B390E5200A80C3B /* 构造方法练习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "构造方法练习"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5D911B390E5200A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5D961B390E5C00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5D971B390E5C00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5D991B390EC900A80C3B /* Studnet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Studnet.h; sourceTree = "<group>"; };
+		70AE5D9A1B390EC900A80C3B /* Studnet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Studnet.m; sourceTree = "<group>"; };
+		70AE5DA01B3935AD00A80C3B /* instancetype和id的区别 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "instancetype和id的区别"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DA21B3935AD00A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DA71B3935B900A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DA81B3935B900A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DAE1B39381D00A80C3B /* 自定义构造方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义构造方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DB01B39381D00A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DB51B39385700A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DB61B39385700A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DBC1B393B3100A80C3B /* 自定义构造方法在继承中的表现 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义构造方法在继承中的表现"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DBE1B393B3200A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DC31B393B3C00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DC41B393B3C00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DC61B393B4C00A80C3B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		70AE5DC71B393B4C00A80C3B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		70AE5DCD1B3942D800A80C3B /* 自定义类工厂方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "自定义类工厂方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DCF1B3942D800A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DD41B3942E800A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DD51B3942E800A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DDB1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类工厂方法在继承中的注意点"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DDD1B39457C00A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DE21B39458500A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DE31B39458500A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DE51B39459700A80C3B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		70AE5DE61B39459700A80C3B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		70AE5DEC1B39488300A80C3B /* 类的本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类的本质"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DEE1B39488300A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5DF31B3948FB00A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5DF41B3948FB00A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5DF61B3954CC00A80C3B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		70AE5DF71B3954CC00A80C3B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		70AE5DFD1B39555000A80C3B /* 类的启动过程 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "类的启动过程"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AE5DFF1B39555000A80C3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70AE5E041B39555800A80C3B /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		70AE5E051B39555800A80C3B /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		70AE5E071B3955E500A80C3B /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		70AE5E081B3955E500A80C3B /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		70AE5E0A1B39570000A80C3B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		70AE5E0B1B39570000A80C3B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		70AE5E0D1B39576500A80C3B /* GoodStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodStudent.h; sourceTree = "<group>"; };
+		70AE5E0E1B39576500A80C3B /* GoodStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodStudent.m; sourceTree = "<group>"; };
+		9D84D7EB1B356EF200F057FD /* SEL类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "SEL类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D84D7ED1B356EF200F057FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D84D7F21B356F0800F057FD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		9D84D7F31B356F0800F057FD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		9D84D7F51B35736D00F057FD /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		9D84D7F61B35736D00F057FD /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		70AE5D161B38E74200A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D271B38EA6100A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D351B38EF7100A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D431B38F53800A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D511B38F90200A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D5F1B38FDF800A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D701B3906D900A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D7E1B390AC200A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D8C1B390E5200A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D9D1B3935AD00A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DAB1B39381D00A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DB91B393B3100A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DCA1B3942D800A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DD81B39457C00A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DE91B39488300A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DFA1B39555000A80C3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D84D7E81B356EF200F057FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		70AE5D101B38E74200A80C3B = {
+			isa = PBXGroup;
+			children = (
+				70AE5D1B1B38E74200A80C3B /* day14 */,
+				70AE5D2B1B38EA6100A80C3B /* Property基本使用 */,
+				70AE5D391B38EF7100A80C3B /* synthesize基本使用 */,
+				70AE5D471B38F53800A80C3B /* Property增强 */,
+				70AE5D551B38F90200A80C3B /* property修饰符 */,
+				70AE5D631B38FDF800A80C3B /* id类型 */,
+				70AE5D741B3906DA00A80C3B /* new方法实现原理 */,
+				70AE5D821B390AC200A80C3B /* 构造方法基本概念 */,
+				70AE5D901B390E5200A80C3B /* 构造方法练习 */,
+				70AE5DA11B3935AD00A80C3B /* instancetype和id的区别 */,
+				70AE5DAF1B39381D00A80C3B /* 自定义构造方法 */,
+				70AE5DBD1B393B3200A80C3B /* 自定义构造方法在继承中的表现 */,
+				70AE5DCE1B3942D800A80C3B /* 自定义类工厂方法 */,
+				70AE5DDC1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */,
+				70AE5DED1B39488300A80C3B /* 类的本质 */,
+				70AE5DFE1B39555000A80C3B /* 类的启动过程 */,
+				9D84D7EC1B356EF200F057FD /* SEL类型 */,
+				70AE5D1A1B38E74200A80C3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		70AE5D1A1B38E74200A80C3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D191B38E74200A80C3B /* day14 */,
+				70AE5D2A1B38EA6100A80C3B /* Property基本使用 */,
+				70AE5D381B38EF7100A80C3B /* synthesize基本使用 */,
+				70AE5D461B38F53800A80C3B /* Property增强 */,
+				70AE5D541B38F90200A80C3B /* property修饰符 */,
+				70AE5D621B38FDF800A80C3B /* id类型 */,
+				70AE5D731B3906D900A80C3B /* new方法实现原理 */,
+				70AE5D811B390AC200A80C3B /* 构造方法基本概念 */,
+				70AE5D8F1B390E5200A80C3B /* 构造方法练习 */,
+				70AE5DA01B3935AD00A80C3B /* instancetype和id的区别 */,
+				70AE5DAE1B39381D00A80C3B /* 自定义构造方法 */,
+				70AE5DBC1B393B3100A80C3B /* 自定义构造方法在继承中的表现 */,
+				70AE5DCD1B3942D800A80C3B /* 自定义类工厂方法 */,
+				70AE5DDB1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */,
+				70AE5DEC1B39488300A80C3B /* 类的本质 */,
+				70AE5DFD1B39555000A80C3B /* 类的启动过程 */,
+				9D84D7EB1B356EF200F057FD /* SEL类型 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70AE5D1B1B38E74200A80C3B /* day14 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D1C1B38E74200A80C3B /* main.m */,
+				70AE5D231B38E75C00A80C3B /* Person.h */,
+				70AE5D241B38E75C00A80C3B /* Person.m */,
+			);
+			path = day14;
+			sourceTree = "<group>";
+		};
+		70AE5D2B1B38EA6100A80C3B /* Property基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D2C1B38EA6100A80C3B /* main.m */,
+				70AE5D311B38EA7600A80C3B /* Person.h */,
+				70AE5D321B38EA7600A80C3B /* Person.m */,
+			);
+			path = "Property基本使用";
+			sourceTree = "<group>";
+		};
+		70AE5D391B38EF7100A80C3B /* synthesize基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D3A1B38EF7100A80C3B /* main.m */,
+				70AE5D3F1B38EF7B00A80C3B /* Person.h */,
+				70AE5D401B38EF7B00A80C3B /* Person.m */,
+			);
+			path = "synthesize基本使用";
+			sourceTree = "<group>";
+		};
+		70AE5D471B38F53800A80C3B /* Property增强 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D481B38F53800A80C3B /* main.m */,
+				70AE5D4D1B38F54300A80C3B /* Person.h */,
+				70AE5D4E1B38F54300A80C3B /* Person.m */,
+			);
+			path = "Property增强";
+			sourceTree = "<group>";
+		};
+		70AE5D551B38F90200A80C3B /* property修饰符 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D561B38F90200A80C3B /* main.m */,
+				70AE5D5B1B38F91200A80C3B /* Person.h */,
+				70AE5D5C1B38F91200A80C3B /* Person.m */,
+			);
+			path = "property修饰符";
+			sourceTree = "<group>";
+		};
+		70AE5D631B38FDF800A80C3B /* id类型 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D641B38FDF800A80C3B /* main.m */,
+				70AE5D691B38FE3C00A80C3B /* Person.h */,
+				70AE5D6A1B38FE3C00A80C3B /* Person.m */,
+				70AE5D6C1B38FE4700A80C3B /* Student.h */,
+				70AE5D6D1B38FE4700A80C3B /* Student.m */,
+			);
+			path = "id类型";
+			sourceTree = "<group>";
+		};
+		70AE5D741B3906DA00A80C3B /* new方法实现原理 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D751B3906DA00A80C3B /* main.m */,
+				70AE5D7A1B3906EB00A80C3B /* Person.h */,
+				70AE5D7B1B3906EB00A80C3B /* Person.m */,
+			);
+			path = "new方法实现原理";
+			sourceTree = "<group>";
+		};
+		70AE5D821B390AC200A80C3B /* 构造方法基本概念 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D831B390AC200A80C3B /* main.m */,
+				70AE5D881B390AF200A80C3B /* Person.h */,
+				70AE5D891B390AF200A80C3B /* Person.m */,
+			);
+			path = "构造方法基本概念";
+			sourceTree = "<group>";
+		};
+		70AE5D901B390E5200A80C3B /* 构造方法练习 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5D911B390E5200A80C3B /* main.m */,
+				70AE5D961B390E5C00A80C3B /* Person.h */,
+				70AE5D971B390E5C00A80C3B /* Person.m */,
+				70AE5D991B390EC900A80C3B /* Studnet.h */,
+				70AE5D9A1B390EC900A80C3B /* Studnet.m */,
+			);
+			path = "构造方法练习";
+			sourceTree = "<group>";
+		};
+		70AE5DA11B3935AD00A80C3B /* instancetype和id的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DA21B3935AD00A80C3B /* main.m */,
+				70AE5DA71B3935B900A80C3B /* Person.h */,
+				70AE5DA81B3935B900A80C3B /* Person.m */,
+			);
+			path = "instancetype和id的区别";
+			sourceTree = "<group>";
+		};
+		70AE5DAF1B39381D00A80C3B /* 自定义构造方法 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DB01B39381D00A80C3B /* main.m */,
+				70AE5DB51B39385700A80C3B /* Person.h */,
+				70AE5DB61B39385700A80C3B /* Person.m */,
+			);
+			path = "自定义构造方法";
+			sourceTree = "<group>";
+		};
+		70AE5DBD1B393B3200A80C3B /* 自定义构造方法在继承中的表现 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DBE1B393B3200A80C3B /* main.m */,
+				70AE5DC31B393B3C00A80C3B /* Person.h */,
+				70AE5DC41B393B3C00A80C3B /* Person.m */,
+				70AE5DC61B393B4C00A80C3B /* Student.h */,
+				70AE5DC71B393B4C00A80C3B /* Student.m */,
+			);
+			path = "自定义构造方法在继承中的表现";
+			sourceTree = "<group>";
+		};
+		70AE5DCE1B3942D800A80C3B /* 自定义类工厂方法 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DCF1B3942D800A80C3B /* main.m */,
+				70AE5DD41B3942E800A80C3B /* Person.h */,
+				70AE5DD51B3942E800A80C3B /* Person.m */,
+			);
+			path = "自定义类工厂方法";
+			sourceTree = "<group>";
+		};
+		70AE5DDC1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DDD1B39457C00A80C3B /* main.m */,
+				70AE5DE21B39458500A80C3B /* Person.h */,
+				70AE5DE31B39458500A80C3B /* Person.m */,
+				70AE5DE51B39459700A80C3B /* Student.h */,
+				70AE5DE61B39459700A80C3B /* Student.m */,
+			);
+			path = "类工厂方法在继承中的注意点";
+			sourceTree = "<group>";
+		};
+		70AE5DED1B39488300A80C3B /* 类的本质 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DEE1B39488300A80C3B /* main.m */,
+				70AE5DF31B3948FB00A80C3B /* Person.h */,
+				70AE5DF41B3948FB00A80C3B /* Person.m */,
+				70AE5DF61B3954CC00A80C3B /* Car.h */,
+				70AE5DF71B3954CC00A80C3B /* Car.m */,
+			);
+			path = "类的本质";
+			sourceTree = "<group>";
+		};
+		70AE5DFE1B39555000A80C3B /* 类的启动过程 */ = {
+			isa = PBXGroup;
+			children = (
+				70AE5DFF1B39555000A80C3B /* main.m */,
+				70AE5E041B39555800A80C3B /* Person.h */,
+				70AE5E051B39555800A80C3B /* Person.m */,
+				70AE5E0A1B39570000A80C3B /* Student.h */,
+				70AE5E0B1B39570000A80C3B /* Student.m */,
+				70AE5E0D1B39576500A80C3B /* GoodStudent.h */,
+				70AE5E0E1B39576500A80C3B /* GoodStudent.m */,
+				70AE5E071B3955E500A80C3B /* Car.h */,
+				70AE5E081B3955E500A80C3B /* Car.m */,
+			);
+			path = "类的启动过程";
+			sourceTree = "<group>";
+		};
+		9D84D7EC1B356EF200F057FD /* SEL类型 */ = {
+			isa = PBXGroup;
+			children = (
+				9D84D7ED1B356EF200F057FD /* main.m */,
+				9D84D7F51B35736D00F057FD /* Car.h */,
+				9D84D7F61B35736D00F057FD /* Car.m */,
+				9D84D7F21B356F0800F057FD /* Person.h */,
+				9D84D7F31B356F0800F057FD /* Person.m */,
+			);
+			path = "SEL类型";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		70AE5D181B38E74200A80C3B /* day14 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D201B38E74200A80C3B /* Build configuration list for PBXNativeTarget "day14" */;
+			buildPhases = (
+				70AE5D151B38E74200A80C3B /* Sources */,
+				70AE5D161B38E74200A80C3B /* Frameworks */,
+				70AE5D171B38E74200A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = day14;
+			productName = day14;
+			productReference = 70AE5D191B38E74200A80C3B /* day14 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D291B38EA6100A80C3B /* Property基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D2E1B38EA6100A80C3B /* Build configuration list for PBXNativeTarget "Property基本使用" */;
+			buildPhases = (
+				70AE5D261B38EA6100A80C3B /* Sources */,
+				70AE5D271B38EA6100A80C3B /* Frameworks */,
+				70AE5D281B38EA6100A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Property基本使用";
+			productName = "Property基本使用";
+			productReference = 70AE5D2A1B38EA6100A80C3B /* Property基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D371B38EF7100A80C3B /* synthesize基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D3C1B38EF7100A80C3B /* Build configuration list for PBXNativeTarget "synthesize基本使用" */;
+			buildPhases = (
+				70AE5D341B38EF7100A80C3B /* Sources */,
+				70AE5D351B38EF7100A80C3B /* Frameworks */,
+				70AE5D361B38EF7100A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "synthesize基本使用";
+			productName = "synthesize基本使用";
+			productReference = 70AE5D381B38EF7100A80C3B /* synthesize基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D451B38F53800A80C3B /* Property增强 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D4A1B38F53800A80C3B /* Build configuration list for PBXNativeTarget "Property增强" */;
+			buildPhases = (
+				70AE5D421B38F53800A80C3B /* Sources */,
+				70AE5D431B38F53800A80C3B /* Frameworks */,
+				70AE5D441B38F53800A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Property增强";
+			productName = "Property增强";
+			productReference = 70AE5D461B38F53800A80C3B /* Property增强 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D531B38F90200A80C3B /* property修饰符 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D581B38F90200A80C3B /* Build configuration list for PBXNativeTarget "property修饰符" */;
+			buildPhases = (
+				70AE5D501B38F90200A80C3B /* Sources */,
+				70AE5D511B38F90200A80C3B /* Frameworks */,
+				70AE5D521B38F90200A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "property修饰符";
+			productName = "property修饰符";
+			productReference = 70AE5D541B38F90200A80C3B /* property修饰符 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D611B38FDF800A80C3B /* id类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D661B38FDF800A80C3B /* Build configuration list for PBXNativeTarget "id类型" */;
+			buildPhases = (
+				70AE5D5E1B38FDF800A80C3B /* Sources */,
+				70AE5D5F1B38FDF800A80C3B /* Frameworks */,
+				70AE5D601B38FDF800A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "id类型";
+			productName = "id类型";
+			productReference = 70AE5D621B38FDF800A80C3B /* id类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D721B3906D900A80C3B /* new方法实现原理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D771B3906DA00A80C3B /* Build configuration list for PBXNativeTarget "new方法实现原理" */;
+			buildPhases = (
+				70AE5D6F1B3906D900A80C3B /* Sources */,
+				70AE5D701B3906D900A80C3B /* Frameworks */,
+				70AE5D711B3906D900A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "new方法实现原理";
+			productName = "new方法实现原理";
+			productReference = 70AE5D731B3906D900A80C3B /* new方法实现原理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D801B390AC200A80C3B /* 构造方法基本概念 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D851B390AC200A80C3B /* Build configuration list for PBXNativeTarget "构造方法基本概念" */;
+			buildPhases = (
+				70AE5D7D1B390AC200A80C3B /* Sources */,
+				70AE5D7E1B390AC200A80C3B /* Frameworks */,
+				70AE5D7F1B390AC200A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "构造方法基本概念";
+			productName = "构造方法基本概念";
+			productReference = 70AE5D811B390AC200A80C3B /* 构造方法基本概念 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D8E1B390E5200A80C3B /* 构造方法练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5D931B390E5200A80C3B /* Build configuration list for PBXNativeTarget "构造方法练习" */;
+			buildPhases = (
+				70AE5D8B1B390E5200A80C3B /* Sources */,
+				70AE5D8C1B390E5200A80C3B /* Frameworks */,
+				70AE5D8D1B390E5200A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "构造方法练习";
+			productName = "构造方法练习";
+			productReference = 70AE5D8F1B390E5200A80C3B /* 构造方法练习 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5D9F1B3935AD00A80C3B /* instancetype和id的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DA41B3935AD00A80C3B /* Build configuration list for PBXNativeTarget "instancetype和id的区别" */;
+			buildPhases = (
+				70AE5D9C1B3935AD00A80C3B /* Sources */,
+				70AE5D9D1B3935AD00A80C3B /* Frameworks */,
+				70AE5D9E1B3935AD00A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "instancetype和id的区别";
+			productName = "instancetype和id的区别";
+			productReference = 70AE5DA01B3935AD00A80C3B /* instancetype和id的区别 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DAD1B39381D00A80C3B /* 自定义构造方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DB21B39381D00A80C3B /* Build configuration list for PBXNativeTarget "自定义构造方法" */;
+			buildPhases = (
+				70AE5DAA1B39381D00A80C3B /* Sources */,
+				70AE5DAB1B39381D00A80C3B /* Frameworks */,
+				70AE5DAC1B39381D00A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义构造方法";
+			productName = "自定义构造方法";
+			productReference = 70AE5DAE1B39381D00A80C3B /* 自定义构造方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DBB1B393B3100A80C3B /* 自定义构造方法在继承中的表现 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DC01B393B3200A80C3B /* Build configuration list for PBXNativeTarget "自定义构造方法在继承中的表现" */;
+			buildPhases = (
+				70AE5DB81B393B3100A80C3B /* Sources */,
+				70AE5DB91B393B3100A80C3B /* Frameworks */,
+				70AE5DBA1B393B3100A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义构造方法在继承中的表现";
+			productName = "自定义构造方法在继承中的表现";
+			productReference = 70AE5DBC1B393B3100A80C3B /* 自定义构造方法在继承中的表现 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DCC1B3942D800A80C3B /* 自定义类工厂方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DD11B3942D800A80C3B /* Build configuration list for PBXNativeTarget "自定义类工厂方法" */;
+			buildPhases = (
+				70AE5DC91B3942D800A80C3B /* Sources */,
+				70AE5DCA1B3942D800A80C3B /* Frameworks */,
+				70AE5DCB1B3942D800A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义类工厂方法";
+			productName = "自定义类工厂方法";
+			productReference = 70AE5DCD1B3942D800A80C3B /* 自定义类工厂方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DDA1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DDF1B39457C00A80C3B /* Build configuration list for PBXNativeTarget "类工厂方法在继承中的注意点" */;
+			buildPhases = (
+				70AE5DD71B39457C00A80C3B /* Sources */,
+				70AE5DD81B39457C00A80C3B /* Frameworks */,
+				70AE5DD91B39457C00A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类工厂方法在继承中的注意点";
+			productName = "类工厂方法在继承中的注意点";
+			productReference = 70AE5DDB1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DEB1B39488300A80C3B /* 类的本质 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5DF01B39488300A80C3B /* Build configuration list for PBXNativeTarget "类的本质" */;
+			buildPhases = (
+				70AE5DE81B39488300A80C3B /* Sources */,
+				70AE5DE91B39488300A80C3B /* Frameworks */,
+				70AE5DEA1B39488300A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类的本质";
+			productName = "类的本质";
+			productReference = 70AE5DEC1B39488300A80C3B /* 类的本质 */;
+			productType = "com.apple.product-type.tool";
+		};
+		70AE5DFC1B39555000A80C3B /* 类的启动过程 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70AE5E011B39555000A80C3B /* Build configuration list for PBXNativeTarget "类的启动过程" */;
+			buildPhases = (
+				70AE5DF91B39555000A80C3B /* Sources */,
+				70AE5DFA1B39555000A80C3B /* Frameworks */,
+				70AE5DFB1B39555000A80C3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "类的启动过程";
+			productName = "类的启动过程";
+			productReference = 70AE5DFD1B39555000A80C3B /* 类的启动过程 */;
+			productType = "com.apple.product-type.tool";
+		};
+		9D84D7EA1B356EF200F057FD /* SEL类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D84D7EF1B356EF200F057FD /* Build configuration list for PBXNativeTarget "SEL类型" */;
+			buildPhases = (
+				9D84D7E71B356EF200F057FD /* Sources */,
+				9D84D7E81B356EF200F057FD /* Frameworks */,
+				9D84D7E91B356EF200F057FD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEL类型";
+			productName = "SEL类型";
+			productReference = 9D84D7EB1B356EF200F057FD /* SEL类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		70AE5D111B38E74200A80C3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = xiaomage;
+				TargetAttributes = {
+					70AE5D181B38E74200A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D291B38EA6100A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D371B38EF7100A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D451B38F53800A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D531B38F90200A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D611B38FDF800A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D721B3906D900A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D801B390AC200A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D8E1B390E5200A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5D9F1B3935AD00A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DAD1B39381D00A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DBB1B393B3100A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DCC1B3942D800A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DDA1B39457C00A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DEB1B39488300A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					70AE5DFC1B39555000A80C3B = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					9D84D7EA1B356EF200F057FD = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 70AE5D141B38E74200A80C3B /* Build configuration list for PBXProject "day14" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 70AE5D101B38E74200A80C3B;
+			productRefGroup = 70AE5D1A1B38E74200A80C3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				70AE5D181B38E74200A80C3B /* day14 */,
+				70AE5D291B38EA6100A80C3B /* Property基本使用 */,
+				70AE5D371B38EF7100A80C3B /* synthesize基本使用 */,
+				70AE5D451B38F53800A80C3B /* Property增强 */,
+				70AE5D531B38F90200A80C3B /* property修饰符 */,
+				70AE5D611B38FDF800A80C3B /* id类型 */,
+				70AE5D721B3906D900A80C3B /* new方法实现原理 */,
+				70AE5D801B390AC200A80C3B /* 构造方法基本概念 */,
+				70AE5D8E1B390E5200A80C3B /* 构造方法练习 */,
+				70AE5D9F1B3935AD00A80C3B /* instancetype和id的区别 */,
+				70AE5DAD1B39381D00A80C3B /* 自定义构造方法 */,
+				70AE5DBB1B393B3100A80C3B /* 自定义构造方法在继承中的表现 */,
+				70AE5DCC1B3942D800A80C3B /* 自定义类工厂方法 */,
+				70AE5DDA1B39457C00A80C3B /* 类工厂方法在继承中的注意点 */,
+				70AE5DEB1B39488300A80C3B /* 类的本质 */,
+				70AE5DFC1B39555000A80C3B /* 类的启动过程 */,
+				9D84D7EA1B356EF200F057FD /* SEL类型 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		70AE5D151B38E74200A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D251B38E75C00A80C3B /* Person.m in Sources */,
+				70AE5D1D1B38E74200A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D261B38EA6100A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D331B38EA7600A80C3B /* Person.m in Sources */,
+				70AE5D2D1B38EA6100A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D341B38EF7100A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D411B38EF7B00A80C3B /* Person.m in Sources */,
+				70AE5D3B1B38EF7100A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D421B38F53800A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D4F1B38F54300A80C3B /* Person.m in Sources */,
+				70AE5D491B38F53800A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D501B38F90200A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D5D1B38F91200A80C3B /* Person.m in Sources */,
+				70AE5D571B38F90200A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D5E1B38FDF800A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D6B1B38FE3C00A80C3B /* Person.m in Sources */,
+				70AE5D651B38FDF800A80C3B /* main.m in Sources */,
+				70AE5D6E1B38FE4700A80C3B /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D6F1B3906D900A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D7C1B3906EB00A80C3B /* Person.m in Sources */,
+				70AE5D761B3906DA00A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D7D1B390AC200A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D8A1B390AF200A80C3B /* Person.m in Sources */,
+				70AE5D841B390AC200A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D8B1B390E5200A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5D981B390E5C00A80C3B /* Person.m in Sources */,
+				70AE5D921B390E5200A80C3B /* main.m in Sources */,
+				70AE5D9B1B390EC900A80C3B /* Studnet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5D9C1B3935AD00A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DA91B3935B900A80C3B /* Person.m in Sources */,
+				70AE5DA31B3935AD00A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DAA1B39381D00A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DB71B39385700A80C3B /* Person.m in Sources */,
+				70AE5DB11B39381D00A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DB81B393B3100A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DC51B393B3C00A80C3B /* Person.m in Sources */,
+				70AE5DBF1B393B3200A80C3B /* main.m in Sources */,
+				70AE5DC81B393B4C00A80C3B /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DC91B3942D800A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DD61B3942E800A80C3B /* Person.m in Sources */,
+				70AE5DD01B3942D800A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DD71B39457C00A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DE41B39458500A80C3B /* Person.m in Sources */,
+				70AE5DDE1B39457C00A80C3B /* main.m in Sources */,
+				70AE5DE71B39459700A80C3B /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DE81B39488300A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5DF81B3954CC00A80C3B /* Car.m in Sources */,
+				70AE5DF51B3948FB00A80C3B /* Person.m in Sources */,
+				70AE5DEF1B39488300A80C3B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70AE5DF91B39555000A80C3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AE5E091B3955E500A80C3B /* Car.m in Sources */,
+				70AE5E061B39555800A80C3B /* Person.m in Sources */,
+				70AE5E001B39555000A80C3B /* main.m in Sources */,
+				70AE5E0F1B39576500A80C3B /* GoodStudent.m in Sources */,
+				70AE5E0C1B39570000A80C3B /* Student.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D84D7E71B356EF200F057FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D84D7F71B35736D00F057FD /* Car.m in Sources */,
+				9D84D7F41B356F0800F057FD /* Person.m in Sources */,
+				9D84D7EE1B356EF200F057FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		70AE5D1E1B38E74200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		70AE5D1F1B38E74200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		70AE5D211B38E74200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D221B38E74200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D2F1B38EA6100A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D301B38EA6100A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D3D1B38EF7100A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D3E1B38EF7100A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D4B1B38F53800A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D4C1B38F53800A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D591B38F90200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D5A1B38F90200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D671B38FDF800A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D681B38FDF800A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D781B3906DA00A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D791B3906DA00A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D861B390AC200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D871B390AC200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5D941B390E5200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5D951B390E5200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DA51B3935AD00A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DA61B3935AD00A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DB31B39381D00A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DB41B39381D00A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DC11B393B3200A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DC21B393B3200A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DD21B3942D800A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DD31B3942D800A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DE01B39457C00A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DE11B39457C00A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5DF11B39488300A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5DF21B39488300A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		70AE5E021B39555000A80C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		70AE5E031B39555000A80C3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9D84D7F01B356EF200F057FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9D84D7F11B356EF200F057FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		70AE5D141B38E74200A80C3B /* Build configuration list for PBXProject "day14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D1E1B38E74200A80C3B /* Debug */,
+				70AE5D1F1B38E74200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D201B38E74200A80C3B /* Build configuration list for PBXNativeTarget "day14" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D211B38E74200A80C3B /* Debug */,
+				70AE5D221B38E74200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D2E1B38EA6100A80C3B /* Build configuration list for PBXNativeTarget "Property基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D2F1B38EA6100A80C3B /* Debug */,
+				70AE5D301B38EA6100A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D3C1B38EF7100A80C3B /* Build configuration list for PBXNativeTarget "synthesize基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D3D1B38EF7100A80C3B /* Debug */,
+				70AE5D3E1B38EF7100A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D4A1B38F53800A80C3B /* Build configuration list for PBXNativeTarget "Property增强" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D4B1B38F53800A80C3B /* Debug */,
+				70AE5D4C1B38F53800A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D581B38F90200A80C3B /* Build configuration list for PBXNativeTarget "property修饰符" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D591B38F90200A80C3B /* Debug */,
+				70AE5D5A1B38F90200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D661B38FDF800A80C3B /* Build configuration list for PBXNativeTarget "id类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D671B38FDF800A80C3B /* Debug */,
+				70AE5D681B38FDF800A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D771B3906DA00A80C3B /* Build configuration list for PBXNativeTarget "new方法实现原理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D781B3906DA00A80C3B /* Debug */,
+				70AE5D791B3906DA00A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D851B390AC200A80C3B /* Build configuration list for PBXNativeTarget "构造方法基本概念" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D861B390AC200A80C3B /* Debug */,
+				70AE5D871B390AC200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5D931B390E5200A80C3B /* Build configuration list for PBXNativeTarget "构造方法练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5D941B390E5200A80C3B /* Debug */,
+				70AE5D951B390E5200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DA41B3935AD00A80C3B /* Build configuration list for PBXNativeTarget "instancetype和id的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DA51B3935AD00A80C3B /* Debug */,
+				70AE5DA61B3935AD00A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DB21B39381D00A80C3B /* Build configuration list for PBXNativeTarget "自定义构造方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DB31B39381D00A80C3B /* Debug */,
+				70AE5DB41B39381D00A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DC01B393B3200A80C3B /* Build configuration list for PBXNativeTarget "自定义构造方法在继承中的表现" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DC11B393B3200A80C3B /* Debug */,
+				70AE5DC21B393B3200A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DD11B3942D800A80C3B /* Build configuration list for PBXNativeTarget "自定义类工厂方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DD21B3942D800A80C3B /* Debug */,
+				70AE5DD31B3942D800A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DDF1B39457C00A80C3B /* Build configuration list for PBXNativeTarget "类工厂方法在继承中的注意点" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DE01B39457C00A80C3B /* Debug */,
+				70AE5DE11B39457C00A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5DF01B39488300A80C3B /* Build configuration list for PBXNativeTarget "类的本质" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5DF11B39488300A80C3B /* Debug */,
+				70AE5DF21B39488300A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		70AE5E011B39555000A80C3B /* Build configuration list for PBXNativeTarget "类的启动过程" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70AE5E021B39555000A80C3B /* Debug */,
+				70AE5E031B39555000A80C3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D84D7EF1B356EF200F057FD /* Build configuration list for PBXNativeTarget "SEL类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D84D7F01B356EF200F057FD /* Debug */,
+				9D84D7F11B356EF200F057FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 70AE5D111B38E74200A80C3B /* Project object */;
+}

@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:day11"
+      name = "day11">
+      <FileRef
+         location = "group:day11.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x51fd;&#x6570;&#x548c;&#x65b9;&#x6cd5;&#x7684;&#x53bb;&#x5457;"
+         name = "&#x51fd;&#x6570;&#x548c;&#x65b9;&#x6cd5;&#x7684;&#x53bb;&#x5457;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x7c7b;&#x65b9;&#x6cd5;"
+         name = "&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x7c7b;&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x7c7b;&#x65b9;&#x6cd5;2"
+         name = "&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x7c7b;&#x65b9;&#x6cd5;2">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x65b9;&#x6cd5;2"
+         name = "&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x65b9;&#x6cd5;2">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x65b9;&#x6cd5;"
+         name = "&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;-&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5e38;&#x89c1;&#x9519;&#x8bef;"
+         name = "&#x5e38;&#x89c1;&#x9519;&#x8bef;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e8c;&#x4e2a;OC&#x7c7b;"
+         name = "&#x7b2c;&#x4e8c;&#x4e2a;OC&#x7c7b;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;"
+         name = "&#x7b2c;&#x4e00;&#x4e2a;OC&#x7c7b;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day11"
+         name = "day11">
+         <FileRef
+            location = "group:zs.c">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:zs.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x548c;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x4ee5;&#x53ca;&#x6210;&#x5458;&#x53d8;&#x91cf;&#x7684;&#x533a;&#x522b;"
+         name = "&#x5c40;&#x90e8;&#x53d8;&#x91cf;&#x548c;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x4ee5;&#x53ca;&#x6210;&#x5458;&#x53d8;&#x91cf;&#x7684;&#x533a;&#x522b;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day12"
+      name = "day12">
+      <Group
+         location = "group:&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;&#x4f20;&#x9012;"
+         name = "&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;&#x4f20;&#x9012;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day12.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:#pragma mark&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "#pragma mark&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ec3;&#x4e60;2"
+         name = "&#x7ec3;&#x4e60;2">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4fee;&#x6539;&#x9879;&#x76ee;&#x6a21;&#x677f;"
+         name = "&#x4fee;&#x6539;&#x9879;&#x76ee;&#x6a21;&#x677f;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day12"
+         name = "day12">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:OC&#x591a;&#x6587;&#x4ef6;&#x5f00;&#x53d1;"
+         name = "OC&#x591a;&#x6587;&#x4ef6;&#x5f00;&#x53d1;">
+         <FileRef
+            location = "group:Clip.m">
+         </FileRef>
+         <FileRef
+            location = "group:Gun.m">
+         </FileRef>
+         <FileRef
+            location = "group:Shop.m">
+         </FileRef>
+         <FileRef
+            location = "group:Soldier.h">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Clip.h">
+         </FileRef>
+         <FileRef
+            location = "group:Soldier.m">
+         </FileRef>
+         <FileRef
+            location = "group:Shop.h">
+         </FileRef>
+         <FileRef
+            location = "group:Gun.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ec3;&#x4e60;"
+         name = "&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;&#x8fde;&#x7eed;&#x4f20;&#x9012;"
+         name = "&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x65b9;&#x6cd5;&#x7684;&#x53c2;&#x6570;&#x8fde;&#x7eed;&#x4f20;&#x9012;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x533f;&#x540d;&#x5bf9;&#x8c61;"
+         name = "&#x533f;&#x540d;&#x5bf9;&#x8c61;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ed3;&#x6784;&#x4f53;&#x4f5c;&#x4e3a;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;"
+         name = "&#x7ed3;&#x6784;&#x4f53;&#x4f5c;&#x4e3a;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x8fd4;&#x56de;&#x503c;&#x7c7b;&#x578b;"
+         name = "&#x5bf9;&#x8c61;&#x4f5c;&#x4e3a;&#x8fd4;&#x56de;&#x503c;&#x7c7b;&#x578b;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSString&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "NSString&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day13"
+      name = "day13">
+      <Group
+         location = "group:&#x5b9e;&#x4f8b;&#x53d8;&#x91cf;&#x4fee;&#x9970;&#x7b26;"
+         name = "&#x5b9e;&#x4f8b;&#x53d8;&#x91cf;&#x4fee;&#x9970;&#x7b26;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x591a;&#x6001;"
+         name = "&#x591a;&#x6001;">
+         <FileRef
+            location = "group:main.o">
+         </FileRef>
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Pig.m">
+         </FileRef>
+         <FileRef
+            location = "group:Animal.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.o">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Cat.m">
+         </FileRef>
+         <FileRef
+            location = "group:Pig.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Animal.h">
+         </FileRef>
+         <FileRef
+            location = "group:Animal.o">
+         </FileRef>
+         <FileRef
+            location = "group:Cat.h">
+         </FileRef>
+         <FileRef
+            location = "group:Cat.o">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x70b9;&#x8bed;&#x6cd5;"
+         name = "&#x70b9;&#x8bed;&#x6cd5;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day13.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:self&#x5173;&#x952e;&#x5b57;"
+         name = "self&#x5173;&#x952e;&#x5b57;">
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:self&#x5173;&#x952e;&#x5b57;&#x7684;&#x6ce8;&#x610f;&#x70b9;"
+         name = "self&#x5173;&#x952e;&#x5b57;&#x7684;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x5b9a;&#x4e49;&#x4ee3;&#x7801;&#x5757;"
+         name = "&#x81ea;&#x5b9a;&#x4e49;&#x4ee3;&#x7801;&#x5757;">
+         <FileRef
+            location = "group:Kline.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Kline.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:self&#x5173;&#x952e;&#x5b57;2"
+         name = "self&#x5173;&#x952e;&#x5b57;2">
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ee7;&#x627f;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x7ee7;&#x627f;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:Phone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Android.m">
+         </FileRef>
+         <FileRef
+            location = "group:Phone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Android.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:description"
+         name = "description">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:super"
+         name = "super">
+         <FileRef
+            location = "group:Phone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Android.m">
+         </FileRef>
+         <FileRef
+            location = "group:Phone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Android.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7ee7;&#x627f;&#x7684;&#x5176;&#x4ed6;&#x7279;&#x6027;"
+         name = "&#x7ee7;&#x627f;&#x7684;&#x5176;&#x4ed6;&#x7279;&#x6027;">
+         <FileRef
+            location = "group:Phone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Android.m">
+         </FileRef>
+         <FileRef
+            location = "group:Phone.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Iphone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Android.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:getter-setter&#x65b9;&#x6cd5;&#x7ec3;&#x4e60;"
+         name = "getter-setter&#x65b9;&#x6cd5;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:Kline.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Kline.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:getter-setter&#x65b9;&#x6cd5;"
+         name = "getter-setter&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:Gun.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Gun.h">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day14"
+      name = "day14">
+      <Group
+         location = "group:synthesize&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "synthesize&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:id&#x7c7b;&#x578b;"
+         name = "id&#x7c7b;&#x578b;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Property&#x589e;&#x5f3a;"
+         name = "Property&#x589e;&#x5f3a;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day14.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Property&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "Property&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:new&#x65b9;&#x6cd5;&#x5b9e;&#x73b0;&#x539f;&#x7406;"
+         name = "new&#x65b9;&#x6cd5;&#x5b9e;&#x73b0;&#x539f;&#x7406;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day14"
+         name = "day14">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#x5de5;&#x5382;&#x65b9;&#x6cd5;"
+         name = "&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#x5de5;&#x5382;&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7c7b;&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x5728;&#x7ee7;&#x627f;&#x4e2d;&#x7684;&#x6ce8;&#x610f;&#x70b9;"
+         name = "&#x7c7b;&#x5de5;&#x5382;&#x65b9;&#x6cd5;&#x5728;&#x7ee7;&#x627f;&#x4e2d;&#x7684;&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7c7b;&#x7684;&#x672c;&#x8d28;"
+         name = "&#x7c7b;&#x7684;&#x672c;&#x8d28;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Car.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x5b9a;&#x4e49;&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x5728;&#x7ee7;&#x627f;&#x4e2d;&#x7684;&#x8868;&#x73b0;"
+         name = "&#x81ea;&#x5b9a;&#x4e49;&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x5728;&#x7ee7;&#x627f;&#x4e2d;&#x7684;&#x8868;&#x73b0;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x7ec3;&#x4e60;"
+         name = "&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Studnet.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Studnet.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:SEL&#x7c7b;&#x578b;"
+         name = "SEL&#x7c7b;&#x578b;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Car.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x7c7b;&#x7684;&#x542f;&#x52a8;&#x8fc7;&#x7a0b;"
+         name = "&#x7c7b;&#x7684;&#x542f;&#x52a8;&#x8fc7;&#x7a0b;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:GoodStudent.h">
+         </FileRef>
+         <FileRef
+            location = "group:Car.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:GoodStudent.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:instancetype&#x548c;id&#x7684;&#x533a;&#x522b;"
+         name = "instancetype&#x548c;id&#x7684;&#x533a;&#x522b;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "&#x6784;&#x9020;&#x65b9;&#x6cd5;&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:property&#x4fee;&#x9970;&#x7b26;"
+         name = "property&#x4fee;&#x9970;&#x7b26;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x5b9a;&#x4e49;&#x6784;&#x9020;&#x65b9;&#x6cd5;"
+         name = "&#x81ea;&#x5b9a;&#x4e49;&#x6784;&#x9020;&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day15"
+      name = "day15">
+      <Group
+         location = "group:&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x5185;&#x5b58;&#x7ba1;&#x7406;&#x7ec3;&#x4e60;"
+         name = "&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x5185;&#x5b58;&#x7ba1;&#x7406;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:Status.h">
+         </FileRef>
+         <FileRef
+            location = "group:Account.h">
+         </FileRef>
+         <FileRef
+            location = "group:Author.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Account.m">
+         </FileRef>
+         <FileRef
+            location = "group:Status.m">
+         </FileRef>
+         <FileRef
+            location = "group:Author.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Set&#x65b9;&#x6cd5;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;"
+         name = "Set&#x65b9;&#x6cd5;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Room.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Room.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:@class&#x7b2c;&#x4e8c;&#x4e2a;&#x5e94;&#x7528;&#x573a;&#x666f;"
+         name = "@class&#x7b2c;&#x4e8c;&#x4e2a;&#x5e94;&#x7528;&#x573a;&#x666f;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day15"
+         name = "day15">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day15.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;"
+         name = "&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Room.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Room.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:@class"
+         name = "@class">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Wheel.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.h">
+         </FileRef>
+         <FileRef
+            location = "group:Wheel.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5faa;&#x73af;retain"
+         name = "&#x5faa;&#x73af;retain">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x91ce;&#x6307;&#x9488;&#x548c;&#x7a7a;&#x6307;&#x9488;"
+         name = "&#x91ce;&#x6307;&#x9488;&#x548c;&#x7a7a;&#x6307;&#x9488;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:property&#x4fee;&#x9970;&#x7b26;"
+         name = "property&#x4fee;&#x9970;&#x7b26;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Room.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Car.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Room.m">
+         </FileRef>
+         <FileRef
+            location = "group:Car.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day16"
+      name = "day16">
+      <Group
+         location = "group:Block&#x7684;&#x6ce8;&#x610f;&#x4e8b;&#x9879;"
+         name = "Block&#x7684;&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.cpp">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:auatorelease&#x5e94;&#x7528;&#x573a;&#x666f;"
+         name = "auatorelease&#x5e94;&#x7528;&#x573a;&#x666f;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:MRC&#x8f6c;ARC"
+         name = "MRC&#x8f6c;ARC">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Bone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Bone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Category&#x7ec3;&#x4e60;"
+         name = "Category&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+NJ.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:NSString+NJ.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Category&#x6ce8;&#x610f;&#x4e8b;&#x9879;"
+         name = "Category&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person+MJ.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person+NJ.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person+MJ.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person+NJ.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Block&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "Block&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Block&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;"
+         name = "Block&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Block&#x548c;typedef"
+         name = "Block&#x548c;typedef">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:autorelease&#x6ce8;&#x610f;&#x4e8b;&#x9879;"
+         name = "autorelease&#x6ce8;&#x610f;&#x4e8b;&#x9879;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ARC&#x548c;MRC&#x6df7;&#x7f16;"
+         name = "ARC&#x548c;MRC&#x6df7;&#x7f16;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Bone.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Bone.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day16.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:ARC&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "ARC&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Category&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "Category&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person+NJ.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person+NJ.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x533f;&#x540d;&#x5206;&#x7c7b;(&#x5ef6;&#x5c55;)"
+         name = "&#x533f;&#x540d;&#x5206;&#x7c7b;(&#x5ef6;&#x5c55;)">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day16"
+         name = "day16">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:ARC&#x4e2d;&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;"
+         name = "ARC&#x4e2d;&#x591a;&#x4e2a;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day17"
+      name = "day17">
+      <Group
+         location = "group:NSMutableString&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "NSMutableString&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x622a;&#x53d6;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x622a;&#x53d6;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x4e0e;&#x8def;&#x5f84;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x4e0e;&#x8def;&#x5f84;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x6bd4;&#x8f83;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x6bd4;&#x8f83;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:protocol&#x6ce8;&#x610f;&#x70b9;"
+         name = "protocol&#x6ce8;&#x610f;&#x70b9;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Sutdent.h">
+         </FileRef>
+         <FileRef
+            location = "group:SportProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Sutdent.m">
+         </FileRef>
+         <FileRef
+            location = "group:CrazySportProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.m">
+         </FileRef>
+         <FileRef
+            location = "group:StudyProtocol.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x8f6c;&#x6362;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x7684;&#x8f6c;&#x6362;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSMutalbleString&#x7ec3;&#x4e60;"
+         name = "NSMutalbleString&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x4ee3;&#x7406;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#x7ec3;&#x4e60;"
+         name = "&#x4ee3;&#x7406;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;&#x7ec3;&#x4e60;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:StudentProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:LinkHome.m">
+         </FileRef>
+         <FileRef
+            location = "group:LoveHome.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:LinkHome.h">
+         </FileRef>
+         <FileRef
+            location = "group:LoveHome.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x534f;&#x8bae;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;1-&#x7c7b;&#x578b;&#x9650;&#x5b9a;"
+         name = "&#x534f;&#x8bae;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;1-&#x7c7b;&#x578b;&#x9650;&#x5b9a;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Wife.m">
+         </FileRef>
+         <FileRef
+            location = "group:WifeCondition.h">
+         </FileRef>
+         <FileRef
+            location = "group:Wife.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x66ff;&#x6362;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x66ff;&#x6362;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSString&#x57fa;&#x672c;&#x6982;&#x5ff5;"
+         name = "NSString&#x57fa;&#x672c;&#x6982;&#x5ff5;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x8bfb;&#x5199;2"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x8bfb;&#x5199;2">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSMutableString&#x5e38;&#x7528;&#x65b9;&#x6cd5;"
+         name = "NSMutableString&#x5e38;&#x7528;&#x65b9;&#x6cd5;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x534f;&#x8bae;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;2-&#x4ee3;&#x7406;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;"
+         name = "&#x534f;&#x8bae;&#x7684;&#x5e94;&#x7528;&#x573a;&#x666f;2-&#x4ee3;&#x7406;&#x8bbe;&#x8ba1;&#x6a21;&#x5f0f;">
+         <FileRef
+            location = "group:BabyProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.h">
+         </FileRef>
+         <FileRef
+            location = "group:Studnet.h">
+         </FileRef>
+         <FileRef
+            location = "group:Baby.h">
+         </FileRef>
+         <FileRef
+            location = "group:Nanny.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Studnet.m">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+         <FileRef
+            location = "group:Baby.m">
+         </FileRef>
+         <FileRef
+            location = "group:Nanny.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x6587;&#x4ef6;&#x8bfb;&#x5199;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x6587;&#x4ef6;&#x8bfb;&#x5199;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b57;&#x7b26;&#x4e32;&#x641c;&#x7d22;"
+         name = "&#x5b57;&#x7b26;&#x4e32;&#x641c;&#x7d22;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day17.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:day17"
+         name = "day17">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:SportProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Teacher.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:day18"
+      name = "day18">
+      <Group
+         location = "group:NSDictionary"
+         name = "NSDictionary">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSCalendar"
+         name = "NSCalendar">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:block&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
+         name = "block&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;">
+      </Group>
+      <Group
+         location = "group:Copy&#x5185;&#x5b58;&#x7ba1;&#x7406;"
+         name = "Copy&#x5185;&#x5b58;&#x7ba1;&#x7406;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSArray&#x548c;NSString&#x4e4b;&#x95f4;&#x8f6c;&#x6362;"
+         name = "NSArray&#x548c;NSString&#x4e4b;&#x95f4;&#x8f6c;&#x6362;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5b8f;&#x5b9a;&#x4e49;&#x62bd;&#x53d6;&#x5355;&#x4f8b;"
+         name = "&#x5b8f;&#x5b9a;&#x4e49;&#x62bd;&#x53d6;&#x5355;&#x4f8b;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Tools.m">
+         </FileRef>
+         <FileRef
+            location = "group:Singleton.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Tools.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Copy&#x57fa;&#x672c;&#x4f7f;&#x7528;"
+         name = "Copy&#x57fa;&#x672c;&#x4f7f;&#x7528;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSFileManager"
+         name = "NSFileManager">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:day18.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:NSMutableDictionary"
+         name = "NSMutableDictionary">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSArray&#x904d;&#x5386;"
+         name = "NSArray&#x904d;&#x5386;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSArray&#x6392;&#x5e8f;"
+         name = "NSArray&#x6392;&#x5e8f;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;"
+         name = "&#x96c6;&#x5408;&#x5bf9;&#x8c61;&#x7684;&#x5185;&#x5b58;&#x7ba1;&#x7406;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Copy&#x4e0e;Property"
+         name = "Copy&#x4e0e;Property">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x5355;&#x4f8b;"
+         name = "&#x5355;&#x4f8b;">
+         <FileRef
+            location = "group:Tools.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Tools.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#x5b9e;&#x73b0;copy"
+         name = "&#x81ea;&#x5b9a;&#x4e49;&#x7c7b;&#x5b9e;&#x73b0;copy">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Student.m">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:Student.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSMutableArray"
+         name = "NSMutableArray">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSArray&#x6587;&#x4ef6;&#x8bfb;&#x5199;"
+         name = "NSArray&#x6587;&#x4ef6;&#x8bfb;&#x5199;">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSValue"
+         name = "NSValue">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:OC&#x4e2d;&#x7684;&#x5e38;&#x7528;&#x7ed3;&#x6784;&#x4f53;"
+         name = "OC&#x4e2d;&#x7684;&#x5e38;&#x7528;&#x7ed3;&#x6784;&#x4f53;">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSNumber"
+         name = "NSNumber">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:day18"
+         name = "day18">
+         <FileRef
+            location = "group:Person.h">
+         </FileRef>
+         <FileRef
+            location = "group:Person.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:NSDate"
+         name = "NSDate">
+         <FileRef
+            location = "group:main.m">
+         </FileRef>
+      </Group>
+   </Group>
+</Workspace>

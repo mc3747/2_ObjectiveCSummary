@@ -11,6 +11,7 @@
 #import "Base_2_ViewController.h"
 #import "Base_3_ViewController.h"
 #import "Base_4_ViewController.h"
+#import "LayerAndAnimateVC.h"
 
 #import "JDCustomNavigationController.h"
 #import "DWTabBar.h"
@@ -106,8 +107,8 @@
                   selectedImageName:@"message_highlight"];
     
     
-    [self addOneChildViewController:[[JDCustomNavigationController alloc]initWithRootViewController:[[Base_4_ViewController alloc]init]]
-                          WithTitle:@"UI框架"
+    [self addOneChildViewController:[[JDCustomNavigationController alloc]initWithRootViewController:[[LayerAndAnimateVC alloc]init]]
+                          WithTitle:@"UI绘制"
                           imageName:@"account_normal"
                   selectedImageName:@"account_highlight"];
     

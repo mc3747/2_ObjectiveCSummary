@@ -7,87 +7,87 @@
 		<key>NSMutableString基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>28</integer>
 		</dict>
 		<key>NSMutableString常用方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>81</integer>
+			<integer>40</integer>
 		</dict>
 		<key>NSMutalbleString练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>26</integer>
 		</dict>
 		<key>NSString基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>67</integer>
 		</dict>
 		<key>day17.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>51</integer>
 		</dict>
 		<key>protocol注意点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>91</integer>
+			<integer>11</integer>
 		</dict>
 		<key>代理设计模式练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>59</integer>
 		</dict>
 		<key>协议的应用场景1-类型限定.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>88</integer>
+			<integer>29</integer>
 		</dict>
 		<key>协议的应用场景2-代理设计模式.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>77</integer>
+			<integer>96</integer>
 		</dict>
 		<key>字符串与路径.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>99</integer>
 		</dict>
 		<key>字符串截取.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>82</integer>
+			<integer>52</integer>
 		</dict>
 		<key>字符串搜索.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>84</integer>
 		</dict>
 		<key>字符串文件读写.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>87</integer>
+			<integer>33</integer>
 		</dict>
 		<key>字符串替换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>76</integer>
+			<integer>12</integer>
 		</dict>
 		<key>字符串比较.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>43</integer>
 		</dict>
 		<key>字符串的转换.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>0</integer>
 		</dict>
 		<key>字符串读写2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>90</integer>
+			<integer>76</integer>
 		</dict>
 	</dict>
 </dict>

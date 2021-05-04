@@ -7,77 +7,77 @@
 		<key>ARC中多个对象的内存管理.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>110</integer>
+			<integer>7</integer>
 		</dict>
 		<key>ARC和MRC混编.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>107</integer>
+			<integer>5</integer>
 		</dict>
 		<key>ARC基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>113</integer>
+			<integer>114</integer>
 		</dict>
 		<key>Block和typedef.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>103</integer>
+			<integer>65</integer>
 		</dict>
 		<key>Block基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>111</integer>
+			<integer>81</integer>
 		</dict>
 		<key>Block的应用场景.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>101</integer>
+			<integer>87</integer>
 		</dict>
 		<key>Block的注意事项.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>104</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Category基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>112</integer>
+			<integer>47</integer>
 		</dict>
 		<key>Category注意事项.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>102</integer>
+			<integer>49</integer>
 		</dict>
 		<key>Category练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>109</integer>
+			<integer>4</integer>
 		</dict>
 		<key>MRC转ARC.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>108</integer>
+			<integer>97</integer>
 		</dict>
 		<key>auatorelease应用场景.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>106</integer>
+			<integer>109</integer>
 		</dict>
 		<key>autorelease注意事项.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>100</integer>
+			<integer>50</integer>
 		</dict>
 		<key>day16.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>105</integer>
+			<integer>75</integer>
 		</dict>
 		<key>匿名分类(延展).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>114</integer>
+			<integer>1</integer>
 		</dict>
 	</dict>
 </dict>

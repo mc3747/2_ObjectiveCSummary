@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>day11.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>63</integer>
+		</dict>
+		<key>函数和方法的去呗.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>95</integer>
+		</dict>
+		<key>局部变量和全局变量以及成员变量的区别.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>85</integer>
+		</dict>
+		<key>常见错误.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>59</integer>
+		</dict>
+		<key>第一个OC类-方法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>81</integer>
+		</dict>
+		<key>第一个OC类-方法2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
+		<key>第一个OC类-类方法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>第一个OC类-类方法2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>73</integer>
+		</dict>
+		<key>第一个OC类.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>29</integer>
+		</dict>
+		<key>第二个OC类.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>89</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

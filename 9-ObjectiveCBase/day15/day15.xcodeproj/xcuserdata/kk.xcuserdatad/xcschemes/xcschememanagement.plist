@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>@class.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>72</integer>
+		</dict>
+		<key>@class第二个应用场景.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>Set方法的内存管理.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>24</integer>
+		</dict>
+		<key>day15.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>61</integer>
+		</dict>
+		<key>property修饰符.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>多个对象内存管理练习.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>多个对象的内存管理.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>68</integer>
+		</dict>
+		<key>循环retain.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
+		<key>野指针和空指针.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>62</integer>
+		</dict>
+	</dict>
+</dict>
+</plist>

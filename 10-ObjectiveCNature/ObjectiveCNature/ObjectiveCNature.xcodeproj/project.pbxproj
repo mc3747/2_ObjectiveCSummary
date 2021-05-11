@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B25B392264A86E900C44408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25B391264A86E900C44408 /* main.m */; };
+		4B25B3A3264A87DD00C44408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25B3A2264A87DD00C44408 /* main.m */; };
 		4B60D6FC26462E79009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D6FB26462E79009000AC /* main.m */; };
 		4B60D70B26462F86009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D70A26462F86009000AC /* main.m */; };
 		4B60D78E26466ACF009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D78D26466ACF009000AC /* main.m */; };
@@ -14,6 +16,24 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		4B25B38D264A86E900C44408 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B25B39E264A87DD00C44408 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4B60D6F626462E79009000AC /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +73,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4B25B38F264A86E900C44408 /* 4_OC类对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4_OC类对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B25B391264A86E900C44408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B25B3A0264A87DD00C44408 /* 5_OC元类对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5_OC元类对象"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B25B3A2264A87DD00C44408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B60D6F826462E79009000AC /* ObjectiveCNature */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCNature; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B60D6FB26462E79009000AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B60D70826462F86009000AC /* 1_OC对象本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_OC对象本质"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +88,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		4B25B38C264A86E900C44408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B25B39D264A87DD00C44408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B60D6F526462E79009000AC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,13 +133,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B25B390264A86E900C44408 /* 4_OC类对象 */ = {
+			isa = PBXGroup;
+			children = (
+				4B25B391264A86E900C44408 /* main.m */,
+			);
+			path = "4_OC类对象";
+			sourceTree = "<group>";
+		};
+		4B25B3A1264A87DD00C44408 /* 5_OC元类对象 */ = {
+			isa = PBXGroup;
+			children = (
+				4B25B3A2264A87DD00C44408 /* main.m */,
+			);
+			path = "5_OC元类对象";
+			sourceTree = "<group>";
+		};
 		4B60D6EF26462E79009000AC = {
 			isa = PBXGroup;
 			children = (
 				4B60D6FA26462E79009000AC /* ObjectiveCNature */,
-				4B60D70926462F86009000AC /* 1_NSObject对象本质 */,
-				4B60D78C26466ACF009000AC /* 2_OC普通对象本质 */,
-				4B60D79A26466CD1009000AC /* 3_OC复杂对象本质 */,
+				4B60D70926462F86009000AC /* 1_NSObject实例对象本质 */,
+				4B60D78C26466ACF009000AC /* 2_OC普通实例对象本质 */,
+				4B60D79A26466CD1009000AC /* 3_OC复杂实例对象本质 */,
+				4B25B390264A86E900C44408 /* 4_OC类对象 */,
+				4B25B3A1264A87DD00C44408 /* 5_OC元类对象 */,
 				4B60D6F926462E79009000AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +169,8 @@
 				4B60D70826462F86009000AC /* 1_OC对象本质 */,
 				4B60D78B26466ACF009000AC /* 2_OC普通对象本质 */,
 				4B60D79926466CD1009000AC /* 3_OC复杂对象本质 */,
+				4B25B38F264A86E900C44408 /* 4_OC类对象 */,
+				4B25B3A0264A87DD00C44408 /* 5_OC元类对象 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,33 +183,67 @@
 			path = ObjectiveCNature;
 			sourceTree = "<group>";
 		};
-		4B60D70926462F86009000AC /* 1_NSObject对象本质 */ = {
+		4B60D70926462F86009000AC /* 1_NSObject实例对象本质 */ = {
 			isa = PBXGroup;
 			children = (
 				4B60D70A26462F86009000AC /* main.m */,
 			);
-			path = "1_NSObject对象本质";
+			path = "1_NSObject实例对象本质";
 			sourceTree = "<group>";
 		};
-		4B60D78C26466ACF009000AC /* 2_OC普通对象本质 */ = {
+		4B60D78C26466ACF009000AC /* 2_OC普通实例对象本质 */ = {
 			isa = PBXGroup;
 			children = (
 				4B60D78D26466ACF009000AC /* main.m */,
 			);
-			path = "2_OC普通对象本质";
+			path = "2_OC普通实例对象本质";
 			sourceTree = "<group>";
 		};
-		4B60D79A26466CD1009000AC /* 3_OC复杂对象本质 */ = {
+		4B60D79A26466CD1009000AC /* 3_OC复杂实例对象本质 */ = {
 			isa = PBXGroup;
 			children = (
 				4B60D79B26466CD1009000AC /* main.m */,
 			);
-			path = "3_OC复杂对象本质";
+			path = "3_OC复杂实例对象本质";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		4B25B38E264A86E900C44408 /* 4_OC类对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B25B393264A86E900C44408 /* Build configuration list for PBXNativeTarget "4_OC类对象" */;
+			buildPhases = (
+				4B25B38B264A86E900C44408 /* Sources */,
+				4B25B38C264A86E900C44408 /* Frameworks */,
+				4B25B38D264A86E900C44408 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4_OC类对象";
+			productName = "4_OC类对象";
+			productReference = 4B25B38F264A86E900C44408 /* 4_OC类对象 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B25B39F264A87DD00C44408 /* 5_OC元类对象 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B25B3A4264A87DD00C44408 /* Build configuration list for PBXNativeTarget "5_OC元类对象" */;
+			buildPhases = (
+				4B25B39C264A87DD00C44408 /* Sources */,
+				4B25B39D264A87DD00C44408 /* Frameworks */,
+				4B25B39E264A87DD00C44408 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5_OC元类对象";
+			productName = "5_OC元类对象";
+			productReference = 4B25B3A0264A87DD00C44408 /* 5_OC元类对象 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4B60D6F726462E79009000AC /* ObjectiveCNature */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4B60D6FF26462E79009000AC /* Build configuration list for PBXNativeTarget "ObjectiveCNature" */;
@@ -228,6 +320,12 @@
 			attributes = {
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					4B25B38E264A86E900C44408 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B25B39F264A87DD00C44408 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					4B60D6F726462E79009000AC = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -259,11 +357,29 @@
 				4B60D70726462F86009000AC /* 1_OC对象本质 */,
 				4B60D78A26466ACF009000AC /* 2_OC普通对象本质 */,
 				4B60D79826466CD1009000AC /* 3_OC复杂对象本质 */,
+				4B25B38E264A86E900C44408 /* 4_OC类对象 */,
+				4B25B39F264A87DD00C44408 /* 5_OC元类对象 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		4B25B38B264A86E900C44408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B25B392264A86E900C44408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B25B39C264A87DD00C44408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B25B3A3264A87DD00C44408 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4B60D6F426462E79009000AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +415,38 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		4B25B394264A86E900C44408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B25B395264A86E900C44408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B25B3A5264A87DD00C44408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B25B3A6264A87DD00C44408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4B60D6FD26462E79009000AC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,6 +625,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4B25B393264A86E900C44408 /* Build configuration list for PBXNativeTarget "4_OC类对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B25B394264A86E900C44408 /* Debug */,
+				4B25B395264A86E900C44408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B25B3A4264A87DD00C44408 /* Build configuration list for PBXNativeTarget "5_OC元类对象" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B25B3A5264A87DD00C44408 /* Debug */,
+				4B25B3A6264A87DD00C44408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4B60D6F326462E79009000AC /* Build configuration list for PBXProject "ObjectiveCNature" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

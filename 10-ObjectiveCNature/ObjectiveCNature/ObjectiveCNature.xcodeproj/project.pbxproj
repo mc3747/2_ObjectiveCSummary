@@ -11,6 +11,11 @@
 		4B25B3A3264A87DD00C44408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B25B3A2264A87DD00C44408 /* main.m */; };
 		4B3BB9A72651FED20032A9B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BB9A62651FED20032A9B0 /* main.m */; };
 		4B3BB9BF26526D550032A9B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3BB9BE26526D550032A9B0 /* main.m */; };
+		4B3E7A5E265399D900DA1B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E7A5D265399D900DA1B66 /* main.m */; };
+		4B3E7A692653B66D00DA1B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E7A682653B66D00DA1B66 /* main.m */; };
+		4B3E7A742653B6DA00DA1B66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3E7A732653B6DA00DA1B66 /* main.m */; };
+		4B438990265348FD003A4464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B43898F265348FD003A4464 /* main.m */; };
+		4B4389AB2653656F003A4464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4389AA2653656F003A4464 /* main.m */; };
 		4B60D6FC26462E79009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D6FB26462E79009000AC /* main.m */; };
 		4B60D70B26462F86009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D70A26462F86009000AC /* main.m */; };
 		4B60D78E26466ACF009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D78D26466ACF009000AC /* main.m */; };
@@ -50,6 +55,51 @@
 			runOnlyForDeploymentPostprocessing = 1;
 		};
 		4B3BB9BA26526D550032A9B0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B3E7A59265399D900DA1B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B3E7A642653B66D00DA1B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B3E7A6F2653B6DA00DA1B66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B43898B265348FD003A4464 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		4B4389A62653656F003A4464 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -141,6 +191,16 @@
 		4B3BB9A62651FED20032A9B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B3BB9BC26526D550032A9B0 /* 11_Block的本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "11_Block的本质"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3BB9BE26526D550032A9B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3E7A5B265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "14_Block在ARC下自动转换类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E7A5D265399D900DA1B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3E7A662653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15_Block访问对象类型的auto变量"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E7A682653B66D00DA1B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B3E7A712653B6DA00DA1B66 /* 16_Block修改变量的值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16_Block修改变量的值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3E7A732653B6DA00DA1B66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B43898D265348FD003A4464 /* 12_Block对变量的捕获 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12_Block对变量的捕获"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B43898F265348FD003A4464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B4389A82653656F003A4464 /* 13_Block的类型 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "13_Block的类型"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4389AA2653656F003A4464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B60D6F826462E79009000AC /* ObjectiveCNature */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectiveCNature; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B60D6FB26462E79009000AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B60D70826462F86009000AC /* 1_OC对象本质 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1_OC对象本质"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,6 +242,41 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4B3BB9B926526D550032A9B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A58265399D900DA1B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A632653B66D00DA1B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A6E2653B6DA00DA1B66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B43898A265348FD003A4464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4389A52653656F003A4464 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -279,6 +374,46 @@
 			path = "11_Block的本质";
 			sourceTree = "<group>";
 		};
+		4B3E7A5C265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E7A5D265399D900DA1B66 /* main.m */,
+			);
+			path = "14_Block在ARC下自动转换类型";
+			sourceTree = "<group>";
+		};
+		4B3E7A672653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E7A682653B66D00DA1B66 /* main.m */,
+			);
+			path = "15_Block访问对象类型的auto变量";
+			sourceTree = "<group>";
+		};
+		4B3E7A722653B6DA00DA1B66 /* 16_Block修改变量的值 */ = {
+			isa = PBXGroup;
+			children = (
+				4B3E7A732653B6DA00DA1B66 /* main.m */,
+			);
+			path = "16_Block修改变量的值";
+			sourceTree = "<group>";
+		};
+		4B43898E265348FD003A4464 /* 12_Block对变量的捕获 */ = {
+			isa = PBXGroup;
+			children = (
+				4B43898F265348FD003A4464 /* main.m */,
+			);
+			path = "12_Block对变量的捕获";
+			sourceTree = "<group>";
+		};
+		4B4389A92653656F003A4464 /* 13_Block的类型 */ = {
+			isa = PBXGroup;
+			children = (
+				4B4389AA2653656F003A4464 /* main.m */,
+			);
+			path = "13_Block的类型";
+			sourceTree = "<group>";
+		};
 		4B60D6EF26462E79009000AC = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +429,11 @@
 				4BE9F171264F775700DD390A /* 9_Category方法 */,
 				4B3BB9A52651FED20032A9B0 /* 10_Category属性 */,
 				4B3BB9BD26526D550032A9B0 /* 11_Block的本质 */,
+				4B43898E265348FD003A4464 /* 12_Block对变量的捕获 */,
+				4B4389A92653656F003A4464 /* 13_Block的类型 */,
+				4B3E7A5C265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */,
+				4B3E7A672653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */,
+				4B3E7A722653B6DA00DA1B66 /* 16_Block修改变量的值 */,
 				4B60D6F926462E79009000AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -313,6 +453,11 @@
 				4BE9F170264F775700DD390A /* 9_Category方法 */,
 				4B3BB9A42651FED20032A9B0 /* 10_Category属性 */,
 				4B3BB9BC26526D550032A9B0 /* 11_Block的本质 */,
+				4B43898D265348FD003A4464 /* 12_Block对变量的捕获 */,
+				4B4389A82653656F003A4464 /* 13_Block的类型 */,
+				4B3E7A5B265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */,
+				4B3E7A662653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */,
+				4B3E7A712653B6DA00DA1B66 /* 16_Block修改变量的值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -450,6 +595,91 @@
 			name = "11_Block的本质";
 			productName = "11_Block的本质";
 			productReference = 4B3BB9BC26526D550032A9B0 /* 11_Block的本质 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B3E7A5A265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E7A61265399D900DA1B66 /* Build configuration list for PBXNativeTarget "14_Block在ARC下自动转换类型" */;
+			buildPhases = (
+				4B3E7A57265399D900DA1B66 /* Sources */,
+				4B3E7A58265399D900DA1B66 /* Frameworks */,
+				4B3E7A59265399D900DA1B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "14_Block在ARC下自动转换类型";
+			productName = "14_Block在ARC下自动转换类型";
+			productReference = 4B3E7A5B265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B3E7A652653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E7A6A2653B66D00DA1B66 /* Build configuration list for PBXNativeTarget "15_Block访问对象类型的auto变量" */;
+			buildPhases = (
+				4B3E7A622653B66D00DA1B66 /* Sources */,
+				4B3E7A632653B66D00DA1B66 /* Frameworks */,
+				4B3E7A642653B66D00DA1B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "15_Block访问对象类型的auto变量";
+			productName = "15_Block访问对象类型的auto变量";
+			productReference = 4B3E7A662653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B3E7A702653B6DA00DA1B66 /* 16_Block修改变量的值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3E7A752653B6DA00DA1B66 /* Build configuration list for PBXNativeTarget "16_Block修改变量的值" */;
+			buildPhases = (
+				4B3E7A6D2653B6DA00DA1B66 /* Sources */,
+				4B3E7A6E2653B6DA00DA1B66 /* Frameworks */,
+				4B3E7A6F2653B6DA00DA1B66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16_Block修改变量的值";
+			productName = "16_Block修改变量的值";
+			productReference = 4B3E7A712653B6DA00DA1B66 /* 16_Block修改变量的值 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B43898C265348FD003A4464 /* 12_Block对变量的捕获 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B438993265348FD003A4464 /* Build configuration list for PBXNativeTarget "12_Block对变量的捕获" */;
+			buildPhases = (
+				4B438989265348FD003A4464 /* Sources */,
+				4B43898A265348FD003A4464 /* Frameworks */,
+				4B43898B265348FD003A4464 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12_Block对变量的捕获";
+			productName = "12_Block对变量的捕获";
+			productReference = 4B43898D265348FD003A4464 /* 12_Block对变量的捕获 */;
+			productType = "com.apple.product-type.tool";
+		};
+		4B4389A72653656F003A4464 /* 13_Block的类型 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4389AC2653656F003A4464 /* Build configuration list for PBXNativeTarget "13_Block的类型" */;
+			buildPhases = (
+				4B4389A42653656F003A4464 /* Sources */,
+				4B4389A52653656F003A4464 /* Frameworks */,
+				4B4389A62653656F003A4464 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "13_Block的类型";
+			productName = "13_Block的类型";
+			productReference = 4B4389A82653656F003A4464 /* 13_Block的类型 */;
 			productType = "com.apple.product-type.tool";
 		};
 		4B60D6F726462E79009000AC /* ObjectiveCNature */ = {
@@ -608,6 +838,21 @@
 					4B3BB9BB26526D550032A9B0 = {
 						CreatedOnToolsVersion = 12.4;
 					};
+					4B3E7A5A265399D900DA1B66 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4B3E7A652653B66D00DA1B66 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4B3E7A702653B6DA00DA1B66 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					4B43898C265348FD003A4464 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					4B4389A72653656F003A4464 = {
+						CreatedOnToolsVersion = 12.4;
+					};
 					4B60D6F726462E79009000AC = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -659,6 +904,11 @@
 				4BE9F16F264F775700DD390A /* 9_Category方法 */,
 				4B3BB9A32651FED20032A9B0 /* 10_Category属性 */,
 				4B3BB9BB26526D550032A9B0 /* 11_Block的本质 */,
+				4B43898C265348FD003A4464 /* 12_Block对变量的捕获 */,
+				4B4389A72653656F003A4464 /* 13_Block的类型 */,
+				4B3E7A5A265399D900DA1B66 /* 14_Block在ARC下自动转换类型 */,
+				4B3E7A652653B66D00DA1B66 /* 15_Block访问对象类型的auto变量 */,
+				4B3E7A702653B6DA00DA1B66 /* 16_Block修改变量的值 */,
 			);
 		};
 /* End PBXProject section */
@@ -693,6 +943,46 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3BB9BF26526D550032A9B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A57265399D900DA1B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E7A5E265399D900DA1B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A622653B66D00DA1B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E7A692653B66D00DA1B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3E7A6D2653B6DA00DA1B66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3E7A742653B6DA00DA1B66 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B438989265348FD003A4464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B438990265348FD003A4464 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4389A42653656F003A4464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4389AB2653656F003A4464 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -822,6 +1112,94 @@
 		4B3BB9C226526D550032A9B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B3E7A5F265399D900DA1B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3E7A60265399D900DA1B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B3E7A6B2653B66D00DA1B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3E7A6C2653B66D00DA1B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B3E7A762653B6DA00DA1B66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B3E7A772653B6DA00DA1B66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B438991265348FD003A4464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B438992265348FD003A4464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B4389AD2653656F003A4464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B4389AE2653656F003A4464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -1101,6 +1479,51 @@
 			buildConfigurations = (
 				4B3BB9C126526D550032A9B0 /* Debug */,
 				4B3BB9C226526D550032A9B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E7A61265399D900DA1B66 /* Build configuration list for PBXNativeTarget "14_Block在ARC下自动转换类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E7A5F265399D900DA1B66 /* Debug */,
+				4B3E7A60265399D900DA1B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E7A6A2653B66D00DA1B66 /* Build configuration list for PBXNativeTarget "15_Block访问对象类型的auto变量" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E7A6B2653B66D00DA1B66 /* Debug */,
+				4B3E7A6C2653B66D00DA1B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3E7A752653B6DA00DA1B66 /* Build configuration list for PBXNativeTarget "16_Block修改变量的值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3E7A762653B6DA00DA1B66 /* Debug */,
+				4B3E7A772653B6DA00DA1B66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B438993265348FD003A4464 /* Build configuration list for PBXNativeTarget "12_Block对变量的捕获" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B438991265348FD003A4464 /* Debug */,
+				4B438992265348FD003A4464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4389AC2653656F003A4464 /* Build configuration list for PBXNativeTarget "13_Block的类型" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4389AD2653656F003A4464 /* Debug */,
+				4B4389AE2653656F003A4464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

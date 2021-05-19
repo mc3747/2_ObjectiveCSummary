@@ -59,6 +59,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>20_Block使用语法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
+		<key>21_Block回调和函数指针.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
 		<key>2_OC普通实例对象本质.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

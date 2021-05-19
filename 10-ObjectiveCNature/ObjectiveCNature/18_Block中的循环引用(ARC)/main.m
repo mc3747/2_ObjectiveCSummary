@@ -45,21 +45,15 @@ typedef void (^MJBlock) (void);
 //    };
     
 //5,使用weakSelf和strongSelf
-//    __weak typeof(self) weakSelf = self;
-//    self.block = ^{
-//        __strong typeof(weakSelf) strongSelf = weakSelf;
-//
-//        NSLog(@"age is %d", strongSelf->_age);
-//    };
-    
-        __weak typeof(self) weakSelf = self;
-        self.block = ^{
-            __strong typeof(weakSelf) strongSelf = weakSelf;
-            dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-                
-                [strongSelf printAge];
-           });
-        };
+//在block中，又有block的情况，需要使用strong
+__weak typeof(self) weakSelf = self;
+self.block = ^{
+    __strong typeof(weakSelf) strongSelf = weakSelf;
+    dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        
+        [strongSelf printAge];
+   });
+};
 
     self.block();
 }

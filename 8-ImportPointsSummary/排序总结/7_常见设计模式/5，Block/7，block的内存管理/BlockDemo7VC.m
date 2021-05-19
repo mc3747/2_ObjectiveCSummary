@@ -206,7 +206,7 @@ static int static_global_val = 2;
 
 - (NSArray *)dataSouce {
     if (!_dataSouce) {
-        _dataSouce = @[@[@"1,无__block修饰变量",@"2,__block修饰变量",@"3,block内改变变量值",@"4,4，block改变变量指针",@"5,西红柿",@"6,番茄",@"7,西瓜",@"8,西红柿"]];
+        _dataSouce = @[@[@"1,无__block修饰变量",@"2,__block修饰变量",@"3,block内改变变量值",@"4,block改变变量指针",@"5,西红柿",@"6,番茄",@"7,西瓜",@"8,西红柿"]];
       
     }
     return _dataSouce;

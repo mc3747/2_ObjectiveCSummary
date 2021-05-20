@@ -69,6 +69,16 @@
 			<key>orderHint</key>
 			<integer>21</integer>
 		</dict>
+		<key>22_Block实现链式调用.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>22</integer>
+		</dict>
+		<key>23_Block中self的使用.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>23</integer>
+		</dict>
 		<key>2_OC普通实例对象本质.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

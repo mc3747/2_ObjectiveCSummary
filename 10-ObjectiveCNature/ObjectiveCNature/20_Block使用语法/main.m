@@ -55,13 +55,14 @@ void test2(void){
 - (void)useBlockPara2:(Sum )sum{
     NSLog(@"结果:%d",sum(4,5));
 }
-
+//🌈block作为返回值1：
 - (int(^)(int,int))useBlockReturn1{
     int (^sum)(int, int) = ^(int a,int b){
         return a + b;
     };
     return sum;
 }
+//🌈block作为返回值2：
 - (Sum)useBlockReturn2{
    Sum sum = ^(int a,int b){
        return a + b;

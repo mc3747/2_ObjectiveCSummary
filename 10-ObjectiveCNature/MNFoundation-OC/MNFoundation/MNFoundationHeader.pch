@@ -1,0 +1,16 @@
+//
+//  MNFoundationHeader.pch
+//  MNFoundation
+//
+//  Created by Vincent on 2019/7/10.
+//  Copyright © 2019 Vincent. All rights reserved.
+//
+
+#ifndef MNFoundationHeader_pch
+#define MNFoundationHeader_pch
+
+#ifdef __OBJC__
+#import "MNKit.h"
+#endif
+
+#endif /* MNFoundationHeader_pch */

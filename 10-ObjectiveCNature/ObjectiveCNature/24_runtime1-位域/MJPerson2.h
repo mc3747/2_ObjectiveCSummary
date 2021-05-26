@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MJPerson : NSObject
+@interface MJPerson2 : NSObject
 //@property (assign, nonatomic, getter=isTall) BOOL tall;
 //@property (assign, nonatomic, getter=isRich) BOOL rich;
 //@property (assign, nonatomic, getter=isHansome) BOOL handsome;

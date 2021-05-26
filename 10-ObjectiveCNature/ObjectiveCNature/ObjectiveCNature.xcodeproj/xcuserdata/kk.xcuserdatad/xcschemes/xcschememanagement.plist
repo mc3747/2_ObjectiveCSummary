@@ -84,6 +84,11 @@
 			<key>orderHint</key>
 			<integer>24</integer>
 		</dict>
+		<key>25_runtime2-位运算.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>25</integer>
+		</dict>
 		<key>2_OC普通实例对象本质.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

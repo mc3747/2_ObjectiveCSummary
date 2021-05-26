@@ -28,7 +28,11 @@
 		4B60D78E26466ACF009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D78D26466ACF009000AC /* main.m */; };
 		4B60D79C26466CD1009000AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B60D79B26466CD1009000AC /* main.m */; };
 		4BE05EFE265E2BB00039ACAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05EFD265E2BB00039ACAD /* main.m */; };
-		4BE05F04265E2BEB0039ACAD /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F02265E2BEA0039ACAD /* MJPerson.m */; };
+		4BE05F04265E2BEB0039ACAD /* MJPerson1.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F02265E2BEA0039ACAD /* MJPerson1.m */; };
+		4BE05F07265E66D60039ACAD /* MJPerson2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F05265E66D60039ACAD /* MJPerson2.m */; };
+		4BE05F0A265E698B0039ACAD /* MJPerson3.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F09265E698B0039ACAD /* MJPerson3.m */; };
+		4BE05F12265E70940039ACAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F11265E70940039ACAD /* main.m */; };
+		4BE05F18265E719B0039ACAD /* MJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE05F17265E719B0039ACAD /* MJPerson.m */; };
 		4BE9F134264E6C8A00DD390A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F133264E6C8A00DD390A /* main.m */; };
 		4BE9F146264E786200DD390A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F145264E786200DD390A /* main.m */; };
 		4BE9F159264E78A300DD390A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE9F158264E78A300DD390A /* main.m */; };
@@ -225,6 +229,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		4BE05F0D265E70940039ACAD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		4BE9F12F264E6C8A00DD390A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,8 +319,16 @@
 		4B60D79B26466CD1009000AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BE05EFB265E2BB00039ACAD /* 24_runtime1-位域 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "24_runtime1-位域"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE05EFD265E2BB00039ACAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4BE05F02265E2BEA0039ACAD /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
-		4BE05F03265E2BEB0039ACAD /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		4BE05F02265E2BEA0039ACAD /* MJPerson1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson1.m; sourceTree = "<group>"; };
+		4BE05F03265E2BEB0039ACAD /* MJPerson1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson1.h; sourceTree = "<group>"; };
+		4BE05F05265E66D60039ACAD /* MJPerson2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson2.m; sourceTree = "<group>"; };
+		4BE05F06265E66D60039ACAD /* MJPerson2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson2.h; sourceTree = "<group>"; };
+		4BE05F08265E698A0039ACAD /* MJPerson3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson3.h; sourceTree = "<group>"; };
+		4BE05F09265E698B0039ACAD /* MJPerson3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson3.m; sourceTree = "<group>"; };
+		4BE05F0F265E70940039ACAD /* 25_runtime2-位运算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "25_runtime2-位运算"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE05F11265E70940039ACAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BE05F16265E719A0039ACAD /* MJPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPerson.h; sourceTree = "<group>"; };
+		4BE05F17265E719B0039ACAD /* MJPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPerson.m; sourceTree = "<group>"; };
 		4BE9F131264E6C8A00DD390A /* 6_打印类的所有方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6_打印类的所有方法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE9F133264E6C8A00DD390A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4BE9F143264E786200DD390A /* 7_+load方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7_+load方法"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -460,6 +481,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4BE05EF8265E2BB00039ACAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE05F0C265E70940039ACAD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -653,6 +681,7 @@
 				4B0CBC9B265603AA0000FC01 /* 22_Block实现链式调用 */,
 				4B0CBCA626560D5B0000FC01 /* 23_Block中self的使用 */,
 				4BE05EFC265E2BB00039ACAD /* 24_runtime1-位域 */,
+				4BE05F10265E70940039ACAD /* 25_runtime2-位运算 */,
 				4B60D6F926462E79009000AC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -685,6 +714,7 @@
 				4B0CBC9A265603AA0000FC01 /* 22_Block实现链式调用 */,
 				4B0CBCA526560D5B0000FC01 /* 23_Block中self的使用 */,
 				4BE05EFB265E2BB00039ACAD /* 24_runtime1-位域 */,
+				4BE05F0F265E70940039ACAD /* 25_runtime2-位运算 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -725,10 +755,24 @@
 			isa = PBXGroup;
 			children = (
 				4BE05EFD265E2BB00039ACAD /* main.m */,
-				4BE05F03265E2BEB0039ACAD /* MJPerson.h */,
-				4BE05F02265E2BEA0039ACAD /* MJPerson.m */,
+				4BE05F03265E2BEB0039ACAD /* MJPerson1.h */,
+				4BE05F02265E2BEA0039ACAD /* MJPerson1.m */,
+				4BE05F06265E66D60039ACAD /* MJPerson2.h */,
+				4BE05F05265E66D60039ACAD /* MJPerson2.m */,
+				4BE05F08265E698A0039ACAD /* MJPerson3.h */,
+				4BE05F09265E698B0039ACAD /* MJPerson3.m */,
 			);
 			path = "24_runtime1-位域";
+			sourceTree = "<group>";
+		};
+		4BE05F10265E70940039ACAD /* 25_runtime2-位运算 */ = {
+			isa = PBXGroup;
+			children = (
+				4BE05F16265E719A0039ACAD /* MJPerson.h */,
+				4BE05F17265E719B0039ACAD /* MJPerson.m */,
+				4BE05F11265E70940039ACAD /* main.m */,
+			);
+			path = "25_runtime2-位运算";
 			sourceTree = "<group>";
 		};
 		4BE9F132264E6C8A00DD390A /* 6_打印类的所有方法 */ = {
@@ -1123,6 +1167,23 @@
 			productReference = 4BE05EFB265E2BB00039ACAD /* 24_runtime1-位域 */;
 			productType = "com.apple.product-type.tool";
 		};
+		4BE05F0E265E70940039ACAD /* 25_runtime2-位运算 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE05F13265E70940039ACAD /* Build configuration list for PBXNativeTarget "25_runtime2-位运算" */;
+			buildPhases = (
+				4BE05F0B265E70940039ACAD /* Sources */,
+				4BE05F0C265E70940039ACAD /* Frameworks */,
+				4BE05F0D265E70940039ACAD /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "25_runtime2-位运算";
+			productName = "25_runtime2-位运算";
+			productReference = 4BE05F0F265E70940039ACAD /* 25_runtime2-位运算 */;
+			productType = "com.apple.product-type.tool";
+		};
 		4BE9F130264E6C8A00DD390A /* 6_打印类的所有方法 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4BE9F137264E6C8A00DD390A /* Build configuration list for PBXNativeTarget "6_打印类的所有方法" */;
@@ -1262,6 +1323,9 @@
 					4BE05EFA265E2BB00039ACAD = {
 						CreatedOnToolsVersion = 12.5;
 					};
+					4BE05F0E265E70940039ACAD = {
+						CreatedOnToolsVersion = 12.5;
+					};
 					4BE9F130264E6C8A00DD390A = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -1314,6 +1378,7 @@
 				4B0CBC99265603AA0000FC01 /* 22_Block实现链式调用 */,
 				4B0CBCA426560D5B0000FC01 /* 23_Block中self的使用 */,
 				4BE05EFA265E2BB00039ACAD /* 24_runtime1-位域 */,
+				4BE05F0E265E70940039ACAD /* 25_runtime2-位运算 */,
 			);
 		};
 /* End PBXProject section */
@@ -1483,8 +1548,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BE05F07265E66D60039ACAD /* MJPerson2.m in Sources */,
 				4BE05EFE265E2BB00039ACAD /* main.m in Sources */,
-				4BE05F04265E2BEB0039ACAD /* MJPerson.m in Sources */,
+				4BE05F04265E2BEB0039ACAD /* MJPerson1.m in Sources */,
+				4BE05F0A265E698B0039ACAD /* MJPerson3.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE05F0B265E70940039ACAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BE05F12265E70940039ACAD /* main.m in Sources */,
+				4BE05F18265E719B0039ACAD /* MJPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1994,6 +2070,24 @@
 			};
 			name = Release;
 		};
+		4BE05F14265E70940039ACAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4BE05F15265E70940039ACAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		4BE9F135264E6C8A00DD390A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2255,6 +2349,15 @@
 			buildConfigurations = (
 				4BE05EFF265E2BB00039ACAD /* Debug */,
 				4BE05F00265E2BB00039ACAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE05F13265E70940039ACAD /* Build configuration list for PBXNativeTarget "25_runtime2-位运算" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE05F14265E70940039ACAD /* Debug */,
+				4BE05F15265E70940039ACAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

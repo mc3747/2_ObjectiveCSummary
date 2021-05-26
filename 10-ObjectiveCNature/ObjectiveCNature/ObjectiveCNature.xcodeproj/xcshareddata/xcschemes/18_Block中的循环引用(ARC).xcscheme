@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "4B0CBC6B2654B4080000FC01"
-               BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
-               BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
+               BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
+               BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
                ReferencedContainer = "container:ObjectiveCNature.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -45,8 +45,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B0CBC6B2654B4080000FC01"
-            BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
-            BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
+            BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
+            BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
             ReferencedContainer = "container:ObjectiveCNature.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -62,8 +62,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "4B0CBC6B2654B4080000FC01"
-            BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
-            BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;"
+            BuildableName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
+            BlueprintName = "18_Block&#x4e2d;&#x7684;&#x5faa;&#x73af;&#x5f15;&#x7528;(ARC)"
             ReferencedContainer = "container:ObjectiveCNature.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

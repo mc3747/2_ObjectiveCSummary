@@ -7,72 +7,72 @@
 		<key>day13.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>15</integer>
 		</dict>
 		<key>description.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>58</integer>
 		</dict>
 		<key>getter-setter方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>94</integer>
 		</dict>
 		<key>getter-setter方法练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>86</integer>
+			<integer>34</integer>
 		</dict>
 		<key>self关键字.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>87</integer>
 		</dict>
 		<key>self关键字2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>113</integer>
+			<integer>37</integer>
 		</dict>
 		<key>self关键字的注意点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>82</integer>
 		</dict>
 		<key>super.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>53</integer>
+			<integer>96</integer>
 		</dict>
 		<key>多态.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>31</integer>
 		</dict>
 		<key>实例变量修饰符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>36</integer>
 		</dict>
 		<key>点语法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>67</integer>
+			<integer>0</integer>
 		</dict>
 		<key>继承基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>75</integer>
 		</dict>
 		<key>继承的其他特性.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>72</integer>
 		</dict>
 		<key>自定义代码块.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>92</integer>
+			<integer>101</integer>
 		</dict>
 	</dict>
 </dict>

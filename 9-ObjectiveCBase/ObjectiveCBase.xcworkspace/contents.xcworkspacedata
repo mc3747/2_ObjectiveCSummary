@@ -1216,31 +1216,31 @@
             location = "group:Person.h">
          </FileRef>
          <FileRef
-            location = "group:Sutdent.h">
-         </FileRef>
-         <FileRef
-            location = "group:SportProtocol.h">
-         </FileRef>
-         <FileRef
-            location = "group:Teacher.h">
-         </FileRef>
-         <FileRef
             location = "group:Person.m">
          </FileRef>
          <FileRef
-            location = "group:main.m">
+            location = "group:Sutdent.h">
          </FileRef>
          <FileRef
             location = "group:Sutdent.m">
          </FileRef>
          <FileRef
-            location = "group:CrazySportProtocol.h">
+            location = "group:Teacher.h">
          </FileRef>
          <FileRef
             location = "group:Teacher.m">
          </FileRef>
          <FileRef
+            location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:SportProtocol.h">
+         </FileRef>
+         <FileRef
             location = "group:StudyProtocol.h">
+         </FileRef>
+         <FileRef
+            location = "group:CrazySportProtocol.h">
          </FileRef>
       </Group>
       <Group
@@ -1292,19 +1292,19 @@
             location = "group:Person.h">
          </FileRef>
          <FileRef
-            location = "group:Wife.m">
-         </FileRef>
-         <FileRef
-            location = "group:WifeCondition.h">
+            location = "group:Person.m">
          </FileRef>
          <FileRef
             location = "group:Wife.h">
          </FileRef>
          <FileRef
-            location = "group:Person.m">
+            location = "group:Wife.m">
          </FileRef>
          <FileRef
             location = "group:main.m">
+         </FileRef>
+         <FileRef
+            location = "group:WifeCondition.h">
          </FileRef>
       </Group>
       <Group
@@ -1345,34 +1345,34 @@
             location = "group:Dog.h">
          </FileRef>
          <FileRef
+            location = "group:Dog.m">
+         </FileRef>
+         <FileRef
             location = "group:Teacher.h">
-         </FileRef>
-         <FileRef
-            location = "group:Studnet.h">
-         </FileRef>
-         <FileRef
-            location = "group:Baby.h">
-         </FileRef>
-         <FileRef
-            location = "group:Nanny.m">
-         </FileRef>
-         <FileRef
-            location = "group:main.m">
-         </FileRef>
-         <FileRef
-            location = "group:Studnet.m">
          </FileRef>
          <FileRef
             location = "group:Teacher.m">
          </FileRef>
          <FileRef
-            location = "group:Dog.m">
+            location = "group:Studnet.h">
+         </FileRef>
+         <FileRef
+            location = "group:Studnet.m">
+         </FileRef>
+         <FileRef
+            location = "group:Baby.h">
          </FileRef>
          <FileRef
             location = "group:Baby.m">
          </FileRef>
          <FileRef
             location = "group:Nanny.h">
+         </FileRef>
+         <FileRef
+            location = "group:Nanny.m">
+         </FileRef>
+         <FileRef
+            location = "group:main.m">
          </FileRef>
       </Group>
       <Group

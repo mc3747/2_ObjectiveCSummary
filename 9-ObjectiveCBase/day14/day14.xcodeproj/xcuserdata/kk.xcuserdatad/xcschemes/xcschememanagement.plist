@@ -7,87 +7,87 @@
 		<key>Property基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>104</integer>
 		</dict>
 		<key>Property增强.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>48</integer>
 		</dict>
 		<key>SEL类型.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 		<key>day14.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>83</integer>
+			<integer>52</integer>
 		</dict>
 		<key>id类型.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>107</integer>
+			<integer>25</integer>
 		</dict>
 		<key>instancetype和id的区别.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>41</integer>
 		</dict>
 		<key>new方法实现原理.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>73</integer>
 		</dict>
 		<key>property修饰符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>4</integer>
 		</dict>
 		<key>synthesize基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>102</integer>
+			<integer>111</integer>
 		</dict>
 		<key>构造方法基本概念.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>94</integer>
+			<integer>17</integer>
 		</dict>
 		<key>构造方法练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>89</integer>
 		</dict>
 		<key>类工厂方法在继承中的注意点.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>50</integer>
 		</dict>
 		<key>类的启动过程.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>96</integer>
+			<integer>10</integer>
 		</dict>
 		<key>类的本质.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>52</integer>
+			<integer>49</integer>
 		</dict>
 		<key>自定义构造方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>38</integer>
 		</dict>
 		<key>自定义构造方法在继承中的表现.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>60</integer>
+			<integer>40</integer>
 		</dict>
 		<key>自定义类工厂方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>70</integer>
 		</dict>
 	</dict>
 </dict>

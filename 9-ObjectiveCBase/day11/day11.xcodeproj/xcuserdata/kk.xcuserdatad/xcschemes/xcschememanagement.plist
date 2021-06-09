@@ -7,52 +7,52 @@
 		<key>day11.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>63</integer>
+			<integer>47</integer>
 		</dict>
 		<key>函数和方法的去呗.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>95</integer>
+			<integer>83</integer>
 		</dict>
 		<key>局部变量和全局变量以及成员变量的区别.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>85</integer>
+			<integer>56</integer>
 		</dict>
 		<key>常见错误.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>35</integer>
 		</dict>
 		<key>第一个OC类-方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>81</integer>
+			<integer>93</integer>
 		</dict>
 		<key>第一个OC类-方法2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>112</integer>
 		</dict>
 		<key>第一个OC类-类方法.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>74</integer>
 		</dict>
 		<key>第一个OC类-类方法2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>73</integer>
+			<integer>108</integer>
 		</dict>
 		<key>第一个OC类.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>66</integer>
 		</dict>
 		<key>第二个OC类.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>14</integer>
 		</dict>
 	</dict>
 </dict>

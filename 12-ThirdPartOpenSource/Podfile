@@ -1,0 +1,16 @@
+
+platform:ios,'8.0'
+
+target 'ThirdPartTool' do
+ 
+pod 'DoraemonKit/Core'
+
+pod 'DoraemonKit/WithLogger'
+
+pod 'DoraemonKit/WithGPS'
+
+pod 'DZNEmptyDataSet'
+
+pod 'MJRefresh'
+
+end

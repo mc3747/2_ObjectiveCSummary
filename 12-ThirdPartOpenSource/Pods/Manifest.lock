@@ -1,0 +1,36 @@
+PODS:
+  - CocoaLumberjack (3.6.2):
+    - CocoaLumberjack/Core (= 3.6.2)
+  - CocoaLumberjack/Core (3.6.2)
+  - DoraemonKit/Core (3.0.2)
+  - DoraemonKit/WithGPS (3.0.2):
+    - DoraemonKit/Core
+  - DoraemonKit/WithLogger (3.0.2):
+    - CocoaLumberjack
+    - DoraemonKit/Core
+  - DZNEmptyDataSet (1.8.1)
+  - MJRefresh (3.5.0)
+
+DEPENDENCIES:
+  - DoraemonKit/Core
+  - DoraemonKit/WithGPS
+  - DoraemonKit/WithLogger
+  - DZNEmptyDataSet
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
+    - DoraemonKit
+    - DZNEmptyDataSet
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: bd155f2dd06c0e0b03f876f7a3ee55693122ec94
+  DoraemonKit: 8587e7a9aae0773dfc96707d2369d89d2a21b3d2
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+
+PODFILE CHECKSUM: 3b4800ef08d4ffc176c4d9fc7f639392b98aa277
+
+COCOAPODS: 1.10.1

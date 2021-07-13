@@ -479,6 +479,21 @@
 		4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF49262E80DC00617B41 /* MainNavigationController.m */; };
 		4BB2CF4E262E80E400617B41 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF4D262E80E400617B41 /* MainTabBarController.m */; };
 		4BB2CF52262E85C200617B41 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BB2CF51262E85C200617B41 /* ViewController2.m */; };
+		84293194269D25F2001DAC20 /* MJShop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429318F269D25F0001DAC20 /* MJShop.m */; };
+		84293196269D25F2001DAC20 /* MJNews.m in Sources */ = {isa = PBXBuildFile; fileRef = 84293192269D25F1001DAC20 /* MJNews.m */; };
+		842931A1269D2B2D001DAC20 /* MJNewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8429319F269D2B2D001DAC20 /* MJNewsViewController.m */; };
+		842931A4269D2D95001DAC20 /* MJNewsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842931A3269D2D95001DAC20 /* MJNewsViewController.storyboard */; };
+		842931AB269D3422001DAC20 /* MJAppView.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931A6269D3420001DAC20 /* MJAppView.m */; };
+		842931AC269D3422001DAC20 /* MJApp.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931A7269D3421001DAC20 /* MJApp.m */; };
+		842931AD269D3422001DAC20 /* MVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931AA269D3422001DAC20 /* MVCViewController.m */; };
+		842931B0269D38B2001DAC20 /* MJAppPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931AE269D38B2001DAC20 /* MJAppPresenter.m */; };
+		842931B3269D38C3001DAC20 /* MVPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931B2269D38C3001DAC20 /* MVPViewController.m */; };
+		842931B6269D392D001DAC20 /* MJAppView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931B4269D392D001DAC20 /* MJAppView2.m */; };
+		842931BE269D3F47001DAC20 /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931B8269D3F44001DAC20 /* MVVMViewController.m */; };
+		842931BF269D3F47001DAC20 /* MJAppView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931B9269D3F45001DAC20 /* MJAppView3.m */; };
+		842931C0269D3F47001DAC20 /* MJAppViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931BC269D3F46001DAC20 /* MJAppViewModel.m */; };
+		842931C6269D659C001DAC20 /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931C3269D659C001DAC20 /* NSObject+FBKVOController.m */; };
+		842931C7269D659C001DAC20 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842931C4269D659C001DAC20 /* FBKVOController.m */; };
 		96F4EB17E12FF5CDC8E028F1 /* libPods-排序总结.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */; };
 /* End PBXBuildFile section */
 
@@ -1400,6 +1415,35 @@
 		4BB2CF4D262E80E400617B41 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
 		4BB2CF50262E85C200617B41 /* ViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		4BB2CF51262E85C200617B41 /* ViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+		8429318F269D25F0001DAC20 /* MJShop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJShop.m; sourceTree = "<group>"; };
+		84293190269D25F1001DAC20 /* MJNews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJNews.h; sourceTree = "<group>"; };
+		84293192269D25F1001DAC20 /* MJNews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJNews.m; sourceTree = "<group>"; };
+		84293193269D25F2001DAC20 /* MJShop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJShop.h; sourceTree = "<group>"; };
+		8429319E269D2B2D001DAC20 /* MJNewsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MJNewsViewController.h; sourceTree = "<group>"; };
+		8429319F269D2B2D001DAC20 /* MJNewsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MJNewsViewController.m; sourceTree = "<group>"; };
+		842931A3269D2D95001DAC20 /* MJNewsViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MJNewsViewController.storyboard; sourceTree = "<group>"; };
+		842931A5269D3420001DAC20 /* MVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVCViewController.h; sourceTree = "<group>"; };
+		842931A6269D3420001DAC20 /* MJAppView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAppView.m; sourceTree = "<group>"; };
+		842931A7269D3421001DAC20 /* MJApp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJApp.m; sourceTree = "<group>"; };
+		842931A8269D3421001DAC20 /* MJAppView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAppView.h; sourceTree = "<group>"; };
+		842931A9269D3422001DAC20 /* MJApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJApp.h; sourceTree = "<group>"; };
+		842931AA269D3422001DAC20 /* MVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVCViewController.m; sourceTree = "<group>"; };
+		842931AE269D38B2001DAC20 /* MJAppPresenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAppPresenter.m; sourceTree = "<group>"; };
+		842931AF269D38B2001DAC20 /* MJAppPresenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAppPresenter.h; sourceTree = "<group>"; };
+		842931B1269D38C2001DAC20 /* MVPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVPViewController.h; sourceTree = "<group>"; };
+		842931B2269D38C3001DAC20 /* MVPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVPViewController.m; sourceTree = "<group>"; };
+		842931B4269D392D001DAC20 /* MJAppView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAppView2.m; sourceTree = "<group>"; };
+		842931B5269D392D001DAC20 /* MJAppView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAppView2.h; sourceTree = "<group>"; };
+		842931B8269D3F44001DAC20 /* MVVMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
+		842931B9269D3F45001DAC20 /* MJAppView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAppView3.m; sourceTree = "<group>"; };
+		842931BA269D3F45001DAC20 /* MJAppView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAppView3.h; sourceTree = "<group>"; };
+		842931BB269D3F46001DAC20 /* MVVMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
+		842931BC269D3F46001DAC20 /* MJAppViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJAppViewModel.m; sourceTree = "<group>"; };
+		842931BD269D3F47001DAC20 /* MJAppViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJAppViewModel.h; sourceTree = "<group>"; };
+		842931C2269D659C001DAC20 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		842931C3269D659C001DAC20 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		842931C4269D659C001DAC20 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		842931C5269D659C001DAC20 /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+FBKVOController.h"; sourceTree = "<group>"; };
 		9E811EA6C32AD60FA7805190 /* libPods-排序总结.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-排序总结.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-排序总结.release.xcconfig"; path = "Target Support Files/Pods-排序总结/Pods-排序总结.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2507,10 +2551,11 @@
 				4B77FEAF261C5772006F439E /* ArchitectureVC.h */,
 				4B77FEB0261C5772006F439E /* ArchitectureVC.m */,
 				4B77FEB1261C5772006F439E /* ArchitectureVC.xib */,
-				4B77FE8B261C434B006F439E /* 1-mvc */,
-				4B77FE8D261C4359006F439E /* 2-mvp */,
-				4B77FE98261C51D6006F439E /* 3-viper */,
-				4B77FE8C261C4352006F439E /* 4-mvvm */,
+				4B77FE8B261C434B006F439E /* 1-mvc1 */,
+				4B77FE98261C51D6006F439E /* 2-mvc2 */,
+				4B77FE8D261C4359006F439E /* 3-mvp */,
+				842931B7269D3BC9001DAC20 /* 4-mvvm1 */,
+				4B77FE8C261C4352006F439E /* 4-mvvm2 */,
 			);
 			path = "9_app架构";
 			sourceTree = "<group>";
@@ -3935,14 +3980,21 @@
 			path = "29_静态库和sdk制作";
 			sourceTree = "<group>";
 		};
-		4B77FE8B261C434B006F439E /* 1-mvc */ = {
+		4B77FE8B261C434B006F439E /* 1-mvc1 */ = {
 			isa = PBXGroup;
 			children = (
+				84293190269D25F1001DAC20 /* MJNews.h */,
+				84293192269D25F1001DAC20 /* MJNews.m */,
+				84293193269D25F2001DAC20 /* MJShop.h */,
+				8429318F269D25F0001DAC20 /* MJShop.m */,
+				8429319E269D2B2D001DAC20 /* MJNewsViewController.h */,
+				8429319F269D2B2D001DAC20 /* MJNewsViewController.m */,
+				842931A3269D2D95001DAC20 /* MJNewsViewController.storyboard */,
 			);
-			path = "1-mvc";
+			path = "1-mvc1";
 			sourceTree = "<group>";
 		};
-		4B77FE8C261C4352006F439E /* 4-mvvm */ = {
+		4B77FE8C261C4352006F439E /* 4-mvvm2 */ = {
 			isa = PBXGroup;
 			children = (
 				4B77FEA6261C5214006F439E /* ViewController */,
@@ -3950,21 +4002,33 @@
 				4B77FE9C261C5214006F439E /* View */,
 				4B77FE9F261C5214006F439E /* ViewModel */,
 			);
-			path = "4-mvvm";
+			path = "4-mvvm2";
 			sourceTree = "<group>";
 		};
-		4B77FE8D261C4359006F439E /* 2-mvp */ = {
+		4B77FE8D261C4359006F439E /* 3-mvp */ = {
 			isa = PBXGroup;
 			children = (
+				842931B1269D38C2001DAC20 /* MVPViewController.h */,
+				842931B2269D38C3001DAC20 /* MVPViewController.m */,
+				842931AF269D38B2001DAC20 /* MJAppPresenter.h */,
+				842931AE269D38B2001DAC20 /* MJAppPresenter.m */,
+				842931B5269D392D001DAC20 /* MJAppView2.h */,
+				842931B4269D392D001DAC20 /* MJAppView2.m */,
 			);
-			path = "2-mvp";
+			path = "3-mvp";
 			sourceTree = "<group>";
 		};
-		4B77FE98261C51D6006F439E /* 3-viper */ = {
+		4B77FE98261C51D6006F439E /* 2-mvc2 */ = {
 			isa = PBXGroup;
 			children = (
+				842931A9269D3422001DAC20 /* MJApp.h */,
+				842931A7269D3421001DAC20 /* MJApp.m */,
+				842931A8269D3421001DAC20 /* MJAppView.h */,
+				842931A6269D3420001DAC20 /* MJAppView.m */,
+				842931A5269D3420001DAC20 /* MVCViewController.h */,
+				842931AA269D3422001DAC20 /* MVCViewController.m */,
 			);
-			path = "3-viper";
+			path = "2-mvc2";
 			sourceTree = "<group>";
 		};
 		4B77FE99261C5213006F439E /* Model */ = {
@@ -4032,6 +4096,31 @@
 				C4BA8BCDB1EEBFDE83911D6A /* Pods-排序总结.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		842931B7269D3BC9001DAC20 /* 4-mvvm1 */ = {
+			isa = PBXGroup;
+			children = (
+				842931C1269D659C001DAC20 /* KVOController */,
+				842931BB269D3F46001DAC20 /* MVVMViewController.h */,
+				842931B8269D3F44001DAC20 /* MVVMViewController.m */,
+				842931BA269D3F45001DAC20 /* MJAppView3.h */,
+				842931B9269D3F45001DAC20 /* MJAppView3.m */,
+				842931BD269D3F47001DAC20 /* MJAppViewModel.h */,
+				842931BC269D3F46001DAC20 /* MJAppViewModel.m */,
+			);
+			path = "4-mvvm1";
+			sourceTree = "<group>";
+		};
+		842931C1269D659C001DAC20 /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				842931C2269D659C001DAC20 /* FBKVOController.h */,
+				842931C3269D659C001DAC20 /* NSObject+FBKVOController.m */,
+				842931C4269D659C001DAC20 /* FBKVOController.m */,
+				842931C5269D659C001DAC20 /* NSObject+FBKVOController.h */,
+			);
+			path = KVOController;
 			sourceTree = "<group>";
 		};
 		90852BA0AEA99CA9F6BF8825 /* Frameworks */ = {
@@ -4155,6 +4244,7 @@
 				423C38BF22447974005319C1 /* NativeAndWebVC.xib in Resources */,
 				423C38DF22447DDB005319C1 /* JSUIWebView.html in Resources */,
 				42FADC8F21F94349008C77F3 /* MemoryLeakVC.xib in Resources */,
+				842931A4269D2D95001DAC20 /* MJNewsViewController.storyboard in Resources */,
 				424F04CA227534E50039CD62 /* RuntimeDictViewController.xib in Resources */,
 				4212680923C71D3B009F7C43 /* BlockSummaryVC.xib in Resources */,
 				42FFFF9B21F6F0F900C594AA /* DissymmetryEncryptVC.xib in Resources */,
@@ -4331,6 +4421,7 @@
 				42C5B65321425EA500563794 /* Celling.m in Sources */,
 				424F059022759E150039CD62 /* NSObject+BARunTime.m in Sources */,
 				42EF239524162AA100EB5F74 /* MacroViewController.m in Sources */,
+				842931B3269D38C3001DAC20 /* MVPViewController.m in Sources */,
 				42FADC8E21F94349008C77F3 /* MemoryLeakVC.m in Sources */,
 				424F059122759E150039CD62 /* UIAlertController+BAKit.m in Sources */,
 				424F04C9227534E50039CD62 /* RuntimeDictViewController.m in Sources */,
@@ -4345,6 +4436,7 @@
 				42A5337E2243847D00CC1B5E /* NSTimer+addition.m in Sources */,
 				42E8C8D82147951A00BA399D /* AmountInputVC.m in Sources */,
 				4227896F214614A2002B9C13 /* BlockKVOViewController.m in Sources */,
+				842931AD269D3422001DAC20 /* MVCViewController.m in Sources */,
 				4227896B21460CAF002B9C13 /* myKVO.m in Sources */,
 				42A533682243700900CC1B5E /* NativeAndWebVC.m in Sources */,
 				42C5B65C21425EA500563794 /* LinkIterator.m in Sources */,
@@ -4366,9 +4458,11 @@
 				42977AC92418E6BC00FFA893 /* cprinter.mm in Sources */,
 				42C5B62C21425EA500563794 /* Car.m in Sources */,
 				42C5B64D21425EA500563794 /* Handler.m in Sources */,
+				842931A1269D2B2D001DAC20 /* MJNewsViewController.m in Sources */,
 				42747A0821819DC4004CFC10 /* NSObject+YYModel.m in Sources */,
 				42FFFFA421F6F4C700C594AA /* EncryptApplicationVC.m in Sources */,
 				42C5B65D21425EA500563794 /* Node.m in Sources */,
+				842931AC269D3422001DAC20 /* MJApp.m in Sources */,
 				422355DC2195240D00A7DF99 /* VariableArgumentsVC.m in Sources */,
 				42C5B60521425EA500563794 /* AdapterUSD.m in Sources */,
 				42C5B66121425EA500563794 /* Basketball.m in Sources */,
@@ -4437,6 +4531,7 @@
 				42D1C76022782F4C001F170F /* MJDog.m in Sources */,
 				42E1E55020CE02E3000A263B /* GCD_Singleton.m in Sources */,
 				4212680D23C71DE3009F7C43 /* KVCSummaryVC.m in Sources */,
+				842931C6269D659C001DAC20 /* NSObject+FBKVOController.m in Sources */,
 				42C5B62521425EA500563794 /* SingletonManager.m in Sources */,
 				4201E548241F05750089044A /* NOMacroApplicationVC.m in Sources */,
 				4B77FEAA261C5214006F439E /* JNTableViewCell.m in Sources */,
@@ -4447,12 +4542,14 @@
 				4218DFB723C8636300758F12 /* BlockDemo2VC.m in Sources */,
 				4260FA80242DDA5F0091D609 /* MacroCommonUseVC.m in Sources */,
 				42FFFF9521F6F09900C594AA /* SymmetryEncryptVC.m in Sources */,
+				84293196269D25F2001DAC20 /* MJNews.m in Sources */,
 				427479D8218173DE004CFC10 /* BuildClass.m in Sources */,
 				42C5B63F21425EA500563794 /* VisitorPatternViewController.m in Sources */,
 				4212088723D01717001D16B9 /* KVC_Book.m in Sources */,
 				4BB2CF4B262E80DC00617B41 /* MainNavigationController.m in Sources */,
 				42C5B64421425EA500563794 /* Invoker.m in Sources */,
 				42EF237C2415DF2A00EB5F74 /* ProtocolDemoViewController.m in Sources */,
+				842931B6269D392D001DAC20 /* MJAppView2.m in Sources */,
 				42C5B62721425EA500563794 /* BaseCopyObject.m in Sources */,
 				4B77FEAE261C5214006F439E /* JNViewController.m in Sources */,
 				423C391622449322005319C1 /* OCCallJSViewController.m in Sources */,
@@ -4468,6 +4565,7 @@
 				42C5B65021425EA500563794 /* ChairmanHandler.m in Sources */,
 				424154CA21FAA37E00AC35A2 /* CodedFormatVC.m in Sources */,
 				42C5B62821425EA500563794 /* ClassModel.m in Sources */,
+				842931BF269D3F47001DAC20 /* MJAppView3.m in Sources */,
 				424F051B22753C700039CD62 /* TestClass+AssociatedObject.m in Sources */,
 				424F0535227540500039CD62 /* NSObject+Model.m in Sources */,
 				42747A0D21819DC4004CFC10 /* NSObject+MJCoding.m in Sources */,
@@ -4512,8 +4610,10 @@
 				4218DFA623C84B2D00758F12 /* UIViewController+RFPresentPopover.m in Sources */,
 				42EF238324160D3D00EB5F74 /* MC_Father.m in Sources */,
 				42C5B65721425EA500563794 /* MementoCenter.m in Sources */,
+				842931AB269D3422001DAC20 /* MJAppView.m in Sources */,
 				427F208020C695C000F511B0 /* ParameterClass.m in Sources */,
 				426FB1C420CA77ED00B2B747 /* PassValueVC.m in Sources */,
+				84293194269D25F2001DAC20 /* MJShop.m in Sources */,
 				42D1C75D22782F4C001F170F /* MJBag.m in Sources */,
 				42D7014B21830724008DFABB /* SystemSoundModel.m in Sources */,
 				42C5B65B21425EA500563794 /* IteratorPatternViewController.m in Sources */,
@@ -4529,6 +4629,7 @@
 				424F0532227540500039CD62 /* NSObject+Item.m in Sources */,
 				42C5B64321425EA500563794 /* CommandPatternViewController.m in Sources */,
 				424F04C1227534E50039CD62 /* LNAddAttributesViewController.m in Sources */,
+				842931BE269D3F47001DAC20 /* MVVMViewController.m in Sources */,
 				424F0531227540500039CD62 /* Array.m in Sources */,
 				42C5B62D21425EA500563794 /* Director.m in Sources */,
 				4257582A20A29F0700BA4F54 /* ViewController.m in Sources */,
@@ -4582,6 +4683,7 @@
 				42C5B65921425EA500563794 /* FastCoder.m in Sources */,
 				42C5B61321425EA500563794 /* Taximeter.m in Sources */,
 				42A4DC4E2361AD3E003C345A /* NSObject+DebugDescription.m in Sources */,
+				842931C0269D3F47001DAC20 /* MJAppViewModel.m in Sources */,
 				42C5B63B21425EA500563794 /* IncomeBill.m in Sources */,
 				42D1C6F42277FB36001F170F /* JSONModelClassProperty.m in Sources */,
 				422355D921951F3100A7DF99 /* MethodCallVC.m in Sources */,
@@ -4611,6 +4713,7 @@
 				42278975214614B1002B9C13 /* NSObject+LXD_KVO.m in Sources */,
 				42C5B61E21425EA500563794 /* FlowerFactory.m in Sources */,
 				42D04E992176C5490075ECEF /* RunTimeVC.m in Sources */,
+				842931C7269D659C001DAC20 /* FBKVOController.m in Sources */,
 				42D1C6F22277FB36001F170F /* JSONModel.m in Sources */,
 				420189B921F9AA1200257DCF /* GBEncodeTool.m in Sources */,
 				42C5B5FD21425EA500563794 /* CoinGameDecorator.m in Sources */,
@@ -4618,6 +4721,7 @@
 				42C5B65421425EA500563794 /* StatePatternViewController.m in Sources */,
 				42C5B63421425EA500563794 /* CircleHeaderFactory.m in Sources */,
 				42977A942418892000FFA893 /* MixedProgramVC.mm in Sources */,
+				842931B0269D38B2001DAC20 /* MJAppPresenter.m in Sources */,
 				42C5B60D21425EA500563794 /* File.m in Sources */,
 				427F207D20C6915400F511B0 /* ParameterManager.m in Sources */,
 				4218DFA523C84B2D00758F12 /* UIButton+RFBlcoks.m in Sources */,

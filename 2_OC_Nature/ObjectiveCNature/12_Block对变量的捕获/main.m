@@ -10,8 +10,9 @@
 void test1(){
     //    写auto，不写auto，一样
     auto int age = 10;
+    NSLog(@"age的值：%d --- 地址：%p",age,&age);
     void (^block)(void) = ^{
-        NSLog(@"age--- %d", age);
+        NSLog(@"age的值：%d --- 地址：%p",age,&age);
     };
     age = 20;
     block();
@@ -20,8 +21,9 @@ void test1(){
 //🌈static：局部静态
 void test2(){
     static int age = 10;
+    NSLog(@"age的值：%d --- 地址：%p",age,&age);
     void (^block)(void) = ^{
-        NSLog(@"age--- %d", age);
+        NSLog(@"age的值：%d --- 地址：%p",age,&age);
     };
     age = 20;
     block();
@@ -30,8 +32,9 @@ void test2(){
 //🌈全局
 int age_ = 10;
 void test3(){
+    NSLog(@"age的值：%d --- 地址：%p",age,&age);
     void (^block)(void) = ^{
-        NSLog(@"age--- %d", age_);
+        NSLog(@"age的值：%d --- 地址：%p",age,&age);
     };
     age_ = 20;
     block();
@@ -40,8 +43,9 @@ void test3(){
 //🌈全局静态
 static int age__ = 10;
 void test4(){
+    NSLog(@"age的值：%d --- 地址：%p",age,&age);
     void (^block)(void) = ^{
-        NSLog(@"age--- %d", age__);
+        NSLog(@"age的值：%d --- 地址：%p",age,&age);
     };
     age__ = 20;
     block();

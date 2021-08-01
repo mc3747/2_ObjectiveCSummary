@@ -7,7 +7,7 @@
 		<key>@class.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>97</integer>
 		</dict>
 		<key>@class第二个应用场景.xcscheme_^#shared#^_</key>
 		<dict>
@@ -17,37 +17,37 @@
 		<key>Set方法的内存管理.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>70</integer>
 		</dict>
 		<key>day15.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>110</integer>
+			<integer>20</integer>
 		</dict>
 		<key>property修饰符.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>19</integer>
+			<integer>47</integer>
 		</dict>
 		<key>多个对象内存管理练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>110</integer>
 		</dict>
 		<key>多个对象的内存管理.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>107</integer>
+			<integer>72</integer>
 		</dict>
 		<key>循环retain.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>84</integer>
+			<integer>15</integer>
 		</dict>
 		<key>野指针和空指针.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>26</integer>
 		</dict>
 	</dict>
 </dict>

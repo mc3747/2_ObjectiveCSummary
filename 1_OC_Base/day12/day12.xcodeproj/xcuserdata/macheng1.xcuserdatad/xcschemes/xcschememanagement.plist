@@ -7,62 +7,62 @@
 		<key>#pragma mark基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>88</integer>
+			<integer>16</integer>
 		</dict>
 		<key>NSString基本使用.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>32</integer>
 		</dict>
 		<key>OC多文件开发.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>59</integer>
 		</dict>
 		<key>day12.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>76</integer>
+			<integer>35</integer>
 		</dict>
 		<key>修改项目模板.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>33</integer>
 		</dict>
 		<key>匿名对象.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>82</integer>
+			<integer>11</integer>
 		</dict>
 		<key>对象作为方法的参数传递.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>59</integer>
+			<integer>101</integer>
 		</dict>
 		<key>对象作为方法的参数连续传递.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>89</integer>
+			<integer>57</integer>
 		</dict>
 		<key>对象作为返回值类型.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>55</integer>
+			<integer>42</integer>
 		</dict>
 		<key>练习.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>75</integer>
+			<integer>93</integer>
 		</dict>
 		<key>练习2.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>65</integer>
 		</dict>
 		<key>结构体作为对象的属性.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>57</integer>
+			<integer>79</integer>
 		</dict>
 	</dict>
 </dict>

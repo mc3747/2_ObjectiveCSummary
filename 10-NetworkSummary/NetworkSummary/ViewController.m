@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"重难点各个击破";
+    [self testPost];
 }
 //内存缓存
 - (IBAction)demo3:(id)sender {

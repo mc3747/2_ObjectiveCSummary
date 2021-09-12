@@ -40,6 +40,9 @@
     //协议头(http://)+主机地址(120.25.226.186:32812)+接口名称(login)+？+参数1(username=520it)&参数2(pwd=520)&参数3(type=JSON)
     //GET请求，直接把请求参数跟在URL的后面以？隔开，多个参数之间以&符号拼接
     
+    //url中有中文需要utf-8处理
+    _urlString = [_urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet characterSetWithCharactersInString:@"`#%^{}\"[]|\\<> "].invertedSet];
+    
     //1.确定请求路径
     NSURL *url = [NSURL URLWithString:_urlString];
     

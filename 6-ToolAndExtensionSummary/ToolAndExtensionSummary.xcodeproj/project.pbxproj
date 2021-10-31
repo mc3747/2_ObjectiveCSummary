@@ -742,12 +742,12 @@
 		42F58F50242C929E00C0C1DC /* 自定义基类 */ = {
 			isa = PBXGroup;
 			children = (
+				42F58F55242C929E00C0C1DC /* CustomNaviVC.h */,
 				42F58F51242C929E00C0C1DC /* CustomNaviVC.m */,
+				42F58F56242C929E00C0C1DC /* CustomTableViewVC.h */,
 				42F58F52242C929E00C0C1DC /* CustomTableViewVC.m */,
 				42F58F53242C929E00C0C1DC /* CustomBaseVC.m */,
 				42F58F54242C929E00C0C1DC /* CustomTabBarVC.h */,
-				42F58F55242C929E00C0C1DC /* CustomNaviVC.h */,
-				42F58F56242C929E00C0C1DC /* CustomTableViewVC.h */,
 				42F58F57242C929E00C0C1DC /* CustomTabBarVC.m */,
 				42F58F58242C929E00C0C1DC /* CustomBaseVC.h */,
 			);
@@ -1414,13 +1414,13 @@
 			isa = PBXGroup;
 			children = (
 				42F59080242C92A100C0C1DC /* CommonUIMethod.h */,
+				42F59086242C92A100C0C1DC /* CommonUIMethod.m */,
+				42F59085242C92A100C0C1DC /* CommonFoundationMethod.h */,
 				42F59081242C92A100C0C1DC /* CommonFoundationMethod.m */,
 				42F59082242C92A100C0C1DC /* CommonUIFactory.h */,
-				42F59083242C92A100C0C1DC /* QMUIHelper.h */,
 				42F59084242C92A100C0C1DC /* CommonUIFactory.m */,
-				42F59085242C92A100C0C1DC /* CommonFoundationMethod.h */,
-				42F59086242C92A100C0C1DC /* CommonUIMethod.m */,
 				42F59087242C92A100C0C1DC /* QMUIHelper.m */,
+				42F59083242C92A100C0C1DC /* QMUIHelper.h */,
 			);
 			path = "6_通用方法";
 			sourceTree = "<group>";
